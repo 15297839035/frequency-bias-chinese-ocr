@@ -17,7 +17,7 @@ if the prediction archive is also deposited on Zenodo.
   prior; CTC; per-sample predictions
 * **Related identifiers**:
   - `is supplemented by` / `is part of`: the GitHub repository
-    <https://github.com/15297839035/frequency-bias-chinese-ocr>
+    <https://github.com/heyuuuuuuuuu/frequency-bias-chinese-ocr>
   - `is supplement to`: the paper DOI once assigned
 * **Description**:
 

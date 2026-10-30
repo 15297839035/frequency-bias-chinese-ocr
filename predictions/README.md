@@ -22,5 +22,5 @@ contains no images, model weights, training logs or split indices; those are eit
 `data/` (splits) or not distributed (images, weights).
 
 If you do not use Git LFS, download the file directly from
-<https://media.githubusercontent.com/media/15297839035/frequency-bias-chinese-ocr/main/predictions/per_sample_predictions.tar.gz>
+<https://media.githubusercontent.com/media/heyuuuuuuuuu/frequency-bias-chinese-ocr/main/predictions/per_sample_predictions.tar.gz>
 or use the download button on the GitHub file page.

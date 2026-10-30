@@ -135,8 +135,9 @@ recorded in `predictions/README.md`. Direct download without a Git LFS client:
 
 `results/` contains the aggregate outputs only: metric JSON files, Markdown reports, model
 SHA-256 records, and small derived arrays (glyph-neighbour lists, split weights). The
-per-sample predictions used for the bootstrap intervals and McNemar tests are not included;
-they are available from the corresponding author on request.
+per-sample predictions used for the bootstrap intervals and McNemar tests are stored in
+`predictions/` (see [Predictions](#predictions)); raw model checkpoints and logits are
+available from the corresponding author on request.
 
 ## Data and code availability
 

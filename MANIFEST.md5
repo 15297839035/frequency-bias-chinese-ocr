@@ -1,8 +1,9 @@
+06b1993e7a313586aa0619446e216cff  .gitattributes
 d60d376f5da3c4483e5c7445a211a785  .gitignore
 d7b08fde68cf8ccff7748b1a648e3845  CITATION.cff
 c9785019c78fc7264d97052fba2e9356  LICENSE
 9416568ae5d61e1a4347cd5142a73f2c  LICENSE-DATA
-792f05105e475c60dcf8eb91024bac81  README.md
+3a6a8b765a2ef9dfd5bd7fb8562a9e33  README.md
 54ea6bc9825a6751b94e1e6d2d4cfb75  data/README.md
 f72c877554489d0ba6abe633425484b7  data/bctr/train_character_frequency.json
 b41f40b4b4c53817e4c30e9529e47a30  data/hwdb/classes.txt
@@ -22,6 +23,7 @@ dd0152d7e4a3969b9fb73db58ea11775  data/hwdb/train_lt100dose075_summary.json
 1ae9d5ed255e5a195f7e6e4f634f99f0  data/hwdb/train_nat_summary.json
 721176bc062092434ed04f2a35d4c332  docs/data.md
 4448b771514072b5e396ec9b7b6fc1ec  docs/experiments.md
+d49e05008cf4b986a0f50b84d45e7031  predictions/README.md
 6a96a259f99f2c09acb874e97db2ccb9  requirements.txt
 29f88e5d60c552416af01c3d5e600cc6  results/A0-01_ctc_dumps/run_dumps.log
 b1e8240e16d12dbc58d813876c520fd3  results/A0-01_ctc_dumps/run_dumps.sh

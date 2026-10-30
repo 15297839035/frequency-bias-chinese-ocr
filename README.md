@@ -25,6 +25,7 @@ model weights, or per-sample prediction files (see [What is not included](#what-
 | `data/hwdb/` | Indices of the HWDB-LT / NAT / flip / dose training splits, plus summaries |
 | `data/bctr/` | BCTR training character-frequency table used to build the splits |
 | `results/` | Per-experiment results: JSON metrics, reports, model SHA-256, derived features |
+| `predictions/` | Per-sample prediction archive (Git LFS): 245 JSONL files, 2.41 GB uncompressed |
 | `docs/experiments.md` | Experiment ID → code → results → paper section |
 | `docs/data.md` | Split construction, dataset sources and access terms |
 
@@ -41,7 +42,6 @@ only a working-directory name and is not part of the artifact.
 | Raw CASIA-HWDB images | Third-party database distributed under research-use terms; not redistributable here | [CASIA-HWDB](https://nlpr.ia.ac.cn/databases/handwriting/home.html) |
 | ICDAR 2013 handwritten-text test images | Competition data, third party | ICDAR 2013 Robust Reading Competition (Yin et al., 2013) |
 | Model checkpoints and logits | Hundreds of MB to several GB | Available from the authors on request |
-| Per-sample predictions | Several hundred MB | Available from the corresponding author on request |
 | ASTER, TransOCR, OpenOCR source code | Third-party code with its own licence | [OpenOCR](https://github.com/Topdu/OpenOCR), [BCTR baselines](https://github.com/FudanVI/benchmarking-chinese-text-recognition) |
 | Manuscript LaTeX source | Submitted separately to the journal | — |
 
@@ -114,6 +114,20 @@ result directory and the section of the paper it supports. The experiments requi
 datasets above and, for the text-recognition experiments, OpenOCR and the corresponding
 model checkpoints.
 
+## Predictions
+
+`predictions/per_sample_predictions.tar.gz` contains the per-sample predictions of all
+experiments: 245 JSONL files, 2,410,320,768 bytes uncompressed. The archive preserves the
+repository-relative paths and restores into `results/<experiment>/dumps/`:
+
+```bash
+git lfs pull                       # if the archive is not present after cloning
+tar -xzf predictions/per_sample_predictions.tar.gz -C .
+```
+
+The archive contains no images, model weights or training logs. Its size and SHA-256 are
+recorded in `predictions/README.md`.
+
 ## Results
 
 `results/` contains the aggregate outputs only: metric JSON files, Markdown reports, model
@@ -123,10 +137,10 @@ they are available from the corresponding author on request.
 
 ## Data and code availability
 
-Code and derived data (split indices, aggregate results) are in this repository. Per-sample
-predictions and trained weights are not included because of their size; they are available
-from the corresponding author on reasonable request. Raw benchmark images remain under the
-terms of their providers and are not redistributed.
+Code, derived data (split indices, aggregate results) and per-sample predictions are in this
+repository; the predictions are stored with Git LFS. Model checkpoints are not included and
+are available from the corresponding author on request. Raw benchmark images remain under
+the terms of their providers and are not redistributed.
 
 ## Licence
 

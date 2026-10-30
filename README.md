@@ -126,7 +126,8 @@ tar -xzf predictions/per_sample_predictions.tar.gz -C .
 ```
 
 The archive contains no images, model weights or training logs. Its size and SHA-256 are
-recorded in `predictions/README.md`.
+recorded in `predictions/README.md`. Direct download without a Git LFS client:
+<https://media.githubusercontent.com/media/15297839035/frequency-bias-chinese-ocr/main/predictions/per_sample_predictions.tar.gz>.
 
 ## Results
 

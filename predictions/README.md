@@ -21,5 +21,6 @@ This restores files such as `results/C-02_bctr_la/dumps/la025_s2_val_scene.jsonl
 contains no images, model weights, training logs or split indices; those are either in
 `data/` (splits) or not distributed (images, weights).
 
-If you do not use Git LFS, the file can be downloaded from the repository page; GitHub serves
-the LFS content through the file's download button.
+If you do not use Git LFS, download the file directly from
+<https://media.githubusercontent.com/media/15297839035/frequency-bias-chinese-ocr/main/predictions/per_sample_predictions.tar.gz>
+or use the download button on the GitHub file page.

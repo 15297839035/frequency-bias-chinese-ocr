@@ -1,0 +1,490 @@
+{
+ "runs": {
+  "c0_s1": {
+   "tau_train": 0.0,
+   "seed": 1,
+   "feasible": true,
+   "selected_cfg": {
+    "method": "G",
+    "tau": 0.2,
+    "k": 0,
+    "gamma": 0.9,
+    "tau_eff": 0.2
+   },
+   "test_default": {
+    "cfg": null,
+    "acc": 85.84239408564477,
+    "rare_acc": 77.8096479791395,
+    "nonrare_acc": 86.35864692524908,
+    "cer": 4.350098348806099,
+    "rare_correct": 5968,
+    "domains": {
+     "scene": 77.03897338403041,
+     "web": 78.09688332253653,
+     "document": 99.108
+    }
+   },
+   "test_selected": {
+    "cfg": {
+     "method": "G",
+     "tau": 0.2,
+     "k": 0,
+     "gamma": 0.9,
+     "tau_eff": 0.2
+    },
+    "acc": 85.84711801154212,
+    "rare_acc": 79.0612777053455,
+    "nonrare_acc": 86.2832340397007,
+    "cer": 4.361928806644817,
+    "rare_correct": 6064,
+    "domains": {
+     "scene": 77.01204055766793,
+     "web": 78.13287266968977,
+     "document": 99.144
+    }
+   }
+  },
+  "c0_s2": {
+   "tau_train": 0.0,
+   "seed": 2,
+   "feasible": true,
+   "selected_cfg": {
+    "method": "G",
+    "tau": 0.2,
+    "k": 0,
+    "gamma": 0.9,
+    "tau_eff": 0.2
+   },
+   "test_default": {
+    "cfg": null,
+    "acc": 85.81326320927779,
+    "rare_acc": 77.67926988265971,
+    "nonrare_acc": 86.33602305958456,
+    "cer": 4.363488867019154,
+    "rare_correct": 5958,
+    "domains": {
+     "scene": 76.99619771863118,
+     "web": 78.08248758367523,
+     "document": 99.092
+    }
+   },
+   "test_selected": {
+    "cfg": {
+     "method": "G",
+     "tau": 0.2,
+     "k": 0,
+     "gamma": 0.9,
+     "tau_eff": 0.2
+    },
+    "acc": 85.82507302402117,
+    "rare_acc": 78.83963494132986,
+    "nonrare_acc": 86.27401690924478,
+    "cer": 4.377139395294598,
+    "rare_correct": 6047,
+    "domains": {
+     "scene": 76.99144486692015,
+     "web": 78.07528971424459,
+     "document": 99.13
+    }
+   }
+  },
+  "c0_s3": {
+   "tau_train": 0.0,
+   "seed": 3,
+   "feasible": true,
+   "selected_cfg": {
+    "method": "G",
+    "tau": 0.2,
+    "k": 0,
+    "gamma": 0.9,
+    "tau_eff": 0.2
+   },
+   "test_default": {
+    "cfg": null,
+    "acc": 85.81562517222646,
+    "rare_acc": 77.74445893089961,
+    "nonrare_acc": 86.33434721768349,
+    "cer": 4.362318821738401,
+    "rare_correct": 5963,
+    "domains": {
+     "scene": 76.98510773130545,
+     "web": 78.0033110199381,
+     "document": 99.134
+    }
+   },
+   "test_selected": {
+    "cfg": {
+     "method": "G",
+     "tau": 0.2,
+     "k": 0,
+     "gamma": 0.9,
+     "tau_eff": 0.2
+    },
+    "acc": 85.84239408564477,
+    "rare_acc": 78.89178617992177,
+    "nonrare_acc": 86.28909948635446,
+    "cer": 4.370119123610084,
+    "rare_correct": 6051,
+    "domains": {
+     "scene": 76.9946134347275,
+     "web": 78.04649823652198,
+     "document": 99.178
+    }
+   }
+  },
+  "la025_s1": {
+   "tau_train": 0.25,
+   "seed": 1,
+   "feasible": true,
+   "selected_cfg": {
+    "method": "G",
+    "tau": -0.05,
+    "k": 0,
+    "gamma": 0.9,
+    "tau_eff": 0.2
+   },
+   "test_default": {
+    "cfg": null,
+    "acc": 85.80145339453442,
+    "rare_acc": 79.21773142112126,
+    "nonrare_acc": 86.22457957316307,
+    "cer": 4.3768793852322085,
+    "rare_correct": 6076,
+    "domains": {
+     "scene": 76.94074778200253,
+     "web": 78.02490462823005,
+     "document": 99.148
+    }
+   },
+   "test_selected": {
+    "cfg": {
+     "method": "G",
+     "tau": -0.05,
+     "k": 0,
+     "gamma": 0.9,
+     "tau_eff": 0.2
+    },
+    "acc": 85.82822230795273,
+    "rare_acc": 79.03520208604954,
+    "nonrare_acc": 86.26479977878887,
+    "cer": 4.3710291588284464,
+    "rare_correct": 6062,
+    "domains": {
+     "scene": 76.98986058301648,
+     "web": 78.04649823652198,
+     "document": 99.148
+    }
+   }
+  },
+  "la025_s2": {
+   "tau_train": 0.25,
+   "seed": 2,
+   "feasible": true,
+   "selected_cfg": {
+    "method": "G",
+    "tau": -0.05,
+    "k": 0,
+    "gamma": 0.9,
+    "tau_eff": 0.2
+   },
+   "test_default": {
+    "cfg": null,
+    "acc": 85.739255036886,
+    "rare_acc": 79.03520208604954,
+    "nonrare_acc": 86.17011471137813,
+    "cer": 4.396900160036194,
+    "rare_correct": 6062,
+    "domains": {
+     "scene": 76.82509505703422,
+     "web": 78.06089397538328,
+     "document": 99.126
+    }
+   },
+   "test_selected": {
+    "cfg": {
+     "method": "G",
+     "tau": -0.05,
+     "k": 0,
+     "gamma": 0.9,
+     "tau_eff": 0.2
+    },
+    "acc": 85.77704644406478,
+    "rare_acc": 78.93089960886572,
+    "nonrare_acc": 86.21703828460824,
+    "cer": 4.3851997072286695,
+    "rare_correct": 6054,
+    "domains": {
+     "scene": 76.88054499366287,
+     "web": 78.14726840855107,
+     "document": 99.128
+    }
+   }
+  },
+  "la025_s3": {
+   "tau_train": 0.25,
+   "seed": 3,
+   "feasible": true,
+   "selected_cfg": {
+    "method": "G",
+    "tau": -0.05,
+    "k": 0,
+    "gamma": 0.9,
+    "tau_eff": 0.2
+   },
+   "test_default": {
+    "cfg": null,
+    "acc": 85.77232251816743,
+    "rare_acc": 79.20469361147327,
+    "nonrare_acc": 86.19441441894372,
+    "cer": 4.385589722322254,
+    "rare_correct": 6075,
+    "domains": {
+     "scene": 76.88371356147022,
+     "web": 77.93853019506226,
+     "document": 99.17
+    }
+   },
+   "test_selected": {
+    "cfg": {
+     "method": "G",
+     "tau": -0.05,
+     "k": 0,
+     "gamma": 0.9,
+     "tau_eff": 0.2
+    },
+    "acc": 85.80224071551731,
+    "rare_acc": 79.00912646675359,
+    "nonrare_acc": 86.2388242293222,
+    "cer": 4.373369249389952,
+    "rare_correct": 6060,
+    "domains": {
+     "scene": 76.93757921419518,
+     "web": 77.96732167278486,
+     "document": 99.17
+    }
+   }
+  },
+  "la1_s1": {
+   "tau_train": 1.0,
+   "seed": 1,
+   "feasible": false,
+   "selected_cfg": {
+    "method": "G",
+    "tau": -0.9,
+    "k": 0,
+    "gamma": 1.01,
+    "tau_eff": 0.1
+   },
+   "test_default": {
+    "cfg": null,
+    "acc": 78.81476699235512,
+    "rare_acc": 79.40026075619296,
+    "nonrare_acc": 78.77713816478554,
+    "cer": 6.613095926812368,
+    "rare_correct": 6090,
+    "domains": {
+     "scene": 67.2148288973384,
+     "web": 61.088317857914056,
+     "document": 98.384
+    }
+   },
+   "test_selected": {
+    "cfg": {
+     "method": "G",
+     "tau": -0.9,
+     "k": 0,
+     "gamma": 1.01,
+     "tau_eff": 0.1
+    },
+    "acc": 85.608559753726,
+    "rare_acc": 78.64406779661017,
+    "nonrare_acc": 86.05615746210502,
+    "cer": 4.449812207732439,
+    "rare_correct": 6032,
+    "domains": {
+     "scene": 76.66032953105197,
+     "web": 77.54264737637659,
+     "document": 99.146
+    }
+   }
+  },
+  "la1_s2": {
+   "tau_train": 1.0,
+   "seed": 2,
+   "feasible": false,
+   "selected_cfg": {
+    "method": "G",
+    "tau": -0.9,
+    "k": 0,
+    "gamma": 1.01,
+    "tau_eff": 0.1
+   },
+   "test_default": {
+    "cfg": null,
+    "acc": 78.9730185099163,
+    "rare_acc": 79.21773142112126,
+    "nonrare_acc": 78.9572911691511,
+    "cer": 6.5834547796999745,
+    "rare_correct": 6076,
+    "domains": {
+     "scene": 67.4936628643853,
+     "web": 61.23227524652703,
+     "document": 98.394
+    }
+   },
+   "test_selected": {
+    "cfg": {
+     "method": "G",
+     "tau": -0.9,
+     "k": 0,
+     "gamma": 1.01,
+     "tau_eff": 0.1
+    },
+    "acc": 85.5518726429578,
+    "rare_acc": 78.35723598435463,
+    "nonrare_acc": 86.01426141457814,
+    "cer": 4.481143420250364,
+    "rare_correct": 6010,
+    "domains": {
+     "scene": 76.57477820025349,
+     "web": 77.63621967897502,
+     "document": 99.084
+    }
+   }
+  },
+  "la1_s3": {
+   "tau_train": 1.0,
+   "seed": 3,
+   "feasible": false,
+   "selected_cfg": {
+    "method": "G",
+    "tau": -0.9,
+    "k": 0,
+    "gamma": 1.01,
+    "tau_eff": 0.1
+   },
+   "test_default": {
+    "cfg": null,
+    "acc": 78.81319235038933,
+    "rare_acc": 79.24380704041721,
+    "nonrare_acc": 78.7855173742909,
+    "cer": 6.615176007311483,
+    "rare_correct": 6078,
+    "domains": {
+     "scene": 67.30196451204056,
+     "web": 60.893975383286545,
+     "document": 98.324
+    }
+   },
+   "test_selected": {
+    "cfg": {
+     "method": "G",
+     "tau": -0.9,
+     "k": 0,
+     "gamma": 1.01,
+     "tau_eff": 0.1
+    },
+    "acc": 85.5802161983419,
+    "rare_acc": 78.59191655801826,
+    "nonrare_acc": 86.02934399168782,
+    "cer": 4.463852751101467,
+    "rare_correct": 6028,
+    "domains": {
+     "scene": 76.6254752851711,
+     "web": 77.50665802922335,
+     "document": 99.128
+    }
+   }
+  }
+ },
+ "comparisons": {
+  "la025": {
+   "per_seed": {
+    "1": {
+     "rare_diff": [
+      -0.026075619295962138,
+      -0.2607561929595881,
+      0.22196870925684922
+     ],
+     "acc_diff": [
+      -0.018895703589394408,
+      -0.07479549337470193,
+      0.033087164306017915
+     ]
+    },
+    "2": {
+     "rare_diff": [
+      0.09126466753585083,
+      -0.1564537157757398,
+      0.3389830508474523
+     ],
+     "acc_diff": [
+      -0.04802657995637283,
+      -0.10000944785179627,
+      0.007085888846014854
+     ]
+    },
+    "3": {
+     "rare_diff": [
+      0.11734028683181297,
+      -0.1434159061277751,
+      0.3650586701434147
+     ],
+     "acc_diff": [
+      -0.040153370127471444,
+      -0.09136860006456943,
+      0.01259713572626664
+     ]
+    }
+   },
+   "verdict_seeds12_preregistered": "equivalent",
+   "seed3_same_direction": true,
+   "mean3_rare_diff": 0.06084311169056722,
+   "mean3_acc_diff": -0.035691884557746224
+  },
+  "la1": {
+   "per_seed": {
+    "1": {
+     "rare_diff": [
+      -0.4172099087353276,
+      -0.6910039113429023,
+      -0.09126466753586193
+     ],
+     "acc_diff": [
+      -0.23855825781612383,
+      -0.3086298252934716,
+      -0.1700219662554273
+     ]
+    },
+    "2": {
+     "rare_diff": [
+      -0.4823989569752385,
+      -0.7825945241199525,
+      -0.16949152542372614
+     ],
+     "acc_diff": [
+      -0.2732003810633543,
+      -0.344866273531059,
+      -0.20155417162023292
+     ]
+    },
+    "3": {
+     "rare_diff": [
+      -0.29986962190352573,
+      -0.6127770534550159,
+      0.013037809647975518
+     ],
+     "acc_diff": [
+      -0.2621778873028724,
+      -0.33226913780479234,
+      -0.19838520466408052
+     ]
+    }
+   },
+   "verdict_seeds12_preregistered": "equivalent",
+   "seed3_same_direction": true,
+   "mean3_rare_diff": -0.3998261625380306,
+   "mean3_acc_diff": -0.25797884206078353
+  }
+ }
+}

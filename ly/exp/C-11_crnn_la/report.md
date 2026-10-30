@@ -1,0 +1,15 @@
+| run | tau_train | selected (tau_eff, gamma) | val acc / rare | test default acc / rare | test selected acc / rare |
+|---|---:|---|---|---|---|
+| crnn_s1 | 0.0 | 0.2, 0.9 | 71.353 / 62.689 | 71.251 / 61.721 | 71.349 / 63.651 |
+| crnn_s2 | 0.0 | 0.3, 0.9 | 71.085 / 62.831 | 71.012 / 60.456 | 71.038 / 63.312 |
+| la025_s1 | 0.25 | 0.5, 0.9 | 71.323 / 65.026 | 71.785 / 64.498 | 71.293 / 65.802 |
+| la025_s2 | 0.25 | 0.5, 0.9 | 71.240 / 64.975 | 71.673 / 64.394 | 71.142 / 66.063 |
+| la1_s1 | 1.0 | 0.4, 0.99 | 71.549 / 64.445 | 52.773 / 52.907 | 71.441 / 65.489 |
+| la1_s2 | 1.0 | 0.5, 1.01 | 71.111 / 65.104 | 53.546 / 54.668 | 70.940 / 65.437 |
+
+- la025 vs crnn (selected vs selected): verdict **training-side adds value**
+  - seed 1: rare +2.151 [+1.486, +2.829], acc -0.056 [-0.183, +0.078], rare fixed/broken 412/247 (McNemar p=1.3e-10)
+  - seed 2: rare +2.751 [+2.034, +3.481], acc +0.104 [-0.050, +0.242], rare fixed/broken 483/272 (McNemar p=1.4e-14)
+- la1 vs crnn (selected vs selected): verdict **training-side adds value**
+  - seed 1: rare +1.838 [+1.186, +2.516], acc +0.092 [-0.050, +0.236], rare fixed/broken 413/272 (McNemar p=8e-08)
+  - seed 2: rare +2.125 [+1.369, +2.830], acc -0.098 [-0.250, +0.049], rare fixed/broken 461/298 (McNemar p=3.6e-09)

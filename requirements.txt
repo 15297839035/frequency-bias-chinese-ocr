@@ -1,0 +1,12 @@
+# Core Python dependencies for the analysis and HWDB scripts.
+# The OpenOCR-based text-recognition scripts additionally need OpenOCR
+# (https://github.com/Topdu/OpenOCR) and its environment.
+numpy<2
+torch>=2.0
+torchvision
+matplotlib
+rapidfuzz
+PyYAML
+lmdb
+Pillow
+scipy

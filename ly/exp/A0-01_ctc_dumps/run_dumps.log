@@ -1,0 +1,127 @@
+gtc_val_scene: 100/1199 batches, 6392 samples, 26s
+gtc_val_scene: 200/1199 batches, 12788 samples, 57s
+gtc_val_scene: 300/1199 batches, 19154 samples, 91s
+gtc_val_scene: 400/1199 batches, 25550 samples, 139s
+gtc_val_scene: 500/1199 batches, 31928 samples, 185s
+gtc_val_scene: 600/1199 batches, 38324 samples, 230s
+gtc_val_scene: 700/1199 batches, 44660 samples, 277s
+gtc_val_scene: 800/1199 batches, 50570 samples, 319s
+gtc_val_scene: 900/1199 batches, 55232 samples, 363s
+gtc_val_scene: 1000/1199 batches, 58857 samples, 406s
+gtc_val_scene: 1100/1199 batches, 61480 samples, 464s
+{"model": "gtc", "checkpoint": "OpenOCR-main/output/rec/bctr_scheme51_bs64/svtrv2_tiny_51_gtc_seed48/epoch_100.pth", "checkpoint_sha256_12": "5ffbad6e9662", "split": "val", "domain": "scene", "samples": 63133, "excluded": 512, "topk": 16, "limit_batches": 0, "torch": "2.13.0", "device": "mps", "seconds": 519.7}
+gtc_val_web: 100/277 batches, 6305 samples, 39s
+gtc_val_web: 200/277 batches, 11991 samples, 82s
+{"model": "gtc", "checkpoint": "OpenOCR-main/output/rec/bctr_scheme51_bs64/svtrv2_tiny_51_gtc_seed48/epoch_100.pth", "checkpoint_sha256_12": "5ffbad6e9662", "split": "val", "domain": "web", "samples": 13908, "excluded": 151, "topk": 16, "limit_batches": 0, "torch": "2.13.0", "device": "mps", "seconds": 118.7}
+gtc_val_document: 100/1401 batches, 6366 samples, 41s
+gtc_val_document: 200/1401 batches, 12693 samples, 83s
+gtc_val_document: 300/1401 batches, 18298 samples, 122s
+gtc_val_document: 400/1401 batches, 22741 samples, 161s
+gtc_val_document: 500/1401 batches, 26552 samples, 202s
+gtc_val_document: 600/1401 batches, 30008 samples, 248s
+gtc_val_document: 700/1401 batches, 33208 samples, 296s
+gtc_val_document: 800/1401 batches, 36088 samples, 347s
+gtc_val_document: 900/1401 batches, 38794 samples, 384s
+gtc_val_document: 1000/1401 batches, 41294 samples, 422s
+gtc_val_document: 1100/1401 batches, 43616 samples, 460s
+gtc_val_document: 1200/1401 batches, 45798 samples, 502s
+gtc_val_document: 1300/1401 batches, 47898 samples, 541s
+gtc_val_document: 1400/1401 batches, 49998 samples, 582s
+{"model": "gtc", "checkpoint": "OpenOCR-main/output/rec/bctr_scheme51_bs64/svtrv2_tiny_51_gtc_seed48/epoch_100.pth", "checkpoint_sha256_12": "5ffbad6e9662", "split": "val", "domain": "document", "samples": 50000, "excluded": 0, "topk": 16, "limit_batches": 0, "torch": "2.13.0", "device": "mps", "seconds": 584.6}
+gtc_test_scene: 100/1201 batches, 6393 samples, 36s
+gtc_test_scene: 200/1201 batches, 12788 samples, 71s
+gtc_test_scene: 300/1201 batches, 19127 samples, 107s
+gtc_test_scene: 400/1201 batches, 25526 samples, 144s
+gtc_test_scene: 500/1201 batches, 31918 samples, 184s
+gtc_test_scene: 600/1201 batches, 38315 samples, 221s
+gtc_test_scene: 700/1201 batches, 44697 samples, 257s
+gtc_test_scene: 800/1201 batches, 50574 samples, 307s
+gtc_test_scene: 900/1201 batches, 55207 samples, 348s
+gtc_test_scene: 1000/1201 batches, 58818 samples, 386s
+gtc_test_scene: 1100/1201 batches, 61442 samples, 431s
+gtc_test_scene: 1200/1201 batches, 63117 samples, 492s
+{"model": "gtc", "checkpoint": "OpenOCR-main/output/rec/bctr_scheme51_bs64/svtrv2_tiny_51_gtc_seed48/epoch_100.pth", "checkpoint_sha256_12": "5ffbad6e9662", "split": "test", "domain": "scene", "samples": 63120, "excluded": 526, "topk": 16, "limit_batches": 0, "torch": "2.13.0", "device": "mps", "seconds": 499.3}
+gtc_test_scene.jsonl: n=63120, target match=63120, prediction match=63120 (100.000%)
+gtc_test_web: 100/275 batches, 6337 samples, 37s
+gtc_test_web: 200/275 batches, 11962 samples, 77s
+{"model": "gtc", "checkpoint": "OpenOCR-main/output/rec/bctr_scheme51_bs64/svtrv2_tiny_51_gtc_seed48/epoch_100.pth", "checkpoint_sha256_12": "5ffbad6e9662", "split": "test", "domain": "web", "samples": 13893, "excluded": 166, "topk": 16, "limit_batches": 0, "torch": "2.13.0", "device": "mps", "seconds": 116.7}
+gtc_test_web.jsonl: n=13893, target match=13893, prediction match=13893 (100.000%)
+gtc_test_document: 100/1398 batches, 6365 samples, 38s
+gtc_test_document: 200/1398 batches, 12739 samples, 79s
+gtc_test_document: 300/1398 batches, 18311 samples, 118s
+gtc_test_document: 400/1398 batches, 22749 samples, 158s
+gtc_test_document: 500/1398 batches, 26568 samples, 200s
+gtc_test_document: 600/1398 batches, 30022 samples, 243s
+gtc_test_document: 700/1398 batches, 33222 samples, 287s
+gtc_test_document: 800/1398 batches, 36120 samples, 332s
+gtc_test_document: 900/1398 batches, 38832 samples, 379s
+gtc_test_document: 1000/1398 batches, 41332 samples, 432s
+gtc_test_document: 1100/1398 batches, 43663 samples, 496s
+gtc_test_document: 1200/1398 batches, 45845 samples, 559s
+gtc_test_document: 1300/1398 batches, 47945 samples, 610s
+{"model": "gtc", "checkpoint": "OpenOCR-main/output/rec/bctr_scheme51_bs64/svtrv2_tiny_51_gtc_seed48/epoch_100.pth", "checkpoint_sha256_12": "5ffbad6e9662", "split": "test", "domain": "document", "samples": 50000, "excluded": 0, "topk": 16, "limit_batches": 0, "torch": "2.13.0", "device": "mps", "seconds": 671.0}
+gtc_test_document.jsonl: n=50000, target match=50000, prediction match=50000 (100.000%)
+b_val_scene: 100/1199 batches, 6392 samples, 40s
+b_val_scene: 200/1199 batches, 12788 samples, 80s
+b_val_scene: 300/1199 batches, 19154 samples, 119s
+b_val_scene: 400/1199 batches, 25550 samples, 166s
+b_val_scene: 500/1199 batches, 31928 samples, 217s
+b_val_scene: 600/1199 batches, 38324 samples, 281s
+b_val_scene: 700/1199 batches, 44660 samples, 337s
+b_val_scene: 800/1199 batches, 50570 samples, 381s
+b_val_scene: 900/1199 batches, 55232 samples, 423s
+b_val_scene: 1000/1199 batches, 58857 samples, 458s
+b_val_scene: 1100/1199 batches, 61480 samples, 510s
+{"model": "b", "checkpoint": "OpenOCR-main/output/rec/bctr_scheme51_ab_bs64/svtrv2_tiny_51_ucr_b_mixedfreq_seed48/epoch_100.pth", "checkpoint_sha256_12": "0e701e683d19", "split": "val", "domain": "scene", "samples": 63133, "excluded": 512, "topk": 16, "limit_batches": 0, "torch": "2.13.0", "device": "mps", "seconds": 969.9}
+b_val_web: 100/277 batches, 6305 samples, 50s
+b_val_web: 200/277 batches, 11991 samples, 97s
+{"model": "b", "checkpoint": "OpenOCR-main/output/rec/bctr_scheme51_ab_bs64/svtrv2_tiny_51_ucr_b_mixedfreq_seed48/epoch_100.pth", "checkpoint_sha256_12": "0e701e683d19", "split": "val", "domain": "web", "samples": 13908, "excluded": 151, "topk": 16, "limit_batches": 0, "torch": "2.13.0", "device": "mps", "seconds": 128.9}
+b_val_document: 100/1401 batches, 6366 samples, 32s
+b_val_document: 200/1401 batches, 12693 samples, 69s
+b_val_document: 300/1401 batches, 18298 samples, 104s
+b_val_document: 400/1401 batches, 22741 samples, 138s
+b_val_document: 500/1401 batches, 26552 samples, 172s
+b_val_document: 600/1401 batches, 30008 samples, 212s
+b_val_document: 700/1401 batches, 33208 samples, 255s
+b_val_document: 800/1401 batches, 36088 samples, 298s
+b_val_document: 900/1401 batches, 38794 samples, 343s
+b_val_document: 1000/1401 batches, 41294 samples, 385s
+b_val_document: 1100/1401 batches, 43616 samples, 433s
+b_val_document: 1200/1401 batches, 45798 samples, 486s
+b_val_document: 1300/1401 batches, 47898 samples, 540s
+b_val_document: 1400/1401 batches, 49998 samples, 589s
+{"model": "b", "checkpoint": "OpenOCR-main/output/rec/bctr_scheme51_ab_bs64/svtrv2_tiny_51_ucr_b_mixedfreq_seed48/epoch_100.pth", "checkpoint_sha256_12": "0e701e683d19", "split": "val", "domain": "document", "samples": 50000, "excluded": 0, "topk": 16, "limit_batches": 0, "torch": "2.13.0", "device": "mps", "seconds": 592.1}
+b_test_scene: 100/1201 batches, 6393 samples, 29s
+b_test_scene: 200/1201 batches, 12788 samples, 58s
+b_test_scene: 300/1201 batches, 19127 samples, 87s
+b_test_scene: 400/1201 batches, 25526 samples, 122s
+b_test_scene: 500/1201 batches, 31918 samples, 158s
+b_test_scene: 600/1201 batches, 38315 samples, 194s
+b_test_scene: 700/1201 batches, 44697 samples, 231s
+b_test_scene: 800/1201 batches, 50574 samples, 267s
+b_test_scene: 900/1201 batches, 55207 samples, 304s
+b_test_scene: 1000/1201 batches, 58818 samples, 342s
+b_test_scene: 1100/1201 batches, 61442 samples, 381s
+b_test_scene: 1200/1201 batches, 63117 samples, 422s
+{"model": "b", "checkpoint": "OpenOCR-main/output/rec/bctr_scheme51_ab_bs64/svtrv2_tiny_51_ucr_b_mixedfreq_seed48/epoch_100.pth", "checkpoint_sha256_12": "0e701e683d19", "split": "test", "domain": "scene", "samples": 63120, "excluded": 526, "topk": 16, "limit_batches": 0, "torch": "2.13.0", "device": "mps", "seconds": 423.8}
+b_test_scene.jsonl: n=63120, target match=63120, prediction match=63120 (100.000%)
+b_test_web: 100/275 batches, 6337 samples, 37s
+b_test_web: 200/275 batches, 11962 samples, 76s
+{"model": "b", "checkpoint": "OpenOCR-main/output/rec/bctr_scheme51_ab_bs64/svtrv2_tiny_51_ucr_b_mixedfreq_seed48/epoch_100.pth", "checkpoint_sha256_12": "0e701e683d19", "split": "test", "domain": "web", "samples": 13893, "excluded": 166, "topk": 16, "limit_batches": 0, "torch": "2.13.0", "device": "mps", "seconds": 109.1}
+b_test_web.jsonl: n=13893, target match=13893, prediction match=13893 (100.000%)
+b_test_document: 100/1398 batches, 6365 samples, 36s
+b_test_document: 200/1398 batches, 12739 samples, 70s
+b_test_document: 300/1398 batches, 18311 samples, 102s
+b_test_document: 400/1398 batches, 22749 samples, 135s
+b_test_document: 500/1398 batches, 26568 samples, 168s
+b_test_document: 600/1398 batches, 30022 samples, 203s
+b_test_document: 700/1398 batches, 33222 samples, 239s
+b_test_document: 800/1398 batches, 36120 samples, 274s
+b_test_document: 900/1398 batches, 38832 samples, 310s
+b_test_document: 1000/1398 batches, 41332 samples, 346s
+b_test_document: 1100/1398 batches, 43663 samples, 393s
+b_test_document: 1200/1398 batches, 45845 samples, 441s
+b_test_document: 1300/1398 batches, 47945 samples, 483s
+{"model": "b", "checkpoint": "OpenOCR-main/output/rec/bctr_scheme51_ab_bs64/svtrv2_tiny_51_ucr_b_mixedfreq_seed48/epoch_100.pth", "checkpoint_sha256_12": "0e701e683d19", "split": "test", "domain": "document", "samples": 50000, "excluded": 0, "topk": 16, "limit_batches": 0, "torch": "2.13.0", "device": "mps", "seconds": 525.7}
+b_test_document.jsonl: n=50000, target match=50000, prediction match=50000 (100.000%)
+ALL_DONE

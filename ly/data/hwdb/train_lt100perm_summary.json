@@ -1,0 +1,16 @@
+{
+  "order": "perm",
+  "perm_seed": 0,
+  "imbalance": 100,
+  "nmax": 500,
+  "classes": 3755,
+  "samples": 403597,
+  "capped_classes": 1,
+  "many(>100)": 1308,
+  "medium(20-100)": 1337,
+  "few(<20)": 1110,
+  "min_count": 5,
+  "max_count": 500,
+  "spearman_vs_natural_rank": -0.01001451767367703,
+  "seed": 0
+}

@@ -1,0 +1,18 @@
+{
+  "rule": "max pooled val rare-line acc s.t. pooled acc >= B0 - 0.05pp; ties: smaller tau, k, gamma",
+  "model": "gtc",
+  "chosen": {
+    "G": {
+      "method": "G",
+      "tau": 0.2,
+      "k": 0,
+      "gamma": 0.9
+    },
+    "L": {
+      "method": "L",
+      "tau": 0.5,
+      "k": 50,
+      "gamma": 0.99
+    }
+  }
+}

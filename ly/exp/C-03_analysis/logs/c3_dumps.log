@@ -1,0 +1,127 @@
+gtc_test_scene: 100/1201 batches, 6389 samples, 5s
+gtc_test_scene: 200/1201 batches, 12782 samples, 9s
+gtc_test_scene: 300/1201 batches, 19127 samples, 14s
+gtc_test_scene: 400/1201 batches, 25526 samples, 22s
+gtc_test_scene: 500/1201 batches, 31919 samples, 31s
+gtc_test_scene: 600/1201 batches, 38317 samples, 41s
+gtc_test_scene: 700/1201 batches, 44694 samples, 51s
+gtc_test_scene: 800/1201 batches, 50572 samples, 62s
+gtc_test_scene: 900/1201 batches, 55208 samples, 72s
+gtc_test_scene: 1000/1201 batches, 58819 samples, 82s
+gtc_test_scene: 1100/1201 batches, 61441 samples, 93s
+gtc_test_scene: 1200/1201 batches, 63116 samples, 102s
+{"model": "gtc", "checkpoint": "OpenOCR-main/output/rec/bctr_scheme51_bs64/svtrv2_tiny_51_gtc_seed48/epoch_100.pth", "epoch": 100, "checkpoint_sha256_12": "5ffbad6e9662", "split": "test", "domain": "scene", "samples": 63120, "excluded": 526, "topk": 16, "limit_batches": 0, "torch": "2.8.0+cu128", "device": "cuda", "seconds": 102.7}
+gtc_test_scene.jsonl: n=63120, target match=63120, prediction match=63120 (100.000%)
+gtc_test_web: 100/275 batches, 6335 samples, 6s
+gtc_test_web: 200/275 batches, 11962 samples, 16s
+{"model": "gtc", "checkpoint": "OpenOCR-main/output/rec/bctr_scheme51_bs64/svtrv2_tiny_51_gtc_seed48/epoch_100.pth", "epoch": 100, "checkpoint_sha256_12": "5ffbad6e9662", "split": "test", "domain": "web", "samples": 13893, "excluded": 166, "topk": 16, "limit_batches": 0, "torch": "2.8.0+cu128", "device": "cuda", "seconds": 23.8}
+gtc_test_web.jsonl: n=13893, target match=13893, prediction match=13893 (100.000%)
+gtc_test_document: 100/1398 batches, 6365 samples, 7s
+gtc_test_document: 200/1398 batches, 12739 samples, 17s
+gtc_test_document: 300/1398 batches, 18311 samples, 28s
+gtc_test_document: 400/1398 batches, 22749 samples, 38s
+gtc_test_document: 500/1398 batches, 26568 samples, 48s
+gtc_test_document: 600/1398 batches, 30022 samples, 59s
+gtc_test_document: 700/1398 batches, 33222 samples, 70s
+gtc_test_document: 800/1398 batches, 36120 samples, 80s
+gtc_test_document: 900/1398 batches, 38832 samples, 91s
+gtc_test_document: 1000/1398 batches, 41332 samples, 101s
+gtc_test_document: 1100/1398 batches, 43663 samples, 112s
+gtc_test_document: 1200/1398 batches, 45845 samples, 122s
+gtc_test_document: 1300/1398 batches, 47945 samples, 133s
+{"model": "gtc", "checkpoint": "OpenOCR-main/output/rec/bctr_scheme51_bs64/svtrv2_tiny_51_gtc_seed48/epoch_100.pth", "epoch": 100, "checkpoint_sha256_12": "5ffbad6e9662", "split": "test", "domain": "document", "samples": 50000, "excluded": 0, "topk": 16, "limit_batches": 0, "torch": "2.8.0+cu128", "device": "cuda", "seconds": 143.9}
+gtc_test_document.jsonl: n=50000, target match=50000, prediction match=50000 (100.000%)
+gtc_val_scene: 100/1199 batches, 6394 samples, 5s
+gtc_val_scene: 200/1199 batches, 12785 samples, 9s
+gtc_val_scene: 300/1199 batches, 19154 samples, 14s
+gtc_val_scene: 400/1199 batches, 25550 samples, 22s
+gtc_val_scene: 500/1199 batches, 31928 samples, 31s
+gtc_val_scene: 600/1199 batches, 38325 samples, 41s
+gtc_val_scene: 700/1199 batches, 44661 samples, 51s
+gtc_val_scene: 800/1199 batches, 50569 samples, 62s
+gtc_val_scene: 900/1199 batches, 55236 samples, 72s
+gtc_val_scene: 1000/1199 batches, 58857 samples, 83s
+gtc_val_scene: 1100/1199 batches, 61480 samples, 93s
+{"model": "gtc", "checkpoint": "OpenOCR-main/output/rec/bctr_scheme51_bs64/svtrv2_tiny_51_gtc_seed48/epoch_100.pth", "epoch": 100, "checkpoint_sha256_12": "5ffbad6e9662", "split": "val", "domain": "scene", "samples": 63133, "excluded": 512, "topk": 16, "limit_batches": 0, "torch": "2.8.0+cu128", "device": "cuda", "seconds": 102.1}
+gtc_val_web: 100/277 batches, 6307 samples, 6s
+gtc_val_web: 200/277 batches, 11991 samples, 16s
+{"model": "gtc", "checkpoint": "OpenOCR-main/output/rec/bctr_scheme51_bs64/svtrv2_tiny_51_gtc_seed48/epoch_100.pth", "epoch": 100, "checkpoint_sha256_12": "5ffbad6e9662", "split": "val", "domain": "web", "samples": 13908, "excluded": 151, "topk": 16, "limit_batches": 0, "torch": "2.8.0+cu128", "device": "cuda", "seconds": 23.7}
+gtc_val_document: 100/1401 batches, 6366 samples, 8s
+gtc_val_document: 200/1401 batches, 12693 samples, 18s
+gtc_val_document: 300/1401 batches, 18298 samples, 28s
+gtc_val_document: 400/1401 batches, 22741 samples, 38s
+gtc_val_document: 500/1401 batches, 26552 samples, 49s
+gtc_val_document: 600/1401 batches, 30008 samples, 59s
+gtc_val_document: 700/1401 batches, 33208 samples, 70s
+gtc_val_document: 800/1401 batches, 36088 samples, 81s
+gtc_val_document: 900/1401 batches, 38794 samples, 91s
+gtc_val_document: 1000/1401 batches, 41294 samples, 102s
+gtc_val_document: 1100/1401 batches, 43616 samples, 113s
+gtc_val_document: 1200/1401 batches, 45798 samples, 123s
+gtc_val_document: 1300/1401 batches, 47898 samples, 134s
+gtc_val_document: 1400/1401 batches, 49998 samples, 144s
+{"model": "gtc", "checkpoint": "OpenOCR-main/output/rec/bctr_scheme51_bs64/svtrv2_tiny_51_gtc_seed48/epoch_100.pth", "epoch": 100, "checkpoint_sha256_12": "5ffbad6e9662", "split": "val", "domain": "document", "samples": 50000, "excluded": 0, "topk": 16, "limit_batches": 0, "torch": "2.8.0+cu128", "device": "cuda", "seconds": 145.1}
+b_test_scene: 100/1201 batches, 6389 samples, 5s
+b_test_scene: 200/1201 batches, 12782 samples, 9s
+b_test_scene: 300/1201 batches, 19127 samples, 13s
+b_test_scene: 400/1201 batches, 25526 samples, 22s
+b_test_scene: 500/1201 batches, 31919 samples, 31s
+b_test_scene: 600/1201 batches, 38317 samples, 41s
+b_test_scene: 700/1201 batches, 44694 samples, 51s
+b_test_scene: 800/1201 batches, 50572 samples, 61s
+b_test_scene: 900/1201 batches, 55208 samples, 72s
+b_test_scene: 1000/1201 batches, 58819 samples, 82s
+b_test_scene: 1100/1201 batches, 61441 samples, 92s
+b_test_scene: 1200/1201 batches, 63116 samples, 100s
+{"model": "b", "checkpoint": "OpenOCR-main/output/rec/bctr_scheme51_ab_bs64/svtrv2_tiny_51_ucr_b_mixedfreq_seed48/epoch_100.pth", "epoch": 100, "checkpoint_sha256_12": "0e701e683d19", "split": "test", "domain": "scene", "samples": 63120, "excluded": 526, "topk": 16, "limit_batches": 0, "torch": "2.8.0+cu128", "device": "cuda", "seconds": 101.2}
+b_test_scene.jsonl: n=63120, target match=63120, prediction match=63120 (100.000%)
+b_test_web: 100/275 batches, 6335 samples, 6s
+b_test_web: 200/275 batches, 11962 samples, 16s
+{"model": "b", "checkpoint": "OpenOCR-main/output/rec/bctr_scheme51_ab_bs64/svtrv2_tiny_51_ucr_b_mixedfreq_seed48/epoch_100.pth", "epoch": 100, "checkpoint_sha256_12": "0e701e683d19", "split": "test", "domain": "web", "samples": 13893, "excluded": 166, "topk": 16, "limit_batches": 0, "torch": "2.8.0+cu128", "device": "cuda", "seconds": 23.8}
+b_test_web.jsonl: n=13893, target match=13893, prediction match=13893 (100.000%)
+b_test_document: 100/1398 batches, 6365 samples, 8s
+b_test_document: 200/1398 batches, 12739 samples, 18s
+b_test_document: 300/1398 batches, 18311 samples, 28s
+b_test_document: 400/1398 batches, 22749 samples, 39s
+b_test_document: 500/1398 batches, 26568 samples, 49s
+b_test_document: 600/1398 batches, 30022 samples, 60s
+b_test_document: 700/1398 batches, 33222 samples, 70s
+b_test_document: 800/1398 batches, 36120 samples, 81s
+b_test_document: 900/1398 batches, 38832 samples, 91s
+b_test_document: 1000/1398 batches, 41332 samples, 102s
+b_test_document: 1100/1398 batches, 43663 samples, 112s
+b_test_document: 1200/1398 batches, 45845 samples, 123s
+b_test_document: 1300/1398 batches, 47945 samples, 134s
+{"model": "b", "checkpoint": "OpenOCR-main/output/rec/bctr_scheme51_ab_bs64/svtrv2_tiny_51_ucr_b_mixedfreq_seed48/epoch_100.pth", "epoch": 100, "checkpoint_sha256_12": "0e701e683d19", "split": "test", "domain": "document", "samples": 50000, "excluded": 0, "topk": 16, "limit_batches": 0, "torch": "2.8.0+cu128", "device": "cuda", "seconds": 145.1}
+b_test_document.jsonl: n=50000, target match=50000, prediction match=50000 (100.000%)
+b_val_scene: 100/1199 batches, 6394 samples, 5s
+b_val_scene: 200/1199 batches, 12785 samples, 9s
+b_val_scene: 300/1199 batches, 19154 samples, 14s
+b_val_scene: 400/1199 batches, 25550 samples, 23s
+b_val_scene: 500/1199 batches, 31928 samples, 31s
+b_val_scene: 600/1199 batches, 38325 samples, 41s
+b_val_scene: 700/1199 batches, 44661 samples, 52s
+b_val_scene: 800/1199 batches, 50569 samples, 62s
+b_val_scene: 900/1199 batches, 55236 samples, 73s
+b_val_scene: 1000/1199 batches, 58857 samples, 83s
+b_val_scene: 1100/1199 batches, 61480 samples, 93s
+{"model": "b", "checkpoint": "OpenOCR-main/output/rec/bctr_scheme51_ab_bs64/svtrv2_tiny_51_ucr_b_mixedfreq_seed48/epoch_100.pth", "epoch": 100, "checkpoint_sha256_12": "0e701e683d19", "split": "val", "domain": "scene", "samples": 63133, "excluded": 512, "topk": 16, "limit_batches": 0, "torch": "2.8.0+cu128", "device": "cuda", "seconds": 102.6}
+b_val_web: 100/277 batches, 6307 samples, 6s
+b_val_web: 200/277 batches, 11991 samples, 17s
+{"model": "b", "checkpoint": "OpenOCR-main/output/rec/bctr_scheme51_ab_bs64/svtrv2_tiny_51_ucr_b_mixedfreq_seed48/epoch_100.pth", "epoch": 100, "checkpoint_sha256_12": "0e701e683d19", "split": "val", "domain": "web", "samples": 13908, "excluded": 151, "topk": 16, "limit_batches": 0, "torch": "2.8.0+cu128", "device": "cuda", "seconds": 24.3}
+b_val_document: 100/1401 batches, 6366 samples, 7s
+b_val_document: 200/1401 batches, 12693 samples, 17s
+b_val_document: 300/1401 batches, 18298 samples, 28s
+b_val_document: 400/1401 batches, 22741 samples, 38s
+b_val_document: 500/1401 batches, 26552 samples, 49s
+b_val_document: 600/1401 batches, 30008 samples, 59s
+b_val_document: 700/1401 batches, 33208 samples, 70s
+b_val_document: 800/1401 batches, 36088 samples, 80s
+b_val_document: 900/1401 batches, 38794 samples, 90s
+b_val_document: 1000/1401 batches, 41294 samples, 101s
+b_val_document: 1100/1401 batches, 43616 samples, 111s
+b_val_document: 1200/1401 batches, 45798 samples, 122s
+b_val_document: 1300/1401 batches, 47898 samples, 133s
+b_val_document: 1400/1401 batches, 49998 samples, 143s
+{"model": "b", "checkpoint": "OpenOCR-main/output/rec/bctr_scheme51_ab_bs64/svtrv2_tiny_51_ucr_b_mixedfreq_seed48/epoch_100.pth", "epoch": 100, "checkpoint_sha256_12": "0e701e683d19", "split": "val", "domain": "document", "samples": 50000, "excluded": 0, "topk": 16, "limit_batches": 0, "torch": "2.8.0+cu128", "device": "cuda", "seconds": 144.2}
+C3_DUMPS_DONE

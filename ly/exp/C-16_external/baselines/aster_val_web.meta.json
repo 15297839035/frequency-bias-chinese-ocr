@@ -1,0 +1,26 @@
+{
+  "model": "aster",
+  "checkpoint": "/root/autodl-tmp/bctr_baselines/aster_web.pth.tar",
+  "checkpoint_sha256_12": "055deaf1d659",
+  "split": "val",
+  "domain": "web",
+  "samples": 13908,
+  "grid": [
+    "B0",
+    "t0.1_g0.9",
+    "t0.1_g1.01",
+    "t0.2_g0.9",
+    "t0.2_g1.01",
+    "t0.3_g0.9",
+    "t0.3_g1.01",
+    "t0.5_g0.9",
+    "t0.5_g1.01",
+    "t1.0_g0.9",
+    "t1.0_g1.01"
+  ],
+  "prior": "ly/exp/C-16_external/train_counts_web.json",
+  "reference": "ly/exp/C-05_crnn/dumps/crnn_s1_val_web.jsonl",
+  "limit": 0,
+  "torch": "2.8.0+cu128",
+  "seconds": 817.2
+}

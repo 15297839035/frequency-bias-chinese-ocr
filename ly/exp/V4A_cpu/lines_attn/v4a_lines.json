@@ -1,0 +1,447 @@
+{
+ "attn:transocr": {
+  "kind": "attn",
+  "lines": 127013,
+  "direction": {
+   "pairs": 981,
+   "errors": 3983.0,
+   "T/E": 2.0345670248285908,
+   "T/E_ci95": [
+    1.9302452377370967,
+    2.1452963133182146
+   ],
+   "pct_toward_frequent": 57.3437107707758,
+   "pct_symmetric": 28.18472435215395,
+   "beta": 1.2810016572222394,
+   "beta_ci95": [
+    1.23434689568071,
+    1.3307343288904547
+   ],
+   "bayes": {
+    "T/E": 1.9428004696732246,
+    "T/E_ci95": [
+     1.868399949628473,
+     2.0259424941878783
+    ],
+    "pct_toward_frequent": 54.75729570897507,
+    "beta": 1.1746567212873518,
+    "beta_ci95": [
+     1.1610415546453818,
+     1.1896678499152082
+    ],
+    "beta_simulated_median": 1.1747697024772608,
+    "beta_simulated_ci95": [
+     1.1314444327350996,
+     1.2186067311775783
+    ],
+    "beta_minus_bayes": 0.10634493593488759,
+    "beta_minus_bayes_ci95": [
+     0.05701361244189356,
+     0.1561702914403793
+    ],
+    "observed_over_bayes_toward_frequent": 1.047234163563282,
+    "observed_over_bayes_ci95": [
+     1.016888152822371,
+     1.0763295689961125
+    ],
+    "dprime_median": 5.199215319435349,
+    "dprime_iqr": [
+     4.70476205024039,
+     5.544187301710319
+    ],
+    "pairs_calibrated_exactly": 980
+   },
+   "free_alpha": {
+    "alpha": 0.932343649208142,
+    "beta": 1.2140866906685766,
+    "alpha_ci95": [
+     0.45840725184963316,
+     1.3235126273907987
+    ],
+    "beta_ci95": [
+     0.7477869848254756,
+     1.5929737059837161
+    ]
+   }
+  },
+  "lookalike_by_domain": {
+   "scene": {
+    "rare_substitutions": 2936,
+    "share": {
+     "ids_any": {
+      "observed": 37.05722070844686,
+      "random_substitute": 8.412806539509535
+     },
+     "ids_jaccard50": {
+      "observed": 6.914168937329699,
+      "random_substitute": 0.2724795640326975
+     },
+     "glyph10": {
+      "observed": 16.82561307901907,
+      "random_substitute": 0.10217983651226158
+     },
+     "glyph50": {
+      "observed": 28.64441416893733,
+      "random_substitute": 1.1920980926430518
+     },
+     "union_paper": {
+      "observed": 44.75476839237057,
+      "random_substitute": 9.264305177111716
+     },
+     "strict": {
+      "observed": 20.095367847411445,
+      "random_substitute": 0.3746594005449591
+     }
+    },
+    "direction_by_group": {
+     "union_paper/lookalike": {
+      "pairs": 422,
+      "errors": 1925.0,
+      "T/E": 2.171217627902811,
+      "beta": 1.2964095642742792
+     },
+     "union_paper/other": {
+      "pairs": 530,
+      "errors": 1966.0,
+      "T/E": 1.8784902199667275,
+      "beta": 1.2314678278978415
+     },
+     "strict/lookalike": {
+      "pairs": 243,
+      "errors": 1191.0,
+      "T/E": 2.1839212475083745,
+      "beta": 1.3247587302263333
+     },
+     "strict/other": {
+      "pairs": 709,
+      "errors": 2700.0,
+      "T/E": 1.9460332636741935,
+      "beta": 1.2376068722625726
+     }
+    }
+   },
+   "web": {
+    "rare_substitutions": 1943,
+    "share": {
+     "ids_any": {
+      "observed": 28.049408131755015,
+      "random_substitute": 7.462686567164178
+     },
+     "ids_jaccard50": {
+      "observed": 5.7128152341739575,
+      "random_substitute": 0.1544004117344313
+     },
+     "glyph10": {
+      "observed": 11.991765311374165,
+      "random_substitute": 0.2573340195573855
+     },
+     "glyph50": {
+      "observed": 20.689655172413794,
+      "random_substitute": 1.3896037056098816
+     },
+     "union_paper": {
+      "observed": 34.32835820895522,
+      "random_substitute": 8.234688625836336
+     },
+     "strict": {
+      "observed": 14.616572310859496,
+      "random_substitute": 0.4117344312918168
+     }
+    },
+    "direction_by_group": {
+     "union_paper/lookalike": {
+      "pairs": 11,
+      "errors": 36.0,
+      "T/E": 2.3978433456832486,
+      "beta": 1.6387978970139758
+     },
+     "union_paper/other": {
+      "pairs": 3
+     },
+     "strict/lookalike": {
+      "pairs": 10,
+      "errors": 33.0,
+      "T/E": 2.518693243051341,
+      "beta": 1.6453100304312092
+     },
+     "strict/other": {
+      "pairs": 4
+     }
+    }
+   },
+   "document": {
+    "rare_substitutions": 624,
+    "share": {
+     "ids_any": {
+      "observed": 69.71153846153845,
+      "random_substitute": 8.173076923076923
+     },
+     "ids_jaccard50": {
+      "observed": 13.301282051282051,
+      "random_substitute": 0.16025641025641024
+     },
+     "glyph10": {
+      "observed": 49.519230769230774,
+      "random_substitute": 0.0
+     },
+     "glyph50": {
+      "observed": 69.23076923076923,
+      "random_substitute": 0.3205128205128205
+     },
+     "union_paper": {
+      "observed": 83.33333333333334,
+      "random_substitute": 8.173076923076923
+     },
+     "strict": {
+      "observed": 52.243589743589745,
+      "random_substitute": 0.16025641025641024
+     }
+    },
+    "direction_by_group": {
+     "union_paper/lookalike": {
+      "pairs": 15,
+      "errors": 47.0,
+      "T/E": 4.7133786831455655,
+      "beta": 1.675600573944257
+     },
+     "union_paper/other": {
+      "pairs": 0
+     },
+     "strict/lookalike": {
+      "pairs": 13,
+      "errors": 40.0,
+      "T/E": 3.961053521720694,
+      "beta": 1.66959962344885
+     },
+     "strict/other": {
+      "pairs": 2
+     }
+    }
+   }
+  }
+ },
+ "attn:aster": {
+  "kind": "attn",
+  "lines": 127013,
+  "direction": {
+   "pairs": 1900,
+   "errors": 8257.0,
+   "T/E": 2.0803996236643463,
+   "T/E_ci95": [
+    2.000151529100182,
+    2.159159296820396
+   ],
+   "pct_toward_frequent": 58.36260142909047,
+   "pct_symmetric": 28.05355315643277,
+   "beta": 1.3249430815458785,
+   "beta_ci95": [
+    1.2844586018879482,
+    1.362809698622109
+   ],
+   "bayes": {
+    "T/E": 1.942828410304605,
+    "T/E_ci95": [
+     1.8878960598352155,
+     2.003169389601316
+    ],
+    "pct_toward_frequent": 54.50324008230801,
+    "beta": 1.1684104238019293,
+    "beta_ci95": [
+     1.1600364040864934,
+     1.1774747736817852
+    ],
+    "beta_simulated_median": 1.1690314468379537,
+    "beta_simulated_ci95": [
+     1.1410309751326027,
+     1.1994787420840807
+    ],
+    "beta_minus_bayes": 0.1565326577439492,
+    "beta_minus_bayes_ci95": [
+     0.11264078699302246,
+     0.19437369669057358
+    ],
+    "observed_over_bayes_toward_frequent": 1.070809759951046,
+    "observed_over_bayes_ci95": [
+     1.0450508256658575,
+     1.0926596164243938
+    ],
+    "dprime_median": 5.199215319435349,
+    "dprime_iqr": [
+     4.70476205024039,
+     5.544187301710319
+    ],
+    "pairs_calibrated_exactly": 1898
+   },
+   "free_alpha": {
+    "alpha": 0.8585042275909768,
+    "beta": 1.1841471117186841,
+    "alpha_ci95": [
+     0.5097715646206955,
+     1.2048591480484099
+    ],
+    "beta_ci95": [
+     0.8454620563778769,
+     1.5175546795533679
+    ]
+   }
+  },
+  "lookalike_by_domain": {
+   "scene": {
+    "rare_substitutions": 3647,
+    "share": {
+     "ids_any": {
+      "observed": 31.861804222648754,
+      "random_substitute": 7.129147244310392
+     },
+     "ids_jaccard50": {
+      "observed": 5.730737592541815,
+      "random_substitute": 0.19193857965451055
+     },
+     "glyph10": {
+      "observed": 13.326021387441733,
+      "random_substitute": 0.19193857965451055
+     },
+     "glyph50": {
+      "observed": 23.224568138195778,
+      "random_substitute": 1.0693720866465588
+     },
+     "union_paper": {
+      "observed": 39.10063065533315,
+      "random_substitute": 7.787222374554428
+     },
+     "strict": {
+      "observed": 16.232519879352893,
+      "random_substitute": 0.3564573622155196
+     }
+    },
+    "direction_by_group": {
+     "union_paper/lookalike": {
+      "pairs": 668,
+      "errors": 3418.0,
+      "T/E": 2.40763148167838,
+      "beta": 1.3948447137555846
+     },
+     "union_paper/other": {
+      "pairs": 1180,
+      "errors": 4660.0,
+      "T/E": 1.867298241674438,
+      "beta": 1.2454098656555128
+     },
+     "strict/lookalike": {
+      "pairs": 352,
+      "errors": 2016.0,
+      "T/E": 2.4443007496174483,
+      "beta": 1.400181935880685
+     },
+     "strict/other": {
+      "pairs": 1496,
+      "errors": 6062.0,
+      "T/E": 1.9712659183636365,
+      "beta": 1.2873964111650702
+     }
+    }
+   },
+   "web": {
+    "rare_substitutions": 2578,
+    "share": {
+     "ids_any": {
+      "observed": 25.756400310318078,
+      "random_substitute": 6.361520558572536
+     },
+     "ids_jaccard50": {
+      "observed": 3.95655546935609,
+      "random_substitute": 0.3491078355314197
+     },
+     "glyph10": {
+      "observed": 8.766485647788985,
+      "random_substitute": 0.23273855702094648
+     },
+     "glyph50": {
+      "observed": 17.64934057408844,
+      "random_substitute": 0.8921644685802949
+     },
+     "union_paper": {
+      "observed": 31.65244375484872,
+      "random_substitute": 6.982156710628394
+     },
+     "strict": {
+      "observed": 11.249030256012412,
+      "random_substitute": 0.5818463925523661
+     }
+    },
+    "direction_by_group": {
+     "union_paper/lookalike": {
+      "pairs": 28,
+      "errors": 99.0,
+      "T/E": 1.9569914829514965,
+      "beta": 1.2192651694272418
+     },
+     "union_paper/other": {
+      "pairs": 9
+     },
+     "strict/lookalike": {
+      "pairs": 20,
+      "errors": 71.0,
+      "T/E": 1.8386754332707818,
+      "beta": 1.1606184316915913
+     },
+     "strict/other": {
+      "pairs": 17,
+      "errors": 56.0,
+      "T/E": 1.982231223026252,
+      "beta": 1.4263363633571504
+     }
+    }
+   },
+   "document": {
+    "rare_substitutions": 608,
+    "share": {
+     "ids_any": {
+      "observed": 66.44736842105263,
+      "random_substitute": 7.401315789473683
+     },
+     "ids_jaccard50": {
+      "observed": 10.69078947368421,
+      "random_substitute": 0.3289473684210526
+     },
+     "glyph10": {
+      "observed": 49.67105263157895,
+      "random_substitute": 0.1644736842105263
+     },
+     "glyph50": {
+      "observed": 69.07894736842105,
+      "random_substitute": 0.8223684210526315
+     },
+     "union_paper": {
+      "observed": 79.60526315789474,
+      "random_substitute": 7.894736842105263
+     },
+     "strict": {
+      "observed": 52.30263157894737,
+      "random_substitute": 0.3289473684210526
+     }
+    },
+    "direction_by_group": {
+     "union_paper/lookalike": {
+      "pairs": 13,
+      "errors": 46.0,
+      "T/E": 2.2972833202445346,
+      "beta": 1.723589357274273
+     },
+     "union_paper/other": {
+      "pairs": 2
+     },
+     "strict/lookalike": {
+      "pairs": 13,
+      "errors": 46.0,
+      "T/E": 2.2972833202445346,
+      "beta": 1.723589357274273
+     },
+     "strict/other": {
+      "pairs": 2
+     }
+    }
+   }
+  }
+ }
+}

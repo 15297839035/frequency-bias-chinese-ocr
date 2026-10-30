@@ -1,0 +1,12 @@
+{
+  "imbalance": 100,
+  "nmax": 500,
+  "classes": 3755,
+  "samples": 403741,
+  "many(>100)": 1308,
+  "medium(20-100)": 1337,
+  "few(<20)": 1110,
+  "min_count": 5,
+  "ordering": "BCTR real-text frequency rank; ties by code point",
+  "seed": 0
+}

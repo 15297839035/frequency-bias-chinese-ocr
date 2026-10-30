@@ -1,0 +1,15 @@
+{
+  "k": 10,
+  "window": 10,
+  "seed": 0,
+  "widened": 0,
+  "slots": 37550,
+  "slots_filled": 37550,
+  "mean_abs_log_count_diff": 0.006808662529588845,
+  "mean_log_count_ugls": 3.9704194649573528,
+  "mean_log_count_rgls": 3.9714373382950603,
+  "lookalike_share_ugls": 1.0,
+  "lookalike_share_rgls": 0.0,
+  "neighbour_rarer_than_class_ugls": 0.4914780292942743,
+  "neighbour_rarer_than_class_rgls": 0.49131824234354193
+}

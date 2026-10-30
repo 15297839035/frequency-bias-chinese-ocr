@@ -1,0 +1,26 @@
+{
+  "nat": {
+    "total": 4624243,
+    "zero_classes": 62,
+    "top100_share": 0.35466842897313144,
+    "top1000_share": 0.8956765464098665
+  },
+  "nat_doc": {
+    "total": 336960,
+    "zero_classes": 468,
+    "top100_share": 0.4534662867996201,
+    "top1000_share": 0.9241363960113959
+  },
+  "nat_scene": {
+    "total": 213620,
+    "zero_classes": 888,
+    "top100_share": 0.3695440501825672,
+    "top1000_share": 0.9150173204756109
+  },
+  "nat_web": {
+    "total": 32038,
+    "zero_classes": 1597,
+    "top100_share": 0.36288157812597543,
+    "top1000_share": 0.91307197702728
+  }
+}

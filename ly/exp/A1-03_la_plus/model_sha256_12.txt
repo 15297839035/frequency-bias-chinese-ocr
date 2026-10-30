@@ -1,0 +1,8 @@
+72e47eb522dc  ly/exp/A1-03_la_plus/la_csls_s0/model.pt
+9a6fe05feb71  ly/exp/A1-03_la_plus/la_csls_s1/model.pt
+a4dcf12733c5  ly/exp/A1-03_la_plus/la_ls_s0/model.pt
+156c04290a8b  ly/exp/A1-03_la_plus/la_ls_s1/model.pt
+d3e1efa1ecee  ly/exp/A1-03_la_plus/la_sals_s0/model.pt
+a51a97047479  ly/exp/A1-03_la_plus/la_sals_s1/model.pt
+4f9233d7f12d  ly/exp/A1-03_la_plus/la_ugls_s0/model.pt
+ad3f00b28548  ly/exp/A1-03_la_plus/la_ugls_s1/model.pt

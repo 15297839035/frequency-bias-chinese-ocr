@@ -1,0 +1,23 @@
+{
+  "classes": 3755,
+  "han_classes": 3755,
+  "fonts": [
+    "/System/Library/AssetsV2/com_apple_MobileAsset_Font8/88d6cc32a907955efa1d014207889413890573be.asset/AssetData/Kaiti.ttc",
+    "/System/Library/Fonts/STHeiti Medium.ttc"
+  ],
+  "k": 50,
+  "feature": "48px render, blur 1.5, 24x24, mean-centred cosine, averaged over fonts",
+  "examples_top10": {
+    "未": "末朱来米束秉宋豪柬隶",
+    "末": "未朱来米宋束求床东秉",
+    "己": "已巳巴乙迅邑愿恳恶区",
+    "已": "己巳巴迅乙邑愿恳迁区",
+    "侍": "恃诗待持传傍倚情债椅",
+    "狐": "孤弧瓢抓瓤振猿藤臃舔",
+    "瞻": "赡瞳睛赚髓睹赣臃睫赔",
+    "口": "曰皿田肄辩订饵樟群日",
+    "日": "目母百自员籍只丹盲舞",
+    "土": "上玉王出大士太正至虫",
+    "士": "壬击圭全土去金十奎垂"
+  }
+}

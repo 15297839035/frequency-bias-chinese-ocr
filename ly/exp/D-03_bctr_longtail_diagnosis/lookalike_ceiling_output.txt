@@ -1,0 +1,15 @@
+
+=== scene (GTC seed48) ===
+lines with a <100-count char: n=3197, acc=58.46%, +all-look-alike-errors-fixed -> 73.60%, +only-rare-target look-alike errors fixed -> 69.78%
+all lines: n=63120, acc=77.08%, +all-look-alike-errors-fixed -> 80.52%, +only-rare-target look-alike errors fixed -> 77.65%
+substitutions whose reference char has <100 train count: 975; look-alike: 60.5%; look-alike AND predicted char more frequent: 58.2%
+
+=== web (GTC seed48) ===
+lines with a <100-count char: n=636, acc=66.19%, +all-look-alike-errors-fixed -> 79.40%, +only-rare-target look-alike errors fixed -> 77.04%
+all lines: n=13893, acc=78.17%, +all-look-alike-errors-fixed -> 80.03%, +only-rare-target look-alike errors fixed -> 78.67%
+substitutions whose reference char has <100 train count: 157; look-alike: 58.6%; look-alike AND predicted char more frequent: 58.0%
+
+=== document (GTC seed48) ===
+lines with a <100-count char: n=3837, acc=96.12%, +all-look-alike-errors-fixed -> 98.80%, +only-rare-target look-alike errors fixed -> 98.46%
+all lines: n=50000, acc=99.13%, +all-look-alike-errors-fixed -> 99.43%, +only-rare-target look-alike errors fixed -> 99.31%
+substitutions whose reference char has <100 train count: 122; look-alike: 79.5%; look-alike AND predicted char more frequent: 74.6%

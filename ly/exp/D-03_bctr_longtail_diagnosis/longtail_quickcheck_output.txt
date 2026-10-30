@@ -1,0 +1,33 @@
+
+=== scene ===
+bucket(train count) | share of test Han chars % | gtc recall % | b recall % | share of gtc char errors %
+0 | 0.02 | 0.00 | 0.00 | 0.19
+1-9 | 0.14 | 39.93 | 41.25 | 1.04
+10-99 | 1.57 | 74.36 | 74.09 | 4.89
+100-999 | 13.36 | 87.15 | 87.46 | 20.84
+>=1000 | 84.91 | 92.92 | 93.01 | 73.05
+lines has<100: n=3197 | gtc line acc 58.46% | b line acc 59.12%
+lines all>=100: n=59923 | gtc line acc 78.07% | b line acc 78.52%
+gtc Han substitutions (both chars in IDS table): 14171; share >=1 component: 28.0% (frequency-matched random pairs: 5.8%)
+
+=== web ===
+bucket(train count) | share of test Han chars % | gtc recall % | b recall % | share of gtc char errors %
+0 | 0.03 | 0.00 | 0.00 | 0.47
+1-9 | 0.27 | 32.14 | 30.95 | 2.99
+10-99 | 2.12 | 83.21 | 85.17 | 5.81
+100-999 | 16.39 | 91.97 | 91.76 | 21.48
+>=1000 | 81.19 | 94.77 | 94.92 | 69.25
+lines has<100: n=636 | gtc line acc 66.19% | b line acc 67.45%
+lines all>=100: n=13257 | gtc line acc 78.74% | b line acc 78.72%
+gtc Han substitutions (both chars in IDS table): 1361; share >=1 component: 30.6% (frequency-matched random pairs: 6.5%)
+
+=== document ===
+bucket(train count) | share of test Han chars % | gtc recall % | b recall % | share of gtc char errors %
+0 | 0.00 | 0.00 | 0.00 | 5.05
+1-9 | 0.12 | 87.44 | 89.23 | 17.69
+10-99 | 1.27 | 98.60 | 99.04 | 21.66
+100-999 | 9.42 | 99.80 | 99.79 | 23.10
+>=1000 | 89.19 | 99.97 | 99.97 | 32.49
+lines has<100: n=3837 | gtc line acc 96.12% | b line acc 96.74%
+lines all>=100: n=46163 | gtc line acc 99.38% | b line acc 99.35%
+gtc Han substitutions (both chars in IDS table): 271; share >=1 component: 66.4% (frequency-matched random pairs: 4.4%)

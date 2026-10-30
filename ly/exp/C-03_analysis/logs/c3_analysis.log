@@ -1,0 +1,274 @@
+done gtc val
+done gtc test
+done b val
+done b test
+{
+ "gtc_val": {
+  "lines": 127041,
+  "a_recall": {
+   "B0": {
+    "0": {
+     "n": 60,
+     "recall": 0.0
+    },
+    "1-9": {
+     "n": 826,
+     "recall": 61.13801452784504
+    },
+    "10-99": {
+     "n": 8308,
+     "recall": 87.51805488685605
+    },
+    "100-999": {
+     "n": 65745,
+     "recall": 93.75161609247851
+    },
+    ">=1000": {
+     "n": 508184,
+     "recall": 97.20809785432048
+    }
+   },
+   "G*": {
+    "0": {
+     "n": 60,
+     "recall": 0.0
+    },
+    "1-9": {
+     "n": 826,
+     "recall": 64.28571428571429
+    },
+    "10-99": {
+     "n": 8308,
+     "recall": 88.79393355801636
+    },
+    "100-999": {
+     "n": 65745,
+     "recall": 94.1014525819454
+    },
+    ">=1000": {
+     "n": 508184,
+     "recall": 97.12741841537711
+    }
+   }
+  },
+  "b_decomposition_B0": {
+   "rare_ref": {
+    "n": 1268,
+    "lookalike/to_more_frequent": 67.58675078864353,
+    "lookalike/to_less_frequent": 2.6813880126182967,
+    "lookalike/equal": 0.0,
+    "other/to_more_frequent": 29.41640378548896,
+    "other/to_less_frequent": 0.31545741324921134,
+    "other/equal": 0.0
+   },
+   "common_ref": {
+    "n": 14284,
+    "lookalike/to_more_frequent": 19.02128255390647,
+    "lookalike/to_less_frequent": 16.115933912069448,
+    "lookalike/equal": 0.0,
+    "other/to_more_frequent": 35.83730047605712,
+    "other/to_less_frequent": 29.01148137776533,
+    "other/equal": 0.014001680201624195
+   }
+  },
+  "c_asymmetry_B0": {
+   "all": {
+    "pairs": 442,
+    "spearman_rho": 0.8927643292079811,
+    "rho_ci95": [
+     0.8643159156352244,
+     0.9131730483476599
+    ],
+    "ols_slope": 1.0671657554360305,
+    "pct_errors_flow_to_more_frequent": 85.97285067873304
+   },
+   "lookalike": {
+    "pairs": 326,
+    "spearman_rho": 0.9196432452558979,
+    "rho_ci95": [
+     0.89459482792212,
+     0.9381315489823397
+    ],
+    "ols_slope": 1.093132659338674,
+    "pct_errors_flow_to_more_frequent": 86.80981595092024
+   },
+   "other": {
+    "pairs": 116,
+    "spearman_rho": 0.770599315726752,
+    "rho_ci95": [
+     0.6681101756813902,
+     0.8386512512974282
+    ],
+    "ols_slope": 0.8993172594667546,
+    "pct_errors_flow_to_more_frequent": 83.62068965517241
+   }
+  },
+  "d_gstar_changes": {
+   "removed": {
+    "rare_ref": {
+     "n": 208,
+     "lookalike/to_more_frequent": 68.26923076923077,
+     "lookalike/to_less_frequent": 0.0,
+     "lookalike/equal": 0.0,
+     "other/to_more_frequent": 31.73076923076923,
+     "other/to_less_frequent": 0.0,
+     "other/equal": 0.0
+    },
+    "common_ref": {
+     "n": 1518,
+     "lookalike/to_more_frequent": 26.284584980237153,
+     "lookalike/to_less_frequent": 4.084321475625823,
+     "lookalike/equal": 0.0,
+     "other/to_more_frequent": 54.21607378129117,
+     "other/to_less_frequent": 15.41501976284585,
+     "other/equal": 0.0
+    }
+   },
+   "introduced": {
+    "rare_ref": {
+     "n": 80,
+     "lookalike/to_more_frequent": 41.25,
+     "lookalike/to_less_frequent": 8.75,
+     "lookalike/equal": 0.0,
+     "other/to_more_frequent": 46.25,
+     "other/to_less_frequent": 2.5,
+     "other/equal": 1.25
+    },
+    "common_ref": {
+     "n": 1751,
+     "lookalike/to_more_frequent": 4.22615648201028,
+     "lookalike/to_less_frequent": 31.29640205596802,
+     "lookalike/equal": 0.0,
+     "other/to_more_frequent": 10.793832095945174,
+     "other/to_less_frequent": 53.626499143346656,
+     "other/equal": 0.05711022272986865
+    }
+   },
+   "removed_n": 2205,
+   "introduced_n": 2366
+  },
+  "e_overproduction": {
+   "B0": {
+    "chars": 3566,
+    "slope": 0.014635489937649121,
+    "slope_ci95": [
+     0.01166438572980473,
+     0.017891996570725592
+    ]
+   },
+   "G*": {
+    "chars": 3582,
+    "slope": 0.0032180816937189562,
+    "slope_ci95": [
+     -4.2951024546245864e-05,
+     0.00650891216980424
+    ]
+   },
+   "reference_check": {
+    "chars": 3554,
+    "slope": 0.0,
+    "slope_ci95": [
+     0.0,
+     0.0
+    ]
+   }
+  }
+ },
+ "b_val": {
+  "lines": 127041,
+  "a_recall": {
+   "B0": {
+    "0": {
+     "n": 60,
+     "recall": 0.0
+    },
+    "1-9": {
+     "n": 826,
+     "recall": 65.2542372881356
+    },
+    "10-99": {
+     "n": 8308,
+     "recall": 87.50601829561869
+    },
+    "100-999": {
+     "n": 65745,
+     "recall": 93.79116282607042
+    },
+    ">=1000": {
+     "n": 508184,
+     "recall": 97.2307274530485
+    }
+   },
+   "G*": {
+    "0": {
+     "n": 60,
+     "recall": 0.0
+    },
+    "1-9": {
+     "n": 826,
+     "recall": 67.79661016949153
+    },
+    "10-99": {
+     "n": 8308,
+     "recall": 88.73375060182956
+    },
+    "100-999": {
+     "n": 65745,
+     "recall": 94.1303521180318
+    },
+    ">=1000": {
+     "n": 508184,
+     "recall": 97.16342899422257
+    }
+   }
+  },
+  "b_decomposition_B0": {
+   "rare_ref": {
+    "n": 1238,
+    "lookalike/to_more_frequent": 65.50888529886915,
+    "lookalike/to_less_frequent": 2.504038772213247,
+    "lookalike/equal": 0.0,
+    "other/to_more_frequent": 31.663974151857836,
+    "other/to_less_frequent": 0.32310177705977383,
+    "other/equal": 0.0
+   },
+   "common_ref": {
+    "n": 13825,
+    "lookalike/to_more_frequent": 19.443037974683545,
+    "lookalike/to_less_frequent": 16.556962025316455,
+    "lookalike/equal": 0.0,
+    "other/to_more_frequent": 35.66726943942134,
+    "other/to_less_frequent": 28.33273056057866,
+    "other/equal": 0.0
+   }
+  },
+  "c_asymmetry_B0": {
+   "all": {
+    "pairs": 415,
+    "spearman_rho": 0.8997518502102055,
+    "rho_ci95": [
+     0.8737399850237068,
+     0.9207597152825349
+    ],
+    "ols_slope": 1.090328585040957,
+    "pct_errors_flow_to_more_frequent": 84.57831325301206
+   },
+   "lookalike": {
+    "pairs": 312,
+    "spearman_rho": 0.9253191924827276,
+    "rho_ci95": [
+     0.8997473051280208,
+     0.942353792181335
+    ],
+    "ols_slope": 1.1008227364375924,
+    "pct_errors_flow_to_more_frequent": 87.17948717948718
+   },
+   "other": {
+    "pairs": 103,
+    "spearman_rho": 0.7803892281333744,
+    "rho_ci95": [
+     0.6844281289812416,
+     0.8523302618284059
+    ],
+    "ols_slope": 1.0141314165742072,
+    "pct_errors_flow_to_more_frequent": 7

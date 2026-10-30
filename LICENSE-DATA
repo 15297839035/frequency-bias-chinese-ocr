@@ -1,0 +1,11 @@
+The derived data in this repository (HWDB split indices, split summaries,
+aggregate experiment results, and the BCTR character-frequency table) are
+released under the Creative Commons Attribution 4.0 International licence
+(CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+You are free to share and adapt these data for any purpose, provided that
+appropriate credit is given, a link to the licence is included, and any
+changes are indicated.
+
+This licence does not apply to the upstream datasets (BCTR, CASIA-HWDB,
+ICDAR 2013) or to third-party code, which remain under their original terms.

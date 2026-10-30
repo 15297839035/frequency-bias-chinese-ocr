@@ -1,0 +1,2 @@
+fbf8fc54a196  openocr_repsvtr_ch.pth
+3be361b72dc5  openocr_svtrv2_ch.pth

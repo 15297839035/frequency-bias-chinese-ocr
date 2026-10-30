@@ -1,0 +1,50 @@
+{
+ "svtrv2_ch": {
+  "selected": {
+   "method": "G",
+   "tau": 0.3,
+   "k": 0,
+   "gamma": 0.9
+  },
+  "n_rare": 7670,
+  "cfg": {
+   "method": "G",
+   "tau": 0.3,
+   "k": 0,
+   "gamma": 0.9
+  },
+  "acc": 77.7117302953241,
+  "rare_acc": 66.76662320730118,
+  "nonrare_acc": 78.41515631415332,
+  "cer": 9.580995428096426,
+  "rare_gain": 1.1864406779661039,
+  "acc_change": -0.06692228354577878,
+  "rare_fixed": 117,
+  "rare_broken": 26,
+  "rare_mcnemar_p": 5.5186376138481705e-15
+ },
+ "repsvtr_ch": {
+  "selected": {
+   "method": "G",
+   "tau": 0.2,
+   "k": 0,
+   "gamma": 0.9
+  },
+  "n_rare": 7670,
+  "cfg": {
+   "method": "G",
+   "tau": 0.2,
+   "k": 0,
+   "gamma": 0.9
+  },
+  "acc": 74.92225205293947,
+  "rare_acc": 65.42372881355932,
+  "nonrare_acc": 75.53270824430423,
+  "cer": 10.860738778054863,
+  "rare_gain": 1.382007822685793,
+  "acc_change": 0.028343555384097385,
+  "rare_fixed": 128,
+  "rare_broken": 22,
+  "rare_mcnemar_p": 2.222091261606936e-19
+ }
+}

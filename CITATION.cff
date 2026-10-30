@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper and this repository."
+title: "Frequency, not shape, decides how Chinese text recognizers misread rare characters"
+authors:
+  - family-names: Zhang
+    given-names: Heyu
+    affiliation: "School of Software, Jiangxi Normal University"
+  - family-names: Liu
+    given-names: Jin
+    affiliation: "School of Software, Jiangxi Normal University"
+year: 2026
+journal: "Pattern Recognition Letters"
+keywords:
+  - Chinese text recognition
+  - long-tailed recognition
+  - logit adjustment
+  - label prior
+  - CTC
+  - evaluation protocol

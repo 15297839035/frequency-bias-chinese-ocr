@@ -1,0 +1,262 @@
+{
+ "pairs_analysed": 54,
+ "pairs_dropped_exposure": 0,
+ "x_mean": {
+  "nat": 1.1613369311191213,
+  "rev": -1.1613346087940237,
+  "bal": -1.572874455080452e-05
+ },
+ "test": {
+  "per_model": {
+   "crnn_s1": {
+    "arm": "nat",
+    "acc": 71.64857140607654,
+    "rare_acc": 62.633637548891784,
+    "target_line_acc": 63.421846710923354,
+    "target_lines": 16570,
+    "recall_high": 78.15591063152797,
+    "recall_low": 74.31693989071039,
+    "pair_errors": 120.0,
+    "to_high": 77.0
+   },
+   "crnn_s2": {
+    "arm": "nat",
+    "acc": 71.52968593765992,
+    "rare_acc": 61.51238591916558,
+    "target_line_acc": 63.05371152685576,
+    "target_lines": 16570,
+    "recall_high": 78.57785155979802,
+    "recall_low": 74.84061930783243,
+    "pair_errors": 108.0,
+    "to_high": 72.0
+   },
+   "rev_s1": {
+    "arm": "rev",
+    "acc": 71.1793281002732,
+    "rare_acc": 62.03389830508475,
+    "target_line_acc": 61.1768255884128,
+    "target_lines": 16570,
+    "recall_high": 72.89894168914712,
+    "recall_low": 77.68670309653916,
+    "pair_errors": 247.0,
+    "to_high": 20.0
+   },
+   "rev_s2": {
+    "arm": "rev",
+    "acc": 71.34387818569753,
+    "rare_acc": 61.83833116036506,
+    "target_line_acc": 61.56306578153289,
+    "target_lines": 16570,
+    "recall_high": 73.28629729542781,
+    "recall_low": 78.89344262295081,
+    "pair_errors": 250.0,
+    "to_high": 24.0
+   },
+   "bal_s1": {
+    "arm": "bal",
+    "acc": 72.12253863777724,
+    "rare_acc": 63.259452411994786,
+    "target_line_acc": 63.18648159324079,
+    "target_lines": 16570,
+    "recall_high": 75.9493670886076,
+    "recall_low": 77.18579234972678,
+    "pair_errors": 151.0,
+    "to_high": 50.0
+   },
+   "bal_s2": {
+    "arm": "bal",
+    "acc": 71.79028918299701,
+    "rare_acc": 62.98565840938723,
+    "target_line_acc": 62.67350633675317,
+    "target_lines": 16570,
+    "recall_high": 75.54817735353116,
+    "recall_low": 77.0264116575592,
+    "pair_errors": 157.0,
+    "to_high": 47.0
+   }
+  },
+  "occurrences_total": 18849,
+  "pooled": {
+   "nat": {
+    "errors": 228.0,
+    "to_high": 149.0,
+    "expected_to_high": 46.252381614085664,
+    "D": 3.2214557348247697,
+    "log_D_ci95": [
+     0.914328299463204,
+     1.3750405701971264
+    ]
+   },
+   "rev": {
+    "errors": 497.0,
+    "to_high": 44.0,
+    "expected_to_high": 91.63835352584375,
+    "D": 0.48014830370769557,
+    "log_D_ci95": [
+     -1.1909270109461512,
+     -0.4018222323314091
+    ]
+   },
+   "bal": {
+    "errors": 308.0,
+    "to_high": 97.0,
+    "expected_to_high": 58.85308315022734,
+    "D": 1.6481719360802136,
+    "log_D_ci95": [
+     0.22604290952257897,
+     0.7068770368401661
+    ]
+   }
+  },
+  "log_D_nat_minus_rev_ci95": [
+   1.6455558271962785,
+   2.2427031087658134
+  ],
+  "log_D_nat_minus_bal_ci95": [
+   0.5238126583294367,
+   0.8277600671280327
+  ],
+  "beta_own_exposure": {
+   "estimate": 1.145910290652667,
+   "ci95": [
+    0.9775857124309877,
+    1.3768309837293085
+   ]
+  },
+  "secondary_both_ge3": {
+   "pairs": 22,
+   "nat": 0.6666666666666666,
+   "rev": 0.09090909090909091,
+   "bal": 0.3193916349809886
+  }
+ },
+ "val": {
+  "per_model": {
+   "crnn_s1": {
+    "arm": "nat",
+    "acc": 71.68473170078951,
+    "rare_acc": 61.99147617202635,
+    "target_line_acc": 62.83585735222277,
+    "target_lines": 16376,
+    "recall_high": 77.92670157068063,
+    "recall_low": 74.86238532110092,
+    "pair_errors": 186.0,
+    "to_high": 109.0
+   },
+   "crnn_s2": {
+    "arm": "nat",
+    "acc": 71.58397682637889,
+    "rare_acc": 61.59111455508201,
+    "target_line_acc": 62.93966780654616,
+    "target_lines": 16376,
+    "recall_high": 78.35253054101221,
+    "recall_low": 75.45871559633028,
+    "pair_errors": 181.0,
+    "to_high": 119.0
+   },
+   "rev_s1": {
+    "arm": "rev",
+    "acc": 71.42654733511229,
+    "rare_acc": 61.24241250161436,
+    "target_line_acc": 61.242061553492924,
+    "target_lines": 16376,
+    "recall_high": 73.13089005235602,
+    "recall_low": 79.15137614678899,
+    "pair_errors": 269.0,
+    "to_high": 38.0
+   },
+   "rev_s2": {
+    "arm": "rev",
+    "acc": 71.42339874528696,
+    "rare_acc": 61.56528477334366,
+    "target_line_acc": 61.51074743527113,
+    "target_lines": 16376,
+    "recall_high": 73.76614310645724,
+    "recall_low": 79.24311926605505,
+    "pair_errors": 254.0,
+    "to_high": 40.0
+   },
+   "bal_s1": {
+    "arm": "bal",
+    "acc": 72.18220889319196,
+    "rare_acc": 62.766369624176676,
+    "target_line_acc": 63.02515876893015,
+    "target_lines": 16376,
+    "recall_high": 76.00698080279233,
+    "recall_low": 77.68348623853211,
+    "pair_errors": 186.0,
+    "to_high": 57.0
+   },
+   "bal_s2": {
+    "arm": "bal",
+    "acc": 71.87600853267843,
+    "rare_acc": 62.24977398940978,
+    "target_line_acc": 62.7076209086468,
+    "target_lines": 16376,
+    "recall_high": 75.63001745200698,
+    "recall_low": 77.63761467889908,
+    "pair_errors": 195.0,
+    "to_high": 64.0
+   }
+  },
+  "occurrences_total": 18685,
+  "pooled": {
+   "nat": {
+    "errors": 367.0,
+    "to_high": 228.0,
+    "expected_to_high": 82.84651711573899,
+    "D": 2.7520770689910523,
+    "log_D_ci95": [
+     0.8014989581611766,
+     1.175007113407483
+    ]
+   },
+   "rev": {
+    "errors": 523.0,
+    "to_high": 78.0,
+    "expected_to_high": 105.11352794155995,
+    "D": 0.7420548194649667,
+    "log_D_ci95": [
+     -0.5990390549304582,
+     -0.028817677945464897
+    ]
+   },
+   "bal": {
+    "errors": 381.0,
+    "to_high": 121.0,
+    "expected_to_high": 79.8973052373643,
+    "D": 1.5144440684266516,
+    "log_D_ci95": [
+     0.20729068058308764,
+     0.5927126510982501
+    ]
+   }
+  },
+  "log_D_nat_minus_rev_ci95": [
+   1.0145468701052134,
+   1.5926861580559926
+  ],
+  "log_D_nat_minus_bal_ci95": [
+   0.4313539476652255,
+   0.7642563997837695
+  ],
+  "beta_own_exposure": {
+   "estimate": 1.0450053684107432,
+   "ci95": [
+    0.868697898881677,
+    1.224399511669666
+   ]
+  },
+  "secondary_both_ge3": {
+   "pairs": 44,
+   "nat": 0.6295180722891566,
+   "rev": 0.14814814814814814,
+   "bal": 0.3114754098360656
+  }
+ },
+ "criteria": {
+  "F1_flip": true,
+  "F2_dose": true,
+  "F3_beta_own_exposure": true
+ }
+}

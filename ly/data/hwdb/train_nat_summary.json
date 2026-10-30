@@ -1,0 +1,17 @@
+{
+  "profile": "BCTR frequency, clipped",
+  "scale_s": 0.14064801178203243,
+  "nmin": 2,
+  "nmax": 500,
+  "total_target": 403741,
+  "samples": 403741,
+  "classes": 3755,
+  "at_cap": 334,
+  "at_floor": 583,
+  "many(>100)": 1084,
+  "medium(20-100)": 1010,
+  "few(<20)": 1661,
+  "min_count": 2,
+  "max_count": 500,
+  "seed": 0
+}

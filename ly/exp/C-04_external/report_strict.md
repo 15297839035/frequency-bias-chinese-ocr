@@ -1,0 +1,34 @@
+## off_T (strict normalisation)
+- val B0 acc 72.671 rare 59.383; selected {'method': 'G', 'tau': 0.2, 'k': 0, 'gamma': 0.9}
+- test B0: acc 72.702 rare 59.074 | domains scene 70.87, web 74.62, document 74.48
+- test G_selected: acc 72.665 (-0.037) rare 60.000 (+0.926), fixed/broken 89/18, p=1.8e-12
+- test G*: acc 72.665 (-0.037) rare 60.000 (+0.926), fixed/broken 89/18, p=1.8e-12
+- val direction: pairs 451, obs 55.0% vs sym 23.2%, T/E 2.37, z 37.1, beta 1.093 [1.042, 1.153]
+- val over-production slope B0 0.0149 [0.0115, 0.0184], G* 0.0034
+- test direction: pairs 450, obs 55.7% vs sym 23.9%, T/E 2.33, z 36.1, beta 1.137 [1.080, 1.203]
+- test over-production slope B0 0.0162 [0.0130, 0.0196], G* 0.0063
+- criteria: (i) True  (ii) True  (iii) True
+
+## off_S (strict normalisation)
+- val B0 acc 74.389 rare 60.868; selected {'method': 'G', 'tau': 0.3, 'k': 0, 'gamma': 0.9}
+- test B0: acc 74.613 rare 61.121 | domains scene 74.13, web 76.86, document 74.60
+- test G_selected: acc 74.522 (-0.091) rare 62.269 (+1.147), fixed/broken 102/14, p=1.1e-17
+- test G*: acc 74.588 (-0.025) rare 62.008 (+0.887), fixed/broken 76/8, p=5e-15
+- val direction: pairs 399, obs 52.7% vs sym 23.2%, T/E 2.27, z 32.1, beta 1.070 [1.016, 1.127]
+- val over-production slope B0 0.0144 [0.0112, 0.0179], G* 0.0056
+- test direction: pairs 394, obs 57.8% vs sym 23.5%, T/E 2.46, z 36.3, beta 1.151 [1.088, 1.216]
+- test over-production slope B0 0.0152 [0.0120, 0.0187], G* 0.0074
+- criteria: (i) True  (ii) True  (iii) True
+
+## off_B (strict normalisation)
+- val B0 acc 75.957 rare 63.102; selected {'method': 'G', 'tau': 0.2, 'k': 0, 'gamma': 0.9}
+- test B0: acc 76.111 rare 62.934 | domains scene 76.58, web 78.94, document 74.73
+- test G_selected: acc 76.099 (-0.012) rare 63.638 (+0.704), fixed/broken 63/9, p=4.2e-11
+- test G*: acc 76.099 (-0.012) rare 63.638 (+0.704), fixed/broken 63/9, p=4.2e-11
+- val direction: pairs 311, obs 54.5% vs sym 21.6%, T/E 2.52, z 32.7, beta 1.090 [1.032, 1.146]
+- val over-production slope B0 0.0121 [0.0087, 0.0155], G* 0.0041
+- test direction: pairs 328, obs 56.0% vs sym 22.6%, T/E 2.48, z 33.2, beta 1.095 [1.043, 1.152]
+- test over-production slope B0 0.0121 [0.0089, 0.0153], G* 0.0050
+- criteria: (i) True  (ii) True  (iii) True
+
+**External validation passed (all models, all criteria): True**

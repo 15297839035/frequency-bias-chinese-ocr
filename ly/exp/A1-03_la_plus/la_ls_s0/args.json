@@ -1,0 +1,20 @@
+{
+  "cmd": "train",
+  "data": "ly/data/hwdb",
+  "split": "lt100",
+  "loss": "la_ls",
+  "seed": 0,
+  "out": "ly/exp/A1-03_la_plus/la_ls_s0",
+  "device": "cuda",
+  "epochs": 30,
+  "bs": 512,
+  "lr": 0.2,
+  "wd": 0.0005,
+  "eps": 0.1,
+  "eps_min": 0.05,
+  "eps_max": 0.2,
+  "k": 10,
+  "neighbors": null,
+  "glyph_neighbors": null,
+  "val_size": 50000
+}

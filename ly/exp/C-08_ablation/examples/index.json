@@ -1,0 +1,4408 @@
+{
+ "fixed": {
+  "available": 109,
+  "entries": [
+   {
+    "k": 0,
+    "sample_id": "scene_test:000032379",
+    "target": "琰成",
+    "B0": "璞成",
+    "Gstar": "琰成",
+    "B0_substitutions": [
+     [
+      "琰",
+      "璞",
+      3,
+      22
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 1,
+    "sample_id": "scene_test:000005035",
+    "target": "賓館",
+    "B0": "賓信",
+    "Gstar": "賓館",
+    "B0_substitutions": [
+     [
+      "館",
+      "信",
+      167,
+      6252
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 2,
+    "sample_id": "scene_test:000006327",
+    "target": "暮",
+    "B0": "春",
+    "Gstar": "暮",
+    "B0_substitutions": [
+     [
+      "暮",
+      "春",
+      23,
+      2472
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 3,
+    "sample_id": "scene_test:000007964",
+    "target": "骄",
+    "B0": "桥",
+    "Gstar": "骄",
+    "B0_substitutions": [
+     [
+      "骄",
+      "桥",
+      65,
+      2737
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 4,
+    "sample_id": "scene_test:000011850",
+    "target": "闽",
+    "B0": "强",
+    "Gstar": "闽",
+    "B0_substitutions": [
+     [
+      "闽",
+      "强",
+      91,
+      3153
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 5,
+    "sample_id": "scene_test:000049923",
+    "target": "廠",
+    "B0": "盛",
+    "Gstar": "廠",
+    "B0_substitutions": [
+     [
+      "廠",
+      "盛",
+      17,
+      1658
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 6,
+    "sample_id": "scene_test:000040751",
+    "target": "鑫淼房产",
+    "B0": "高淼房产",
+    "Gstar": "鑫淼房产",
+    "B0_substitutions": [
+     [
+      "鑫",
+      "高",
+      1121,
+      8599
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 7,
+    "sample_id": "scene_test:000046954",
+    "target": "雲軒",
+    "B0": "雲擀",
+    "Gstar": "雲軒",
+    "B0_substitutions": [
+     [
+      "軒",
+      "擀",
+      52,
+      220
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 8,
+    "sample_id": "scene_test:000014752",
+    "target": "老字號",
+    "B0": "老字院",
+    "Gstar": "老字號",
+    "B0_substitutions": [
+     [
+      "號",
+      "院",
+      88,
+      4405
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 9,
+    "sample_id": "scene_test:000011657",
+    "target": "啃吧",
+    "B0": "晴吧",
+    "Gstar": "啃吧",
+    "B0_substitutions": [
+     [
+      "啃",
+      "晴",
+      40,
+      126
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 10,
+    "sample_id": "scene_test:000034891",
+    "target": "青塔蔚园",
+    "B0": "青塔厨园",
+    "Gstar": "青塔蔚园",
+    "B0_substitutions": [
+     [
+      "蔚",
+      "厨",
+      28,
+      958
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 11,
+    "sample_id": "scene_test:000034603",
+    "target": "妍美妆",
+    "B0": "研美妆",
+    "Gstar": "妍美妆",
+    "B0_substitutions": [
+     [
+      "妍",
+      "研",
+      64,
+      1450
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 12,
+    "sample_id": "scene_test:000033696",
+    "target": "泸粤菜",
+    "B0": "沪粤菜",
+    "Gstar": "泸粤菜",
+    "B0_substitutions": [
+     [
+      "泸",
+      "沪",
+      72,
+      277
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 13,
+    "sample_id": "scene_test:000042851",
+    "target": "庸仔",
+    "B0": "庸子",
+    "Gstar": "庸仔",
+    "B0_substitutions": [
+     [
+      "仔",
+      "子",
+      656,
+      13398
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 14,
+    "sample_id": "scene_test:000007038",
+    "target": "陆威昂驰",
+    "B0": "陆威品驰",
+    "Gstar": "陆威昂驰",
+    "B0_substitutions": [
+     [
+      "昂",
+      "品",
+      99,
+      16206
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 15,
+    "sample_id": "scene_test:000054195",
+    "target": "赵登禹路",
+    "B0": "赵登男路",
+    "Gstar": "赵登禹路",
+    "B0_substitutions": [
+     [
+      "禹",
+      "男",
+      53,
+      2068
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 16,
+    "sample_id": "scene_test:000050892",
+    "target": "雏牧香",
+    "B0": "维牧香",
+    "Gstar": "雏牧香",
+    "B0_substitutions": [
+     [
+      "雏",
+      "维",
+      7,
+      3338
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 17,
+    "sample_id": "scene_test:000061224",
+    "target": "覃总名车",
+    "B0": "谭总名车",
+    "Gstar": "覃总名车",
+    "B0_substitutions": [
+     [
+      "覃",
+      "谭",
+      7,
+      54
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 18,
+    "sample_id": "scene_test:000049385",
+    "target": "莲娜姬",
+    "B0": "莲娜姐",
+    "Gstar": "莲娜姬",
+    "B0_substitutions": [
+     [
+      "姬",
+      "姐",
+      52,
+      702
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 19,
+    "sample_id": "scene_test:000021933",
+    "target": "天蓬饲料店",
+    "B0": "天莲饲料店",
+    "Gstar": "天蓬饲料店",
+    "B0_substitutions": [
+     [
+      "蓬",
+      "莲",
+      238,
+      426
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 20,
+    "sample_id": "scene_test:000020262",
+    "target": "璐兵冷饮",
+    "B0": "酷兵冷饮",
+    "Gstar": "璐兵冷饮",
+    "B0_substitutions": [
+     [
+      "璐",
+      "酷",
+      54,
+      466
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 21,
+    "sample_id": "scene_test:000018823",
+    "target": "磨出來的自然香",
+    "B0": "磨出来的自然香",
+    "Gstar": "磨出來的自然香",
+    "B0_substitutions": [
+     [
+      "來",
+      "来",
+      61,
+      13192
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 22,
+    "sample_id": "scene_test:000019584",
+    "target": "八角锄烧",
+    "B0": "八角钟烧",
+    "Gstar": "八角锄烧",
+    "B0_substitutions": [
+     [
+      "锄",
+      "钟",
+      6,
+      1055
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 23,
+    "sample_id": "scene_test:000014026",
+    "target": "電話：1897621",
+    "B0": "電话：1897621",
+    "Gstar": "電話：1897621",
+    "B0_substitutions": [
+     [
+      "話",
+      "话",
+      11,
+      15132
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 24,
+    "sample_id": "scene_test:000018905",
+    "target": "耕喜台灣水果茶",
+    "B0": "耕喜台湾水果茶",
+    "Gstar": "耕喜台灣水果茶",
+    "B0_substitutions": [
+     [
+      "灣",
+      "湾",
+      57,
+      1355
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 25,
+    "sample_id": "scene_test:000001945",
+    "target": "郴州龙宇二手名车城",
+    "B0": "郴州龙字二手名车城",
+    "Gstar": "郴州龙宇二手名车城",
+    "B0_substitutions": [
+     [
+      "宇",
+      "字",
+      846,
+      4412
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 26,
+    "sample_id": "scene_test:000001207",
+    "target": "师对偏头痛，丛集性头",
+    "B0": "师对偏头痛，从集性头",
+    "Gstar": "师对偏头痛，丛集性头",
+    "B0_substitutions": [
+     [
+      "丛",
+      "从",
+      99,
+      3349
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 27,
+    "sample_id": "scene_test:000057019",
+    "target": "业刨槽剪折屏风制作",
+    "B0": "业创槽剪折屏风制作",
+    "Gstar": "业刨槽剪折屏风制作",
+    "B0_substitutions": [
+     [
+      "刨",
+      "创",
+      22,
+      3425
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 28,
+    "sample_id": "scene_test:000021648",
+    "target": "地衬映勾勒出来，可谓精炼之笔。",
+    "B0": "地对映勾勒出来，可谓精炼之笔。",
+    "Gstar": "地衬映勾勒出来，可谓精炼之笔。",
+    "B0_substitutions": [
+     [
+      "衬",
+      "对",
+      63,
+      8066
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 29,
+    "sample_id": "web_test:000005725",
+    "target": "火焰紊乱",
+    "B0": "火焰素乱",
+    "Gstar": "火焰紊乱",
+    "B0_substitutions": [
+     [
+      "紊",
+      "素",
+      18,
+      1466
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 30,
+    "sample_id": "web_test:000000656",
+    "target": "雪上飞鲨",
+    "B0": "雪上飞造",
+    "Gstar": "雪上飞鲨",
+    "B0_substitutions": [
+     [
+      "鲨",
+      "造",
+      20,
+      2575
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 31,
+    "sample_id": "web_test:000006379",
+    "target": "棠瑞智能",
+    "B0": "常瑞智能",
+    "Gstar": "棠瑞智能",
+    "B0_substitutions": [
+     [
+      "棠",
+      "常",
+      72,
+      6549
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 32,
+    "sample_id": "web_test:000002530",
+    "target": "1:1瓶500ml硼砂水",
+    "B0": "1:1瓶500ml避砂水",
+    "Gstar": "1:1瓶500ml硼砂水",
+    "B0_substitutions": [
+     [
+      "硼",
+      "避",
+      10,
+      1254
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 33,
+    "sample_id": "web_test:000005387",
+    "target": "童叟无欺",
+    "B0": "童电无欺",
+    "Gstar": "童叟无欺",
+    "B0_substitutions": [
+     [
+      "叟",
+      "电",
+      5,
+      30601
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 34,
+    "sample_id": "web_test:000006446",
+    "target": "邵翼如名师工作室",
+    "B0": "部翼如名师工作室",
+    "Gstar": "邵翼如名师工作室",
+    "B0_substitutions": [
+     [
+      "邵",
+      "部",
+      36,
+      12970
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 35,
+    "sample_id": "document_test:000022081",
+    "target": "升燕、裴",
+    "B0": "升燕、装",
+    "Gstar": "升燕、裴",
+    "B0_substitutions": [
+     [
+      "裴",
+      "装",
+      15,
+      8682
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 36,
+    "sample_id": "document_test:000035168",
+    "target": "找我曾经的花蕊我们的期待总是忧",
+    "B0": "找我曾经的花蕊我们的期待总是优",
+    "Gstar": "找我曾经的花蕊我们的期待总是忧",
+    "B0_substitutions": [
+     [
+      "忧",
+      "优",
+      190,
+      2554
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 37,
+    "sample_id": "document_test:000044123",
+    "target": "小时的颠簸，于4号下",
+    "B0": "小时的颠篮，于4号下",
+    "Gstar": "小时的颠簸，于4号下",
+    "B0_substitutions": [
+     [
+      "簸",
+      "篮",
+      4,
+      187
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 38,
+    "sample_id": "document_test:000014827",
+    "target": "统上的说法，忽视花园冢是",
+    "B0": "统上的说法，忽视花园家是",
+    "Gstar": "统上的说法，忽视花园冢是",
+    "B0_substitutions": [
+     [
+      "冢",
+      "家",
+      16,
+      16916
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 39,
+    "sample_id": "document_test:000012634",
+    "target": "的奢靡，没有左耳的疼痛，只",
+    "B0": "的奢庭，没有左耳的疼痛，只",
+    "Gstar": "的奢靡，没有左耳的疼痛，只",
+    "B0_substitutions": [
+     [
+      "靡",
+      "庭",
+      33,
+      1005
+     ]
+    ],
+    "Gstar_substitutions": []
+   }
+  ]
+ },
+ "broken_rare": {
+  "available": 11,
+  "entries": [
+   {
+    "k": 0,
+    "sample_id": "scene_test:000000044",
+    "target": "電话",
+    "B0": "電话",
+    "Gstar": "電話",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "话",
+      "話",
+      15132,
+      11
+     ]
+    ]
+   },
+   {
+    "k": 1,
+    "sample_id": "scene_test:000039521",
+    "target": "民营演藝",
+    "B0": "民营演藝",
+    "Gstar": "民营演兿",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "藝",
+      "兿",
+      64,
+      11
+     ]
+    ]
+   },
+   {
+    "k": 2,
+    "sample_id": "scene_test:000058810",
+    "target": "萧山電",
+    "B0": "萧山電",
+    "Gstar": "葉山電",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "萧",
+      "葉",
+      1688,
+      66
+     ]
+    ]
+   },
+   {
+    "k": 3,
+    "sample_id": "scene_test:000049677",
+    "target": "咔哇伊",
+    "B0": "咔哇伊",
+    "Gstar": "咔哇伸",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "伊",
+      "伸",
+      861,
+      148
+     ]
+    ]
+   },
+   {
+    "k": 4,
+    "sample_id": "scene_test:000059198",
+    "target": "热血挚爱",
+    "B0": "热血挚爱",
+    "Gstar": "無血挚爱",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "热",
+      "無",
+      5626,
+      62
+     ]
+    ]
+   },
+   {
+    "k": 5,
+    "sample_id": "scene_test:000009040",
+    "target": "挚爱·雨轩阁",
+    "B0": "挚爱·雨轩阁",
+    "Gstar": "挚爱•雨轩阁",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "·",
+      "•",
+      4966,
+      407
+     ]
+    ]
+   },
+   {
+    "k": 6,
+    "sample_id": "scene_test:000032584",
+    "target": "中國蘭州傳统牛肉面",
+    "B0": "中國蘭州傳统牛肉面",
+    "Gstar": "中國蘭州傳統牛肉面",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "统",
+      "統",
+      1948,
+      16
+     ]
+    ]
+   },
+   {
+    "k": 7,
+    "sample_id": "scene_test:000012693",
+    "target": "汇萃园老北京酱货",
+    "B0": "汇萃园老北京酱货",
+    "Gstar": "汇萃园老北京醫货",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "酱",
+      "醫",
+      731,
+      106
+     ]
+    ]
+   },
+   {
+    "k": 8,
+    "sample_id": "scene_test:000054582",
+    "target": "精修：轿车、微型车",
+    "B0": "精修：轿车、微型车",
+    "Gstar": "精修：轿车丶微型车",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "、",
+      "丶",
+      19093,
+      133
+     ]
+    ]
+   },
+   {
+    "k": 9,
+    "sample_id": "web_test:000012904",
+    "target": "那棵树",
+    "B0": "那棵树",
+    "Gstar": "邓棵树",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "那",
+      "邓",
+      12736,
+      171
+     ]
+    ]
+   },
+   {
+    "k": 10,
+    "sample_id": "web_test:000002798",
+    "target": "最真挚的职业感情，为你提供最真实的榜样",
+    "B0": "最真挚的职业感情，为你提供最真实的榜样",
+    "Gstar": "最真挚的职业感悟，为你提供最真实的榜样",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "情",
+      "悟",
+      6671,
+      324
+     ]
+    ]
+   }
+  ]
+ },
+ "broken_common": {
+  "available": 389,
+  "entries": [
+   {
+    "k": 0,
+    "sample_id": "scene_test:000028571",
+    "target": "3t",
+    "B0": "3t",
+    "Gstar": "3℃",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "t",
+      "℃",
+      38757,
+      106
+     ]
+    ]
+   },
+   {
+    "k": 1,
+    "sample_id": "scene_test:000004458",
+    "target": "内设包间",
+    "B0": "内设包间",
+    "Gstar": "肉设包间",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "内",
+      "肉",
+      6387,
+      5316
+     ]
+    ]
+   },
+   {
+    "k": 2,
+    "sample_id": "scene_test:000028106",
+    "target": "朝初中",
+    "B0": "朝初中",
+    "Gstar": "朝初学",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "中",
+      "学",
+      34556,
+      9827
+     ]
+    ]
+   },
+   {
+    "k": 3,
+    "sample_id": "scene_test:000057826",
+    "target": "车",
+    "B0": "车",
+    "Gstar": "丰",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "车",
+      "丰",
+      12719,
+      1969
+     ]
+    ]
+   },
+   {
+    "k": 4,
+    "sample_id": "scene_test:000026944",
+    "target": "日用百",
+    "B0": "日用百",
+    "Gstar": "日州百",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "用",
+      "州",
+      13867,
+      7882
+     ]
+    ]
+   },
+   {
+    "k": 5,
+    "sample_id": "scene_test:000009831",
+    "target": "国宾",
+    "B0": "国宾",
+    "Gstar": "图宾",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "国",
+      "图",
+      23288,
+      3139
+     ]
+    ]
+   },
+   {
+    "k": 6,
+    "sample_id": "scene_test:000012560",
+    "target": "富强民主文",
+    "B0": "富强民主文",
+    "Gstar": "富强民主义",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "文",
+      "义",
+      9389,
+      1732
+     ]
+    ]
+   },
+   {
+    "k": 7,
+    "sample_id": "scene_test:000012680",
+    "target": "酒店内部",
+    "B0": "酒店内部",
+    "Gstar": "酒店内邸",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "部",
+      "邸",
+      12970,
+      98
+     ]
+    ]
+   },
+   {
+    "k": 8,
+    "sample_id": "scene_test:000049653",
+    "target": "福",
+    "B0": "福",
+    "Gstar": "¥",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "福",
+      "¥",
+      6434,
+      295
+     ]
+    ]
+   },
+   {
+    "k": 9,
+    "sample_id": "scene_test:000044547",
+    "target": "道路施",
+    "B0": "道路施",
+    "Gstar": "道路液",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "施",
+      "液",
+      1091,
+      817
+     ]
+    ]
+   },
+   {
+    "k": 10,
+    "sample_id": "scene_test:000019000",
+    "target": "手机",
+    "B0": "手机",
+    "Gstar": "手绣",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "机",
+      "绣",
+      9626,
+      397
+     ]
+    ]
+   },
+   {
+    "k": 11,
+    "sample_id": "scene_test:000041668",
+    "target": "007",
+    "B0": "007",
+    "Gstar": "q07",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "0",
+      "q",
+      68195,
+      3198
+     ]
+    ]
+   },
+   {
+    "k": 12,
+    "sample_id": "scene_test:000052469",
+    "target": "dwj",
+    "B0": "dwj",
+    "Gstar": "dvj",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "w",
+      "v",
+      10508,
+      7794
+     ]
+    ]
+   },
+   {
+    "k": 13,
+    "sample_id": "scene_test:000038671",
+    "target": "车爵士",
+    "B0": "车爵士",
+    "Gstar": "車爵士",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "车",
+      "車",
+      12719,
+      125
+     ]
+    ]
+   },
+   {
+    "k": 14,
+    "sample_id": "scene_test:000055912",
+    "target": "泡沫字",
+    "B0": "泡沫字",
+    "Gstar": "泡沫宇",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "字",
+      "宇",
+      4412,
+      846
+     ]
+    ]
+   },
+   {
+    "k": 15,
+    "sample_id": "scene_test:000029012",
+    "target": "保灵",
+    "B0": "保灵",
+    "Gstar": "保炅",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "灵",
+      "炅",
+      844,
+      18
+     ]
+    ]
+   },
+   {
+    "k": 16,
+    "sample_id": "scene_test:000060059",
+    "target": "哈尔滨烤饼店",
+    "B0": "哈尔滨烤饼店",
+    "Gstar": "响勾滨烤饼店",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "哈",
+      "响",
+      2204,
+      935
+     ],
+     [
+      "尔",
+      "勾",
+      3193,
+      110
+     ]
+    ]
+   },
+   {
+    "k": 17,
+    "sample_id": "scene_test:000058897",
+    "target": "lejur",
+    "B0": "lejur",
+    "Gstar": "lkjur",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "e",
+      "k",
+      61222,
+      9884
+     ]
+    ]
+   },
+   {
+    "k": 18,
+    "sample_id": "scene_test:000019710",
+    "target": "中国银行",
+    "B0": "中国银行",
+    "Gstar": "中国銀行",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "银",
+      "銀",
+      7759,
+      183
+     ]
+    ]
+   },
+   {
+    "k": 19,
+    "sample_id": "scene_test:000055747",
+    "target": "人民日报",
+    "B0": "人民日报",
+    "Gstar": "人民日報",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "报",
+      "報",
+      1612,
+      15
+     ]
+    ]
+   },
+   {
+    "k": 20,
+    "sample_id": "scene_test:000009873",
+    "target": "炒面",
+    "B0": "炒面",
+    "Gstar": "炸面",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "炒",
+      "炸",
+      2430,
+      1085
+     ]
+    ]
+   },
+   {
+    "k": 21,
+    "sample_id": "scene_test:000018398",
+    "target": "载重1.26t",
+    "B0": "载重1.26t",
+    "Gstar": "载重1.26七",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "t",
+      "七",
+      38757,
+      1358
+     ]
+    ]
+   },
+   {
+    "k": 22,
+    "sample_id": "scene_test:000061663",
+    "target": "“五月花”艺术节",
+    "B0": "“五月花”艺术节",
+    "Gstar": "‘五月花”艺术节",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "“",
+      "‘",
+      4482,
+      46
+     ]
+    ]
+   },
+   {
+    "k": 23,
+    "sample_id": "scene_test:000047309",
+    "target": "迎福纳财",
+    "B0": "迎福纳财",
+    "Gstar": "迎福納财",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "纳",
+      "納",
+      1183,
+      5
+     ]
+    ]
+   },
+   {
+    "k": 24,
+    "sample_id": "scene_test:000059126",
+    "target": "欢迎光临",
+    "B0": "欢迎光临",
+    "Gstar": "歡迎光临",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "欢",
+      "歡",
+      7752,
+      65
+     ]
+    ]
+   },
+   {
+    "k": 25,
+    "sample_id": "scene_test:000045780",
+    "target": "西部酒城",
+    "B0": "西部酒城",
+    "Gstar": "西韵酒城",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "部",
+      "韵",
+      12970,
+      298
+     ]
+    ]
+   },
+   {
+    "k": 26,
+    "sample_id": "scene_test:000029061",
+    "target": "森林奇幻乐园",
+    "B0": "森林奇幻乐园",
+    "Gstar": "森妹奇幻乐园",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "林",
+      "妹",
+      2312,
+      554
+     ]
+    ]
+   },
+   {
+    "k": 27,
+    "sample_id": "scene_test:000025725",
+    "target": "suiningcitycommercialbank",
+    "B0": "suiningcitycommercialbank",
+    "Gstar": "suiningcitvcommercialbank",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "y",
+      "v",
+      13431,
+      7794
+     ]
+    ]
+   },
+   {
+    "k": 28,
+    "sample_id": "scene_test:000046003",
+    "target": "garmentaccessoriesco.",
+    "B0": "garmentaccessoriesco.",
+    "Gstar": "garmentaccessorlesco.",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "i",
+      "l",
+      46996,
+      30952
+     ]
+    ]
+   },
+   {
+    "k": 29,
+    "sample_id": "web_test:000006841",
+    "target": "very",
+    "B0": "very",
+    "Gstar": "veyy",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "r",
+      "y",
+      35821,
+      13431
+     ]
+    ]
+   },
+   {
+    "k": 30,
+    "sample_id": "web_test:000003436",
+    "target": "tm",
+    "B0": "tm",
+    "Gstar": "™m",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "t",
+      "™",
+      38757,
+      51
+     ]
+    ]
+   },
+   {
+    "k": 31,
+    "sample_id": "web_test:000009002",
+    "target": "boda",
+    "B0": "boda",
+    "Gstar": "bqda",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "o",
+      "q",
+      49104,
+      3198
+     ]
+    ]
+   },
+   {
+    "k": 32,
+    "sample_id": "web_test:000005376",
+    "target": "环保绿色",
+    "B0": "环保绿色",
+    "Gstar": "环保颜色",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "绿",
+      "颜",
+      4368,
+      782
+     ]
+    ]
+   },
+   {
+    "k": 33,
+    "sample_id": "web_test:000003827",
+    "target": "净含量：50g",
+    "B0": "净含量：50g",
+    "Gstar": "净含圈：50g",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "量",
+      "圈",
+      5962,
+      431
+     ]
+    ]
+   },
+   {
+    "k": 34,
+    "sample_id": "web_test:000001520",
+    "target": "heroes",
+    "B0": "heroes",
+    "Gstar": "herdes",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "o",
+      "d",
+      49104,
+      20176
+     ]
+    ]
+   },
+   {
+    "k": 35,
+    "sample_id": "web_test:000013720",
+    "target": "meller",
+    "B0": "meller",
+    "Gstar": "melleｒ",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "r",
+      "ｒ",
+      35821,
+      32
+     ]
+    ]
+   },
+   {
+    "k": 36,
+    "sample_id": "web_test:000010087",
+    "target": "net：50ml",
+    "B0": "net：50ml",
+    "Gstar": "net:50ml",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "：",
+      ":",
+      16803,
+      4322
+     ]
+    ]
+   },
+   {
+    "k": 37,
+    "sample_id": "web_test:000009949",
+    "target": "支持4s验证",
+    "B0": "支持4s验证",
+    "Gstar": "支持4s骏证",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "验",
+      "骏",
+      1552,
+      219
+     ]
+    ]
+   },
+   {
+    "k": 38,
+    "sample_id": "web_test:000012035",
+    "target": "comforting",
+    "B0": "comforting",
+    "Gstar": "comfortｉng",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "i",
+      "ｉ",
+      46996,
+      27
+     ]
+    ]
+   },
+   {
+    "k": 39,
+    "sample_id": "document_test:000040787",
+    "target": "算是比较成功。。很强啊，国",
+    "B0": "算是比较成功。。很强啊，国",
+    "Gstar": "算是比较成功。。很强啊，囤",
+    "B0_substitutions": [],
+    "Gstar_substitutions": [
+     [
+      "国",
+      "囤",
+      23288,
+      12
+     ]
+    ]
+   }
+  ]
+ },
+ "audit": {
+  "available": 1136,
+  "entries": [
+   {
+    "k": 0,
+    "sample_id": "scene_test:000062598",
+    "target": "君子好逑",
+    "B0": "君子好迷",
+    "Gstar": "君子好迷",
+    "B0_substitutions": [
+     [
+      "逑",
+      "迷",
+      0,
+      480
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "逑",
+      "迷",
+      0,
+      480
+     ]
+    ]
+   },
+   {
+    "k": 1,
+    "sample_id": "scene_test:000030695",
+    "target": "陈倩",
+    "B0": "陈情",
+    "Gstar": "陈情",
+    "B0_substitutions": [
+     [
+      "倩",
+      "情",
+      31,
+      6671
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "倩",
+      "情",
+      31,
+      6671
+     ]
+    ]
+   },
+   {
+    "k": 2,
+    "sample_id": "scene_test:000032464",
+    "target": "丼饭",
+    "B0": "拌饭",
+    "Gstar": "拌饭",
+    "B0_substitutions": [
+     [
+      "丼",
+      "拌",
+      9,
+      577
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "丼",
+      "拌",
+      9,
+      577
+     ]
+    ]
+   },
+   {
+    "k": 3,
+    "sample_id": "scene_test:000002703",
+    "target": "反贪污贿赂局",
+    "B0": "反污贿赔局",
+    "Gstar": "反污贿赔局",
+    "B0_substitutions": [
+     [
+      "赂",
+      "赔",
+      5,
+      294
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "赂",
+      "赔",
+      5,
+      294
+     ]
+    ]
+   },
+   {
+    "k": 4,
+    "sample_id": "scene_test:000004143",
+    "target": "姥娘",
+    "B0": "倾",
+    "Gstar": "倾",
+    "B0_substitutions": [
+     [
+      "姥",
+      "倾",
+      32,
+      204
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "姥",
+      "倾",
+      32,
+      204
+     ]
+    ]
+   },
+   {
+    "k": 5,
+    "sample_id": "scene_test:000034203",
+    "target": "岔到喝",
+    "B0": "艾到喝",
+    "Gstar": "艾到喝",
+    "B0_substitutions": [
+     [
+      "岔",
+      "艾",
+      19,
+      637
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "岔",
+      "艾",
+      19,
+      637
+     ]
+    ]
+   },
+   {
+    "k": 6,
+    "sample_id": "scene_test:000028386",
+    "target": "臊",
+    "B0": "噪",
+    "Gstar": "噪",
+    "B0_substitutions": [
+     [
+      "臊",
+      "噪",
+      35,
+      107
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "臊",
+      "噪",
+      35,
+      107
+     ]
+    ]
+   },
+   {
+    "k": 7,
+    "sample_id": "scene_test:000034860",
+    "target": "官邸",
+    "B0": "官德",
+    "Gstar": "官德",
+    "B0_substitutions": [
+     [
+      "邸",
+      "德",
+      98,
+      3667
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "邸",
+      "德",
+      98,
+      3667
+     ]
+    ]
+   },
+   {
+    "k": 8,
+    "sample_id": "scene_test:000057118",
+    "target": "語",
+    "B0": "培",
+    "Gstar": "培",
+    "B0_substitutions": [
+     [
+      "語",
+      "培",
+      47,
+      1062
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "語",
+      "培",
+      47,
+      1062
+     ]
+    ]
+   },
+   {
+    "k": 9,
+    "sample_id": "scene_test:000007924",
+    "target": "杏林春满橘井",
+    "B0": "古林春满橱井",
+    "Gstar": "古林春满橱井",
+    "B0_substitutions": [
+     [
+      "杏",
+      "古",
+      141,
+      1899
+     ],
+     [
+      "橘",
+      "橱",
+      46,
+      289
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "杏",
+      "古",
+      141,
+      1899
+     ],
+     [
+      "橘",
+      "橱",
+      46,
+      289
+     ]
+    ]
+   },
+   {
+    "k": 10,
+    "sample_id": "scene_test:000008633",
+    "target": "廣湘鸿運",
+    "B0": "廣開鴻道",
+    "Gstar": "廣開鴻道",
+    "B0_substitutions": [
+     [
+      "湘",
+      "開",
+      1178,
+      130
+     ],
+     [
+      "鸿",
+      "鴻",
+      681,
+      36
+     ],
+     [
+      "運",
+      "道",
+      85,
+      9877
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "湘",
+      "開",
+      1178,
+      130
+     ],
+     [
+      "鸿",
+      "鴻",
+      681,
+      36
+     ],
+     [
+      "運",
+      "道",
+      85,
+      9877
+     ]
+    ]
+   },
+   {
+    "k": 11,
+    "sample_id": "scene_test:000054909",
+    "target": "麵",
+    "B0": "美迪",
+    "Gstar": "美迪",
+    "B0_substitutions": [
+     [
+      "麵",
+      "迪",
+      36,
+      1068
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "麵",
+      "迪",
+      36,
+      1068
+     ]
+    ]
+   },
+   {
+    "k": 12,
+    "sample_id": "scene_test:000025063",
+    "target": "出入平安富貴",
+    "B0": "出入平安富富贵",
+    "Gstar": "出入平安富富贵",
+    "B0_substitutions": [
+     [
+      "貴",
+      "贵",
+      75,
+      1303
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "貴",
+      "贵",
+      75,
+      1303
+     ]
+    ]
+   },
+   {
+    "k": 13,
+    "sample_id": "scene_test:000009668",
+    "target": "万象缤纷繁华惊艳",
+    "B0": "万象统纷繁华快捷",
+    "Gstar": "万象统纷繁华快捷",
+    "B0_substitutions": [
+     [
+      "缤",
+      "统",
+      78,
+      1948
+     ],
+     [
+      "惊",
+      "快",
+      1577,
+      5733
+     ],
+     [
+      "艳",
+      "捷",
+      261,
+      877
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "缤",
+      "统",
+      78,
+      1948
+     ],
+     [
+      "惊",
+      "快",
+      1577,
+      5733
+     ],
+     [
+      "艳",
+      "捷",
+      261,
+      877
+     ]
+    ]
+   },
+   {
+    "k": 14,
+    "sample_id": "scene_test:000053718",
+    "target": "历史绵长揽崧泽遗风华庭皓月",
+    "B0": "弘安术务委装会",
+    "Gstar": "弘安术务委装会",
+    "B0_substitutions": [
+     [
+      "历",
+      "弘",
+      1157,
+      285
+     ],
+     [
+      "史",
+      "安",
+      1144,
+      8153
+     ],
+     [
+      "绵",
+      "术",
+      154,
+      2476
+     ],
+     [
+      "长",
+      "务",
+      6152,
+      7902
+     ],
+     [
+      "揽",
+      "委",
+      45,
+      2252
+     ],
+     [
+      "崧",
+      "装",
+      29,
+      8682
+     ],
+     [
+      "泽",
+      "会",
+      450,
+      12018
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "历",
+      "弘",
+      1157,
+      285
+     ],
+     [
+      "史",
+      "安",
+      1144,
+      8153
+     ],
+     [
+      "绵",
+      "术",
+      154,
+      2476
+     ],
+     [
+      "长",
+      "务",
+      6152,
+      7902
+     ],
+     [
+      "揽",
+      "委",
+      45,
+      2252
+     ],
+     [
+      "崧",
+      "装",
+      29,
+      8682
+     ],
+     [
+      "泽",
+      "会",
+      450,
+      12018
+     ]
+    ]
+   },
+   {
+    "k": 15,
+    "sample_id": "scene_test:000038159",
+    "target": "雲春",
+    "B0": "露春",
+    "Gstar": "露春",
+    "B0_substitutions": [
+     [
+      "雲",
+      "露",
+      98,
+      434
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "雲",
+      "露",
+      98,
+      434
+     ]
+    ]
+   },
+   {
+    "k": 16,
+    "sample_id": "scene_test:000053454",
+    "target": "褔",
+    "B0": "福",
+    "Gstar": "福",
+    "B0_substitutions": [
+     [
+      "褔",
+      "福",
+      50,
+      6434
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "褔",
+      "福",
+      50,
+      6434
+     ]
+    ]
+   },
+   {
+    "k": 17,
+    "sample_id": "scene_test:000050863",
+    "target": "財源廣進富貴家",
+    "B0": "財源廣进富贵家",
+    "Gstar": "財源廣进富贵家",
+    "B0_substitutions": [
+     [
+      "進",
+      "进",
+      153,
+      4724
+     ],
+     [
+      "貴",
+      "贵",
+      75,
+      1303
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "進",
+      "进",
+      153,
+      4724
+     ],
+     [
+      "貴",
+      "贵",
+      75,
+      1303
+     ]
+    ]
+   },
+   {
+    "k": 18,
+    "sample_id": "scene_test:000021580",
+    "target": "煎餅果子",
+    "B0": "煎饼果子",
+    "Gstar": "煎餅果子",
+    "B0_substitutions": [
+     [
+      "餅",
+      "饼",
+      25,
+      1574
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 19,
+    "sample_id": "scene_test:000015077",
+    "target": "水平仪充电扳手",
+    "B0": "水平仪充电振工",
+    "Gstar": "水平仪充电振工",
+    "B0_substitutions": [
+     [
+      "扳",
+      "振",
+      59,
+      324
+     ],
+     [
+      "手",
+      "工",
+      8835,
+      10730
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "扳",
+      "振",
+      59,
+      324
+     ],
+     [
+      "手",
+      "工",
+      8835,
+      10730
+     ]
+    ]
+   },
+   {
+    "k": 20,
+    "sample_id": "scene_test:000042030",
+    "target": "烨恒",
+    "B0": "啤世",
+    "Gstar": "啤世",
+    "B0_substitutions": [
+     [
+      "烨",
+      "啤",
+      28,
+      482
+     ],
+     [
+      "恒",
+      "世",
+      1050,
+      4067
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "烨",
+      "啤",
+      28,
+      482
+     ],
+     [
+      "恒",
+      "世",
+      1050,
+      4067
+     ]
+    ]
+   },
+   {
+    "k": 21,
+    "sample_id": "scene_test:000047840",
+    "target": "胳膊疼",
+    "B0": "路膊疼",
+    "Gstar": "监膊疼",
+    "B0_substitutions": [
+     [
+      "胳",
+      "路",
+      9,
+      10275
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "胳",
+      "监",
+      9,
+      1169
+     ]
+    ]
+   },
+   {
+    "k": 22,
+    "sample_id": "scene_test:000020835",
+    "target": "漁粉",
+    "B0": "渔粉",
+    "Gstar": "渔粉",
+    "B0_substitutions": [
+     [
+      "漁",
+      "渔",
+      94,
+      501
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "漁",
+      "渔",
+      94,
+      501
+     ]
+    ]
+   },
+   {
+    "k": 23,
+    "sample_id": "scene_test:000046967",
+    "target": "剁椒鱼头",
+    "B0": "创椒鱼头",
+    "Gstar": "创椒鱼头",
+    "B0_substitutions": [
+     [
+      "剁",
+      "创",
+      25,
+      3425
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "剁",
+      "创",
+      25,
+      3425
+     ]
+    ]
+   },
+   {
+    "k": 24,
+    "sample_id": "scene_test:000045943",
+    "target": "打造良渚太子湾",
+    "B0": "打造热清太子地",
+    "Gstar": "打造热清太子地",
+    "B0_substitutions": [
+     [
+      "良",
+      "热",
+      1247,
+      5626
+     ],
+     [
+      "渚",
+      "清",
+      17,
+      4098
+     ],
+     [
+      "湾",
+      "地",
+      1355,
+      14430
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "良",
+      "热",
+      1247,
+      5626
+     ],
+     [
+      "渚",
+      "清",
+      17,
+      4098
+     ],
+     [
+      "湾",
+      "地",
+      1355,
+      14430
+     ]
+    ]
+   },
+   {
+    "k": 25,
+    "sample_id": "scene_test:000043478",
+    "target": "富貴带来吉祥福",
+    "B0": "富贵节永吉祥福",
+    "Gstar": "富贵荣永吉祥福",
+    "B0_substitutions": [
+     [
+      "貴",
+      "贵",
+      75,
+      1303
+     ],
+     [
+      "带",
+      "节",
+      2659,
+      3102
+     ],
+     [
+      "来",
+      "永",
+      13192,
+      1775
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "貴",
+      "贵",
+      75,
+      1303
+     ],
+     [
+      "带",
+      "荣",
+      2659,
+      779
+     ],
+     [
+      "来",
+      "永",
+      13192,
+      1775
+     ]
+    ]
+   },
+   {
+    "k": 26,
+    "sample_id": "scene_test:000017852",
+    "target": "攀登变",
+    "B0": "笔登费",
+    "Gstar": "笔登费",
+    "B0_substitutions": [
+     [
+      "攀",
+      "笔",
+      81,
+      729
+     ],
+     [
+      "变",
+      "费",
+      1894,
+      2839
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "攀",
+      "笔",
+      81,
+      729
+     ],
+     [
+      "变",
+      "费",
+      1894,
+      2839
+     ]
+    ]
+   },
+   {
+    "k": 27,
+    "sample_id": "scene_test:000018685",
+    "target": "鎖",
+    "B0": "锁",
+    "Gstar": "锁",
+    "B0_substitutions": [
+     [
+      "鎖",
+      "锁",
+      15,
+      2490
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "鎖",
+      "锁",
+      15,
+      2490
+     ]
+    ]
+   },
+   {
+    "k": 28,
+    "sample_id": "scene_test:000020663",
+    "target": "融科·瑗骊山",
+    "B0": "融科·瑷骊山",
+    "Gstar": "融科·瑷骊山",
+    "B0_substitutions": [
+     [
+      "瑗",
+      "瑷",
+      8,
+      14
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "瑗",
+      "瑷",
+      8,
+      14
+     ]
+    ]
+   },
+   {
+    "k": 29,
+    "sample_id": "scene_test:000041697",
+    "target": "街檐边边",
+    "B0": "街峰边边",
+    "Gstar": "街橙边边",
+    "B0_substitutions": [
+     [
+      "檐",
+      "峰",
+      13,
+      708
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "檐",
+      "橙",
+      13,
+      66
+     ]
+    ]
+   },
+   {
+    "k": 30,
+    "sample_id": "scene_test:000049902",
+    "target": "挪威三文魚",
+    "B0": "福鸡三叉全",
+    "Gstar": "棋鸡三叉全",
+    "B0_substitutions": [
+     [
+      "挪",
+      "福",
+      47,
+      6434
+     ],
+     [
+      "威",
+      "鸡",
+      1174,
+      3609
+     ],
+     [
+      "文",
+      "叉",
+      9389,
+      265
+     ],
+     [
+      "魚",
+      "全",
+      157,
+      13216
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "挪",
+      "棋",
+      47,
+      936
+     ],
+     [
+      "威",
+      "鸡",
+      1174,
+      3609
+     ],
+     [
+      "文",
+      "叉",
+      9389,
+      265
+     ],
+     [
+      "魚",
+      "全",
+      157,
+      13216
+     ]
+    ]
+   },
+   {
+    "k": 31,
+    "sample_id": "scene_test:000039822",
+    "target": "竞猜",
+    "B0": "竞彩",
+    "Gstar": "竞彩",
+    "B0_substitutions": [
+     [
+      "猜",
+      "彩",
+      92,
+      3114
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "猜",
+      "彩",
+      92,
+      3114
+     ]
+    ]
+   },
+   {
+    "k": 32,
+    "sample_id": "scene_test:000025842",
+    "target": "順風",
+    "B0": "顺屏",
+    "Gstar": "順屏",
+    "B0_substitutions": [
+     [
+      "順",
+      "顺",
+      67,
+      1717
+     ],
+     [
+      "風",
+      "屏",
+      123,
+      744
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "風",
+      "屏",
+      123,
+      744
+     ]
+    ]
+   },
+   {
+    "k": 33,
+    "sample_id": "scene_test:000056538",
+    "target": "辩论",
+    "B0": "辉论",
+    "Gstar": "辉论",
+    "B0_substitutions": [
+     [
+      "辩",
+      "辉",
+      64,
+      544
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "辩",
+      "辉",
+      64,
+      544
+     ]
+    ]
+   },
+   {
+    "k": 34,
+    "sample_id": "scene_test:000059460",
+    "target": "焼肉",
+    "B0": "烧肉",
+    "Gstar": "烧肉",
+    "B0_substitutions": [
+     [
+      "焼",
+      "烧",
+      15,
+      2480
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "焼",
+      "烧",
+      15,
+      2480
+     ]
+    ]
+   },
+   {
+    "k": 35,
+    "sample_id": "scene_test:000062937",
+    "target": "纤指百媚美",
+    "B0": "纤指百魅美",
+    "Gstar": "纤指百魅美",
+    "B0_substitutions": [
+     [
+      "媚",
+      "魅",
+      41,
+      201
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "媚",
+      "魅",
+      41,
+      201
+     ]
+    ]
+   },
+   {
+    "k": 36,
+    "sample_id": "scene_test:000047638",
+    "target": "豊利小麺",
+    "B0": "豐利小颜",
+    "Gstar": "豐利小颜",
+    "B0_substitutions": [
+     [
+      "豊",
+      "豐",
+      14,
+      24
+     ],
+     [
+      "麺",
+      "颜",
+      65,
+      782
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "豊",
+      "豐",
+      14,
+      24
+     ],
+     [
+      "麺",
+      "颜",
+      65,
+      782
+     ]
+    ]
+   },
+   {
+    "k": 37,
+    "sample_id": "scene_test:000033696",
+    "target": "泸粤菜",
+    "B0": "沪粤菜",
+    "Gstar": "泸粤菜",
+    "B0_substitutions": [
+     [
+      "泸",
+      "沪",
+      72,
+      277
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 38,
+    "sample_id": "scene_test:000018179",
+    "target": "儒子牛牛",
+    "B0": "源子牛牛",
+    "Gstar": "源子牛牛",
+    "B0_substitutions": [
+     [
+      "儒",
+      "源",
+      65,
+      3031
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "儒",
+      "源",
+      65,
+      3031
+     ]
+    ]
+   },
+   {
+    "k": 39,
+    "sample_id": "scene_test:000018430",
+    "target": "緑粥",
+    "B0": "绿粥",
+    "Gstar": "绿粥",
+    "B0_substitutions": [
+     [
+      "緑",
+      "绿",
+      3,
+      4368
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "緑",
+      "绿",
+      3,
+      4368
+     ]
+    ]
+   },
+   {
+    "k": 40,
+    "sample_id": "scene_test:000052421",
+    "target": "畔锅",
+    "B0": "胖锅",
+    "Gstar": "胖锅",
+    "B0_substitutions": [
+     [
+      "畔",
+      "胖",
+      90,
+      355
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "畔",
+      "胖",
+      90,
+      355
+     ]
+    ]
+   },
+   {
+    "k": 41,
+    "sample_id": "scene_test:000022694",
+    "target": "美颂雅庭",
+    "B0": "美颜雅庭",
+    "Gstar": "美颜雅庭",
+    "B0_substitutions": [
+     [
+      "颂",
+      "颜",
+      49,
+      782
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "颂",
+      "颜",
+      49,
+      782
+     ]
+    ]
+   },
+   {
+    "k": 42,
+    "sample_id": "scene_test:000040241",
+    "target": "揚茗山",
+    "B0": "楊茗山",
+    "Gstar": "楊茗山",
+    "B0_substitutions": [
+     [
+      "揚",
+      "楊",
+      7,
+      110
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "揚",
+      "楊",
+      7,
+      110
+     ]
+    ]
+   },
+   {
+    "k": 43,
+    "sample_id": "scene_test:000055893",
+    "target": "尚膳瑭的",
+    "B0": "尚唐品",
+    "Gstar": "尚唐品",
+    "B0_substitutions": [
+     [
+      "膳",
+      "唐",
+      158,
+      698
+     ],
+     [
+      "瑭",
+      "品",
+      1,
+      16206
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "膳",
+      "唐",
+      158,
+      698
+     ],
+     [
+      "瑭",
+      "品",
+      1,
+      16206
+     ]
+    ]
+   },
+   {
+    "k": 44,
+    "sample_id": "scene_test:000042073",
+    "target": "悦喜客來停车场",
+    "B0": "悦喜客来停车场",
+    "Gstar": "悦喜客来停车场",
+    "B0_substitutions": [
+     [
+      "來",
+      "来",
+      61,
+      13192
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "來",
+      "来",
+      61,
+      13192
+     ]
+    ]
+   },
+   {
+    "k": 45,
+    "sample_id": "scene_test:000022687",
+    "target": "渊明南路",
+    "B0": "澳明南路",
+    "Gstar": "澳明南路",
+    "B0_substitutions": [
+     [
+      "渊",
+      "澳",
+      60,
+      476
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "渊",
+      "澳",
+      60,
+      476
+     ]
+    ]
+   },
+   {
+    "k": 46,
+    "sample_id": "scene_test:000009793",
+    "target": "启航祙业",
+    "B0": "启航袜业",
+    "Gstar": "启航袜业",
+    "B0_substitutions": [
+     [
+      "祙",
+      "袜",
+      0,
+      143
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "祙",
+      "袜",
+      0,
+      143
+     ]
+    ]
+   },
+   {
+    "k": 47,
+    "sample_id": "scene_test:000028323",
+    "target": "歡迎光臨",
+    "B0": "散桥兴临",
+    "Gstar": "散桥兴临",
+    "B0_substitutions": [
+     [
+      "歡",
+      "散",
+      65,
+      593
+     ],
+     [
+      "迎",
+      "桥",
+      3403,
+      2737
+     ],
+     [
+      "光",
+      "兴",
+      6789,
+      2674
+     ],
+     [
+      "臨",
+      "临",
+      80,
+      2308
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "歡",
+      "散",
+      65,
+      593
+     ],
+     [
+      "迎",
+      "桥",
+      3403,
+      2737
+     ],
+     [
+      "光",
+      "兴",
+      6789,
+      2674
+     ],
+     [
+      "臨",
+      "临",
+      80,
+      2308
+     ]
+    ]
+   },
+   {
+    "k": 48,
+    "sample_id": "scene_test:000033426",
+    "target": "中华润氵",
+    "B0": "中华润汽",
+    "Gstar": "中华润汽",
+    "B0_substitutions": [
+     [
+      "氵",
+      "汽",
+      7,
+      3735
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "氵",
+      "汽",
+      7,
+      3735
+     ]
+    ]
+   },
+   {
+    "k": 49,
+    "sample_id": "scene_test:000048399",
+    "target": "工业羊毛毡",
+    "B0": "工业羊书钻",
+    "Gstar": "工业羊书钻",
+    "B0_substitutions": [
+     [
+      "毛",
+      "书",
+      1266,
+      17092
+     ],
+     [
+      "毡",
+      "钻",
+      10,
+      416
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "毛",
+      "书",
+      1266,
+      17092
+     ],
+     [
+      "毡",
+      "钻",
+      10,
+      416
+     ]
+    ]
+   },
+   {
+    "k": 50,
+    "sample_id": "scene_test:000000908",
+    "target": "歪嘴老火锅",
+    "B0": "正情老火锅",
+    "Gstar": "正情老火锅",
+    "B0_substitutions": [
+     [
+      "歪",
+      "正",
+      52,
+      7807
+     ],
+     [
+      "嘴",
+      "情",
+      299,
+      6671
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "歪",
+      "正",
+      52,
+      7807
+     ],
+     [
+      "嘴",
+      "情",
+      299,
+      6671
+     ]
+    ]
+   },
+   {
+    "k": 51,
+    "sample_id": "scene_test:000037979",
+    "target": "川淼麻辣香锅",
+    "B0": "川焱麻辣香锅",
+    "Gstar": "川焱麻辣香锅",
+    "B0_substitutions": [
+     [
+      "淼",
+      "焱",
+      26,
+      24
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "淼",
+      "焱",
+      26,
+      24
+     ]
+    ]
+   },
+   {
+    "k": 52,
+    "sample_id": "scene_test:000060172",
+    "target": "更時尚一",
+    "B0": "更特货—",
+    "Gstar": "更時货—",
+    "B0_substitutions": [
+     [
+      "時",
+      "特",
+      66,
+      8669
+     ],
+     [
+      "尚",
+      "货",
+      2441,
+      4388
+     ],
+     [
+      "一",
+      "—",
+      50974,
+      595
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "尚",
+      "货",
+      2441,
+      4388
+     ],
+     [
+      "一",
+      "—",
+      50974,
+      595
+     ]
+    ]
+   },
+   {
+    "k": 53,
+    "sample_id": "scene_test:000019131",
+    "target": "徽豊貴勤",
+    "B0": "徽豐贵勤",
+    "Gstar": "徽豐貴勤",
+    "B0_substitutions": [
+     [
+      "豊",
+      "豐",
+      14,
+      24
+     ],
+     [
+      "貴",
+      "贵",
+      75,
+      1303
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "豊",
+      "豐",
+      14,
+      24
+     ]
+    ]
+   },
+   {
+    "k": 54,
+    "sample_id": "scene_test:000010011",
+    "target": "双流蘸水肥肠",
+    "B0": "双流萌水肥肠",
+    "Gstar": "双流萌水肥肠",
+    "B0_substitutions": [
+     [
+      "蘸",
+      "萌",
+      25,
+      524
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "蘸",
+      "萌",
+      25,
+      524
+     ]
+    ]
+   },
+   {
+    "k": 55,
+    "sample_id": "scene_test:000059598",
+    "target": "干花花蓝盆栽",
+    "B0": "千花花篮盆救",
+    "Gstar": "千花花篮盆赖",
+    "B0_substitutions": [
+     [
+      "干",
+      "千",
+      2263,
+      1445
+     ],
+     [
+      "蓝",
+      "篮",
+      2240,
+      187
+     ],
+     [
+      "栽",
+      "救",
+      50,
+      493
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "干",
+      "千",
+      2263,
+      1445
+     ],
+     [
+      "蓝",
+      "篮",
+      2240,
+      187
+     ],
+     [
+      "栽",
+      "赖",
+      50,
+      266
+     ]
+    ]
+   },
+   {
+    "k": 56,
+    "sample_id": "scene_test:000006894",
+    "target": "咨询接洽点",
+    "B0": "本通楼合点",
+    "Gstar": "本涧楼合点",
+    "B0_substitutions": [
+     [
+      "咨",
+      "本",
+      855,
+      13524
+     ],
+     [
+      "询",
+      "通",
+      995,
+      6227
+     ],
+     [
+      "接",
+      "楼",
+      2873,
+      3909
+     ],
+     [
+      "洽",
+      "合",
+      40,
+      6332
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "咨",
+      "本",
+      855,
+      13524
+     ],
+     [
+      "询",
+      "涧",
+      995,
+      18
+     ],
+     [
+      "接",
+      "楼",
+      2873,
+      3909
+     ],
+     [
+      "洽",
+      "合",
+      40,
+      6332
+     ]
+    ]
+   },
+   {
+    "k": 57,
+    "sample_id": "scene_test:000027599",
+    "target": "彭强水浒耗儿鱼",
+    "B0": "彭强水井耗儿鱼",
+    "Gstar": "彭强水井耗儿鱼",
+    "B0_substitutions": [
+     [
+      "浒",
+      "井",
+      26,
+      595
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "浒",
+      "井",
+      26,
+      595
+     ]
+    ]
+   },
+   {
+    "k": 58,
+    "sample_id": "scene_test:000015897",
+    "target": "蕙庭棋牌",
+    "B0": "慧庭棋牌",
+    "Gstar": "董庭棋牌",
+    "B0_substitutions": [
+     [
+      "蕙",
+      "慧",
+      11,
+      1251
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "蕙",
+      "董",
+      11,
+      152
+     ]
+    ]
+   },
+   {
+    "k": 59,
+    "sample_id": "scene_test:000029916",
+    "target": "济南商埠文化博物馆",
+    "B0": "济南商婵文化博物馆",
+    "Gstar": "济南商婵文化博物馆",
+    "B0_substitutions": [
+     [
+      "埠",
+      "婵",
+      65,
+      13
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "埠",
+      "婵",
+      65,
+      13
+     ]
+    ]
+   },
+   {
+    "k": 60,
+    "sample_id": "scene_test:000045860",
+    "target": "一道菜的餐廰一只鷄的傳説",
+    "B0": "一道共的餐廳一只雞的傳",
+    "Gstar": "一道共的餐廳一只雞的傳",
+    "B0_substitutions": [
+     [
+      "菜",
+      "共",
+      5470,
+      2930
+     ],
+     [
+      "廰",
+      "廳",
+      4,
+      37
+     ],
+     [
+      "鷄",
+      "雞",
+      78,
+      60
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "菜",
+      "共",
+      5470,
+      2930
+     ],
+     [
+      "廰",
+      "廳",
+      4,
+      37
+     ],
+     [
+      "鷄",
+      "雞",
+      78,
+      60
+     ]
+    ]
+   },
+   {
+    "k": 61,
+    "sample_id": "scene_test:000056651",
+    "target": "下尾蛏子麻辣花甲（锡纸系列）",
+    "B0": "尾蛙子麻辣花甲（锡纸系列）",
+    "Gstar": "尾蛙子麻辣花甲（锡纸系列）",
+    "B0_substitutions": [
+     [
+      "蛏",
+      "蛙",
+      0,
+      172
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "蛏",
+      "蛙",
+      0,
+      172
+     ]
+    ]
+   },
+   {
+    "k": 62,
+    "sample_id": "scene_test:000047716",
+    "target": "纯手工制作水饺·馄钝·汤圆",
+    "B0": "纯手工制作水饺·馄饨·汤圆",
+    "Gstar": "纯手工制作水饺·馄饨·汤圆",
+    "B0_substitutions": [
+     [
+      "钝",
+      "饨",
+      29,
+      545
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "钝",
+      "饨",
+      29,
+      545
+     ]
+    ]
+   },
+   {
+    "k": 63,
+    "sample_id": "scene_test:000026771",
+    "target": "药炙熏蒸药浴",
+    "B0": "药炙重蒸药浴",
+    "Gstar": "药炙重蒸药浴",
+    "B0_substitutions": [
+     [
+      "熏",
+      "重",
+      92,
+      6646
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "熏",
+      "重",
+      92,
+      6646
+     ]
+    ]
+   },
+   {
+    "k": 64,
+    "sample_id": "scene_test:000010616",
+    "target": "钧恒建筑装饰工程有限公司",
+    "B0": "钓恒建筑装饰工程有限公司",
+    "Gstar": "钓恒建筑装饰工程有限公司",
+    "B0_substitutions": [
+     [
+      "钧",
+      "钓",
+      67,
+      136
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "钧",
+      "钓",
+      67,
+      136
+     ]
+    ]
+   },
+   {
+    "k": 65,
+    "sample_id": "scene_test:000000870",
+    "target": "鱼鲈鱼桂鱼胃鱼多宝鱼",
+    "B0": "鱼护鱼祛鱼青鱼多宝鱼",
+    "Gstar": "鱼鲈鱼祛鱼青鱼多宝鱼",
+    "B0_substitutions": [
+     [
+      "鲈",
+      "护",
+      44,
+      2503
+     ],
+     [
+      "桂",
+      "祛",
+      410,
+      260
+     ],
+     [
+      "胃",
+      "青",
+      264,
+      2817
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "桂",
+      "祛",
+      410,
+      260
+     ],
+     [
+      "胃",
+      "青",
+      264,
+      2817
+     ]
+    ]
+   },
+   {
+    "k": 66,
+    "sample_id": "scene_test:000015445",
+    "target": "婚宴生日丶开业庆典丶婚姻介绍丶助家保姆丶家政培训",
+    "B0": "婚宴生日、开业庆典、婚婚介绍、助家保姆、家政培训",
+    "Gstar": "婚宴生日、开业庆典、婚姻介绍、助家保姆、家政培训",
+    "B0_substitutions": [
+     [
+      "丶",
+      "、",
+      133,
+      19093
+     ],
+     [
+      "丶",
+      "、",
+      133,
+      19093
+     ],
+     [
+      "姻",
+      "婚",
+      72,
+      923
+     ],
+     [
+      "丶",
+      "、",
+      133,
+      19093
+     ],
+     [
+      "丶",
+      "、",
+      133,
+      19093
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "丶",
+      "、",
+      133,
+      19093
+     ],
+     [
+      "丶",
+      "、",
+      133,
+      19093
+     ],
+     [
+      "丶",
+      "、",
+      133,
+      19093
+     ],
+     [
+      "丶",
+      "、",
+      133,
+      19093
+     ]
+    ]
+   },
+   {
+    "k": 67,
+    "sample_id": "scene_test:000024577",
+    "target": "氙等透镜电瓶导航里程调较",
+    "B0": "气灯透镜电瓶导航里程调较",
+    "Gstar": "氙灯透镜电瓶导航里程调较",
+    "B0_substitutions": [
+     [
+      "氙",
+      "气",
+      8,
+      2895
+     ],
+     [
+      "等",
+      "灯",
+      4190,
+      1377
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "等",
+      "灯",
+      4190,
+      1377
+     ]
+    ]
+   },
+   {
+    "k": 68,
+    "sample_id": "scene_test:000030542",
+    "target": "镁锂合金的革新应用",
+    "B0": "镁理合金的革新应用",
+    "Gstar": "镁理合金的革新应用",
+    "B0_substitutions": [
+     [
+      "锂",
+      "理",
+      70,
+      8061
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "锂",
+      "理",
+      70,
+      8061
+     ]
+    ]
+   },
+   {
+    "k": 69,
+    "sample_id": "web_test:000000940",
+    "target": "盛業機械",
+    "B0": "盛業樓",
+    "Gstar": "盛業樓",
+    "B0_substitutions": [
+     [
+      "機",
+      "樓",
+      19,
+      52
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "機",
+      "樓",
+      19,
+      52
+     ]
+    ]
+   },
+   {
+    "k": 70,
+    "sample_id": "web_test:000013523",
+    "target": "醋",
+    "B0": "甜",
+    "Gstar": "甜",
+    "B0_substitutions": [
+     [
+      "醋",
+      "甜",
+      93,
+      933
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "醋",
+      "甜",
+      93,
+      933
+     ]
+    ]
+   },
+   {
+    "k": 71,
+    "sample_id": "web_test:000007417",
+    "target": "御璟天下",
+    "B0": "即掉天下",
+    "Gstar": "即掉天下",
+    "B0_substitutions": [
+     [
+      "御",
+      "即",
+      689,
+      1540
+     ],
+     [
+      "璟",
+      "掉",
+      19,
+      655
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "御",
+      "即",
+      689,
+      1540
+     ],
+     [
+      "璟",
+      "掉",
+      19,
+      655
+     ]
+    ]
+   },
+   {
+    "k": 72,
+    "sample_id": "web_test:000011421",
+    "target": "楷書華夏正氣",
+    "B0": "楷書華夏正乳",
+    "Gstar": "楷書華夏正乳",
+    "B0_substitutions": [
+     [
+      "氣",
+      "乳",
+      62,
+      546
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "氣",
+      "乳",
+      62,
+      546
+     ]
+    ]
+   },
+   {
+    "k": 73,
+    "sample_id": "web_test:000003122",
+    "target": "崋夏",
+    "B0": "華夏",
+    "Gstar": "華夏",
+    "B0_substitutions": [
+     [
+      "崋",
+      "華",
+      31,
+      226
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "崋",
+      "華",
+      31,
+      226
+     ]
+    ]
+   },
+   {
+    "k": 74,
+    "sample_id": "web_test:000004518",
+    "target": "扬州晞君电气",
+    "B0": "扬州源电器",
+    "Gstar": "扬州晞电器",
+    "B0_substitutions": [
+     [
+      "晞",
+      "源",
+      6,
+      3031
+     ],
+     [
+      "气",
+      "器",
+      2895,
+      3697
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "气",
+      "器",
+      2895,
+      3697
+     ]
+    ]
+   },
+   {
+    "k": 75,
+    "sample_id": "web_test:000012343",
+    "target": "無萤光",
+    "B0": "無茧光",
+    "Gstar": "無茧光",
+    "B0_substitutions": [
+     [
+      "萤",
+      "茧",
+      10,
+      11
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "萤",
+      "茧",
+      10,
+      11
+     ]
+    ]
+   },
+   {
+    "k": 76,
+    "sample_id": "web_test:000005647",
+    "target": "爱蔻教育",
+    "B0": "爱寇教育",
+    "Gstar": "爱寇教育",
+    "B0_substitutions": [
+     [
+      "蔻",
+      "寇",
+      43,
+      25
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "蔻",
+      "寇",
+      43,
+      25
+     ]
+    ]
+   },
+   {
+    "k": 77,
+    "sample_id": "web_test:000007103",
+    "target": "衡撃吸收",
+    "B0": "衡攀吸收",
+    "Gstar": "衡學吸收",
+    "B0_substitutions": [
+     [
+      "撃",
+      "攀",
+      0,
+      81
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "撃",
+      "學",
+      0,
+      44
+     ]
+    ]
+   },
+   {
+    "k": 78,
+    "sample_id": "web_test:000005365",
+    "target": "泰和源形象大使：陈建斌",
+    "B0": "店同款大使·陈建城",
+    "Gstar": "店同款大使·陈建城",
+    "B0_substitutions": [
+     [
+      "泰",
+      "店",
+      1957,
+      16223
+     ],
+     [
+      "和",
+      "同",
+      13939,
+      5389
+     ],
+     [
+      "源",
+      "款",
+      3031,
+      1864
+     ],
+     [
+      "：",
+      "·",
+      16803,
+      4966
+     ],
+     [
+      "斌",
+      "城",
+      53,
+      7513
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "泰",
+      "店",
+      1957,
+      16223
+     ],
+     [
+      "和",
+      "同",
+      13939,
+      5389
+     ],
+     [
+      "源",
+      "款",
+      3031,
+      1864
+     ],
+     [
+      "：",
+      "·",
+      16803,
+      4966
+     ],
+     [
+      "斌",
+      "城",
+      53,
+      7513
+     ]
+    ]
+   },
+   {
+    "k": 79,
+    "sample_id": "web_test:000001191",
+    "target": "鮮奶冰淇淋粉",
+    "B0": "鲜奶冰淇淋粉",
+    "Gstar": "鲜奶冰淇淋粉",
+    "B0_substitutions": [
+     [
+      "鮮",
+      "鲜",
+      93,
+      3425
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "鮮",
+      "鲜",
+      93,
+      3425
+     ]
+    ]
+   },
+   {
+    "k": 80,
+    "sample_id": "web_test:000013561",
+    "target": "残留除氯测试液",
+    "B0": "残留鲶复测试液",
+    "Gstar": "残留鲶复测试液",
+    "B0_substitutions": [
+     [
+      "除",
+      "鲶",
+      1570,
+      27
+     ],
+     [
+      "氯",
+      "复",
+      56,
+      2755
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "除",
+      "鲶",
+      1570,
+      27
+     ],
+     [
+      "氯",
+      "复",
+      56,
+      2755
+     ]
+    ]
+   },
+   {
+    "k": 81,
+    "sample_id": "web_test:000006919",
+    "target": "正阳晞君",
+    "B0": "正阳晓君",
+    "Gstar": "正阳晓君",
+    "B0_substitutions": [
+     [
+      "晞",
+      "晓",
+      6,
+      330
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "晞",
+      "晓",
+      6,
+      330
+     ]
+    ]
+   },
+   {
+    "k": 82,
+    "sample_id": "web_test:000002530",
+    "target": "1:1瓶500ml硼砂水",
+    "B0": "1:1瓶500ml避砂水",
+    "Gstar": "1:1瓶500ml硼砂水",
+    "B0_substitutions": [
+     [
+      "硼",
+      "避",
+      10,
+      1254
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 83,
+    "sample_id": "web_test:000004987",
+    "target": "防干防皺",
+    "B0": "防干防辣",
+    "Gstar": "防干防辣",
+    "B0_substitutions": [
+     [
+      "皺",
+      "辣",
+      0,
+      2793
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "皺",
+      "辣",
+      0,
+      2793
+     ]
+    ]
+   },
+   {
+    "k": 84,
+    "sample_id": "web_test:000005343",
+    "target": "18.刘平期贼",
+    "B0": "18.刘平期绒",
+    "Gstar": "18.刘平期贼",
+    "B0_substitutions": [
+     [
+      "贼",
+      "绒",
+      57,
+      599
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 85,
+    "sample_id": "web_test:000008872",
+    "target": "中的尷尬小難題",
+    "B0": "中的尴尬小雞题",
+    "Gstar": "中的尴尬小雞题",
+    "B0_substitutions": [
+     [
+      "尷",
+      "尴",
+      0,
+      260
+     ],
+     [
+      "難",
+      "雞",
+      2,
+      60
+     ],
+     [
+      "題",
+      "题",
+      6,
+      5538
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "尷",
+      "尴",
+      0,
+      260
+     ],
+     [
+      "難",
+      "雞",
+      2,
+      60
+     ],
+     [
+      "題",
+      "题",
+      6,
+      5538
+     ]
+    ]
+   },
+   {
+    "k": 86,
+    "sample_id": "web_test:000006326",
+    "target": "一年内褪色包换",
+    "B0": "一年内退色包换",
+    "Gstar": "一年内退色包换",
+    "B0_substitutions": [
+     [
+      "褪",
+      "退",
+      32,
+      884
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "褪",
+      "退",
+      32,
+      884
+     ]
+    ]
+   },
+   {
+    "k": 87,
+    "sample_id": "web_test:000001036",
+    "target": "《好妈妈胜过好老师》作者尹建莉诚挚分享",
+    "B0": "《好妈妈胜过好老师》作者泸建间诚单分享",
+    "Gstar": "《好妈妈胜过好老师》作者泸建间诚单分享",
+    "B0_substitutions": [
+     [
+      "尹",
+      "泸",
+      48,
+      72
+     ],
+     [
+      "莉",
+      "间",
+      320,
+      5839
+     ],
+     [
+      "挚",
+      "单",
+      31,
+      4483
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "尹",
+      "泸",
+      48,
+      72
+     ],
+     [
+      "莉",
+      "间",
+      320,
+      5839
+     ],
+     [
+      "挚",
+      "单",
+      31,
+      4483
+     ]
+    ]
+   },
+   {
+    "k": 88,
+    "sample_id": "web_test:000002083",
+    "target": "哪些黏稠率真的少年情怀",
+    "B0": "那些黏网率真的少年情怀",
+    "Gstar": "那些黏网率真的少年情怀",
+    "B0_substitutions": [
+     [
+      "哪",
+      "那",
+      942,
+      12736
+     ],
+     [
+      "稠",
+      "网",
+      40,
+      4108
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "哪",
+      "那",
+      942,
+      12736
+     ],
+     [
+      "稠",
+      "网",
+      40,
+      4108
+     ]
+    ]
+   },
+   {
+    "k": 89,
+    "sample_id": "document_test:000013076",
+    "target": "好瑗璧玉)",
+    "B0": "好缓璧玉)",
+    "Gstar": "好缓璧玉)",
+    "B0_substitutions": [
+     [
+      "瑗",
+      "缓",
+      8,
+      235
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "瑗",
+      "缓",
+      8,
+      235
+     ]
+    ]
+   },
+   {
+    "k": 90,
+    "sample_id": "document_test:000022081",
+    "target": "升燕、裴",
+    "B0": "升燕、装",
+    "Gstar": "升燕、裴",
+    "B0_substitutions": [
+     [
+      "裴",
+      "装",
+      15,
+      8682
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 91,
+    "sample_id": "document_test:000040012",
+    "target": "欢起义后，与冀州",
+    "B0": "欢起义后，与翼州",
+    "Gstar": "欢起义后，与翼州",
+    "B0_substitutions": [
+     [
+      "冀",
+      "翼",
+      48,
+      298
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "冀",
+      "翼",
+      48,
+      298
+     ]
+    ]
+   },
+   {
+    "k": 92,
+    "sample_id": "document_test:000000156",
+    "target": "鼎鼻山的谯小苟",
+    "B0": "鼎鼻山的樵小苟",
+    "Gstar": "鼎鼻山的樵小苟",
+    "B0_substitutions": [
+     [
+      "谯",
+      "樵",
+      0,
+      7
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "谯",
+      "樵",
+      0,
+      7
+     ]
+    ]
+   },
+   {
+    "k": 93,
+    "sample_id": "document_test:000039065",
+    "target": "错，可惜就昙花一下。仍",
+    "B0": "错，可惜就县花一下。仍",
+    "Gstar": "错，可惜就县花一下。仍",
+    "B0_substitutions": [
+     [
+      "昙",
+      "县",
+      7,
+      1533
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "昙",
+      "县",
+      7,
+      1533
+     ]
+    ]
+   },
+   {
+    "k": 94,
+    "sample_id": "document_test:000014149",
+    "target": "阑珊处……大爱首先给",
+    "B0": "阐珊处……大爱首先给",
+    "Gstar": "阐珊处……大爱首先给",
+    "B0_substitutions": [
+     [
+      "阑",
+      "阐",
+      5,
+      35
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "阑",
+      "阐",
+      5,
+      35
+     ]
+    ]
+   },
+   {
+    "k": 95,
+    "sample_id": "document_test:000014367",
+    "target": "能酿酒，季夏六月，时暑赫羲，以",
+    "B0": "能酿酒，季夏六月，时暑赫教，以",
+    "Gstar": "能酿酒，季夏六月，时暑赫教，以",
+    "B0_substitutions": [
+     [
+      "羲",
+      "教",
+      10,
+      4069
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "羲",
+      "教",
+      10,
+      4069
+     ]
+    ]
+   },
+   {
+    "k": 96,
+    "sample_id": "document_test:000030482",
+    "target": "说“最毒的是人心”。，男主从懦",
+    "B0": "说“最毒的是人心”。，男主从儒",
+    "Gstar": "说“最毒的是人心”。，男主从懦",
+    "B0_substitutions": [
+     [
+      "懦",
+      "儒",
+      6,
+      65
+     ]
+    ],
+    "Gstar_substitutions": []
+   },
+   {
+    "k": 97,
+    "sample_id": "document_test:000012556",
+    "target": "和王之涣，作品以七言为长，描写",
+    "B0": "和王之澳，作品以七言为长，描写",
+    "Gstar": "和王之澳，作品以七言为长，描写",
+    "B0_substitutions": [
+     [
+      "涣",
+      "澳",
+      2,
+      476
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "涣",
+      "澳",
+      2,
+      476
+     ]
+    ]
+   },
+   {
+    "k": 98,
+    "sample_id": "document_test:000035143",
+    "target": "昌盛之命。巳时生人(",
+    "B0": "昌盛之命。已时生人(",
+    "Gstar": "昌盛之命。已时生人(",
+    "B0_substitutions": [
+     [
+      "巳",
+      "已",
+      16,
+      3014
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "巳",
+      "已",
+      16,
+      3014
+     ]
+    ]
+   },
+   {
+    "k": 99,
+    "sample_id": "document_test:000045976",
+    "target": "月17日10时乾造甲子戊辰辛巳",
+    "B0": "月17日10时乾造甲子戊辰辛已",
+    "Gstar": "月17日10时乾造甲子戊辰辛已",
+    "B0_substitutions": [
+     [
+      "巳",
+      "已",
+      16,
+      3014
+     ]
+    ],
+    "Gstar_substitutions": [
+     [
+      "巳",
+      "已",
+      16,
+      3014
+     ]
+    ]
+   }
+  ]
+ }
+}

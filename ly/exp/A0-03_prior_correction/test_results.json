@@ -1,0 +1,124 @@
+{
+ "gtc:B0": {
+  "acc": 85.87703620889201,
+  "cer": 4.33852790102977,
+  "rare_acc": 77.9400260756193,
+  "nonrare_acc": 86.38713623756735,
+  "n": 127013,
+  "correct": 109075,
+  "edits": 33372,
+  "ref_chars": 769201,
+  "rare_n": 7670,
+  "rare_correct": 5978,
+  "domains": {
+   "scene": 77.07699619771863,
+   "web": 78.16886201684301,
+   "document": 99.128
+  }
+ },
+ "gtc:G-LA(tau=0.2,gamma=0.9)": {
+  "acc": 85.90774172722477,
+  "cer": 4.347758258244594,
+  "rare_acc": 79.21773142112126,
+  "nonrare_acc": 86.33769890148564,
+  "n": 127013,
+  "correct": 109114,
+  "edits": 33443,
+  "ref_chars": 769201,
+  "rare_n": 7670,
+  "rare_correct": 6076,
+  "domains": {
+   "scene": 77.0991761723701,
+   "web": 78.16886201684301,
+   "document": 99.178
+  },
+  "rare_fixed": 109,
+  "rare_broken": 11,
+  "rare_mcnemar_p": 1.938132755385024e-21,
+  "all_fixed": 439,
+  "all_broken": 400
+ },
+ "gtc:L-LA(tau=0.5,k=50,gamma=0.99)": {
+  "acc": 85.82349838205538,
+  "cer": 4.354518519866719,
+  "rare_acc": 78.89178617992177,
+  "nonrare_acc": 86.26898938354155,
+  "n": 127013,
+  "correct": 109007,
+  "edits": 33495,
+  "ref_chars": 769201,
+  "rare_n": 7670,
+  "rare_correct": 6051,
+  "domains": {
+   "scene": 76.94708491761723,
+   "web": 78.2552364500108,
+   "document": 99.132
+  },
+  "rare_fixed": 86,
+  "rare_broken": 13,
+  "rare_mcnemar_p": 2.288987396986294e-14,
+  "all_fixed": 187,
+  "all_broken": 255
+ },
+ "b:B0": {
+  "acc": 86.12031839260548,
+  "cer": 4.2782055665554255,
+  "rare_acc": 78.63102998696219,
+  "nonrare_acc": 86.60164400090495,
+  "n": 127013,
+  "correct": 109384,
+  "edits": 32908,
+  "ref_chars": 769201,
+  "rare_n": 7670,
+  "rare_correct": 6031,
+  "domains": {
+   "scene": 77.54119138149557,
+   "web": 78.20485136399626,
+   "document": 99.15
+  }
+ },
+ "b:G-LA(tau=0.2,gamma=0.9)": {
+  "acc": 86.13055356538307,
+  "cer": 4.285095833208745,
+  "rare_acc": 79.73924380704042,
+  "nonrare_acc": 86.54131369246625,
+  "n": 127013,
+  "correct": 109397,
+  "edits": 32961,
+  "ref_chars": 769201,
+  "rare_n": 7670,
+  "rare_correct": 6116,
+  "domains": {
+   "scene": 77.51742712294043,
+   "web": 78.19045562513496,
+   "document": 99.21
+  },
+  "rare_fixed": 101,
+  "rare_broken": 16,
+  "rare_mcnemar_p": 2.8669598238307665e-16,
+  "all_fixed": 413,
+  "all_broken": 400
+ },
+ "b:L-LA(tau=0.5,k=50,gamma=0.99)": {
+  "acc": 86.06914252871753,
+  "cer": 4.29380617029879,
+  "rare_acc": 79.67405475880052,
+  "nonrare_acc": 86.48014546307701,
+  "n": 127013,
+  "correct": 109319,
+  "edits": 33028,
+  "ref_chars": 769201,
+  "rare_n": 7670,
+  "rare_correct": 6111,
+  "domains": {
+   "scene": 77.42395437262357,
+   "web": 78.20485136399626,
+   "document": 99.168
+  },
+  "rare_fixed": 89,
+  "rare_broken": 9,
+  "rare_mcnemar_p": 1.10187438523874e-17,
+  "all_fixed": 171,
+  "all_broken": 236
+ }
+}

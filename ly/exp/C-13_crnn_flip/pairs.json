@@ -1,0 +1,570 @@
+{
+ "rules": {
+  "source": [
+   "crnn_s1 val",
+   "crnn_s2 val"
+  ],
+  "normalisation": "official",
+  "N_min": 3,
+  "n_low_min": 300,
+  "n_high_max": 5000,
+  "ratio": [
+   2.0,
+   8.0
+  ],
+  "max_pairs": 200,
+  "occurrence_budget": 150000,
+  "order": "val confusions / (n_high + n_low), descending"
+ },
+ "summary": {
+  "candidates": 332,
+  "pairs": 54,
+  "train_occurrences": 149124,
+  "val_errors": 367,
+  "val_share_to_high": 0.6212534059945504,
+  "lookalike_share": 0.7962962962962963,
+  "median_ratio": 2.823840647370059
+ },
+ "pairs": [
+  {
+   "h": "免",
+   "l": "兔",
+   "n_h": 1941,
+   "n_l": 315,
+   "val_errors": 16,
+   "val_to_h": 14,
+   "val_to_l": 2,
+   "lookalike": true
+  },
+  {
+   "h": "风",
+   "l": "凤",
+   "n_h": 3995,
+   "n_l": 534,
+   "val_errors": 26,
+   "val_to_h": 18,
+   "val_to_l": 8,
+   "lookalike": true
+  },
+  {
+   "h": "思",
+   "l": "恩",
+   "n_h": 1984,
+   "n_l": 672,
+   "val_errors": 14,
+   "val_to_h": 8,
+   "val_to_l": 6,
+   "lookalike": true
+  },
+  {
+   "h": "湖",
+   "l": "潮",
+   "n_h": 2194,
+   "n_l": 913,
+   "val_errors": 16,
+   "val_to_h": 14,
+   "val_to_l": 2,
+   "lookalike": true
+  },
+  {
+   "h": "字",
+   "l": "宇",
+   "n_h": 4412,
+   "n_l": 846,
+   "val_errors": 25,
+   "val_to_h": 14,
+   "val_to_l": 11,
+   "lookalike": true
+  },
+  {
+   "h": "肤",
+   "l": "肌",
+   "n_h": 939,
+   "n_l": 384,
+   "val_errors": 6,
+   "val_to_h": 6,
+   "val_to_l": 0,
+   "lookalike": true
+  },
+  {
+   "h": "折",
+   "l": "拆",
+   "n_h": 1304,
+   "n_l": 459,
+   "val_errors": 7,
+   "val_to_h": 4,
+   "val_to_l": 3,
+   "lookalike": true
+  },
+  {
+   "h": "赛",
+   "l": "塞",
+   "n_h": 1205,
+   "n_l": 410,
+   "val_errors": 6,
+   "val_to_h": 4,
+   "val_to_l": 2,
+   "lookalike": true
+  },
+  {
+   "h": "胡",
+   "l": "囍",
+   "n_h": 651,
+   "n_l": 306,
+   "val_errors": 3,
+   "val_to_h": 0,
+   "val_to_l": 3,
+   "lookalike": true
+  },
+  {
+   "h": "速",
+   "l": "递",
+   "n_h": 2902,
+   "n_l": 826,
+   "val_errors": 11,
+   "val_to_h": 6,
+   "val_to_l": 5,
+   "lookalike": true
+  },
+  {
+   "h": "洋",
+   "l": "津",
+   "n_h": 1197,
+   "n_l": 500,
+   "val_errors": 5,
+   "val_to_h": 3,
+   "val_to_l": 2,
+   "lookalike": true
+  },
+  {
+   "h": "滨",
+   "l": "澳",
+   "n_h": 1241,
+   "n_l": 476,
+   "val_errors": 5,
+   "val_to_h": 3,
+   "val_to_l": 2,
+   "lookalike": true
+  },
+  {
+   "h": "萧",
+   "l": "蜀",
+   "n_h": 1688,
+   "n_l": 405,
+   "val_errors": 6,
+   "val_to_h": 6,
+   "val_to_l": 0,
+   "lookalike": false
+  },
+  {
+   "h": "询",
+   "l": "讯",
+   "n_h": 995,
+   "n_l": 413,
+   "val_errors": 4,
+   "val_to_h": 4,
+   "val_to_l": 0,
+   "lookalike": true
+  },
+  {
+   "h": "膜",
+   "l": "馍",
+   "n_h": 1045,
+   "n_l": 436,
+   "val_errors": 4,
+   "val_to_h": 2,
+   "val_to_l": 2,
+   "lookalike": true
+  },
+  {
+   "h": "王",
+   "l": "玉",
+   "n_h": 3467,
+   "n_l": 937,
+   "val_errors": 11,
+   "val_to_h": 8,
+   "val_to_l": 3,
+   "lookalike": true
+  },
+  {
+   "h": "富",
+   "l": "宫",
+   "n_h": 2151,
+   "n_l": 711,
+   "val_errors": 7,
+   "val_to_h": 3,
+   "val_to_l": 4,
+   "lookalike": true
+  },
+  {
+   "h": "监",
+   "l": "览",
+   "n_h": 1169,
+   "n_l": 502,
+   "val_errors": 4,
+   "val_to_h": 1,
+   "val_to_l": 3,
+   "lookalike": true
+  },
+  {
+   "h": "接",
+   "l": "按",
+   "n_h": 2873,
+   "n_l": 1115,
+   "val_errors": 9,
+   "val_to_h": 5,
+   "val_to_l": 4,
+   "lookalike": true
+  },
+  {
+   "h": "棋",
+   "l": "桂",
+   "n_h": 936,
+   "n_l": 410,
+   "val_errors": 3,
+   "val_to_h": 1,
+   "val_to_l": 2,
+   "lookalike": true
+  },
+  {
+   "h": "升",
+   "l": "井",
+   "n_h": 1670,
+   "n_l": 595,
+   "val_errors": 5,
+   "val_to_h": 2,
+   "val_to_l": 3,
+   "lookalike": true
+  },
+  {
+   "h": "祥",
+   "l": "拌",
+   "n_h": 1246,
+   "n_l": 577,
+   "val_errors": 4,
+   "val_to_h": 1,
+   "val_to_l": 3,
+   "lookalike": true
+  },
+  {
+   "h": "草",
+   "l": "革",
+   "n_h": 1522,
+   "n_l": 335,
+   "val_errors": 4,
+   "val_to_h": 4,
+   "val_to_l": 0,
+   "lookalike": true
+  },
+  {
+   "h": "展",
+   "l": "晨",
+   "n_h": 2257,
+   "n_l": 538,
+   "val_errors": 6,
+   "val_to_h": 4,
+   "val_to_l": 2,
+   "lookalike": true
+  },
+  {
+   "h": "清",
+   "l": "消",
+   "n_h": 4098,
+   "n_l": 1589,
+   "val_errors": 12,
+   "val_to_h": 5,
+   "val_to_l": 7,
+   "lookalike": true
+  },
+  {
+   "h": "鸡",
+   "l": "鸭",
+   "n_h": 3609,
+   "n_l": 1203,
+   "val_errors": 10,
+   "val_to_h": 2,
+   "val_to_l": 8,
+   "lookalike": true
+  },
+  {
+   "h": "阿",
+   "l": "呵",
+   "n_h": 1702,
+   "n_l": 789,
+   "val_errors": 5,
+   "val_to_h": 4,
+   "val_to_l": 1,
+   "lookalike": true
+  },
+  {
+   "h": "杭",
+   "l": "抗",
+   "n_h": 3867,
+   "n_l": 663,
+   "val_errors": 9,
+   "val_to_h": 5,
+   "val_to_l": 4,
+   "lookalike": true
+  },
+  {
+   "h": "佳",
+   "l": "唯",
+   "n_h": 1897,
+   "n_l": 655,
+   "val_errors": 5,
+   "val_to_h": 5,
+   "val_to_l": 0,
+   "lookalike": false
+  },
+  {
+   "h": "温",
+   "l": "湿",
+   "n_h": 1541,
+   "n_l": 507,
+   "val_errors": 4,
+   "val_to_h": 0,
+   "val_to_l": 4,
+   "lookalike": true
+  },
+  {
+   "h": "牌",
+   "l": "聘",
+   "n_h": 4117,
+   "n_l": 1172,
+   "val_errors": 10,
+   "val_to_h": 8,
+   "val_to_l": 2,
+   "lookalike": true
+  },
+  {
+   "h": "培",
+   "l": "耀",
+   "n_h": 1062,
+   "n_l": 527,
+   "val_errors": 3,
+   "val_to_h": 0,
+   "val_to_l": 3,
+   "lookalike": false
+  },
+  {
+   "h": "钢",
+   "l": "铜",
+   "n_h": 2276,
+   "n_l": 401,
+   "val_errors": 5,
+   "val_to_h": 5,
+   "val_to_l": 0,
+   "lookalike": true
+  },
+  {
+   "h": "雪",
+   "l": "馨",
+   "n_h": 1159,
+   "n_l": 449,
+   "val_errors": 3,
+   "val_to_h": 2,
+   "val_to_l": 1,
+   "lookalike": false
+  },
+  {
+   "h": "礼",
+   "l": "孔",
+   "n_h": 1586,
+   "n_l": 574,
+   "val_errors": 4,
+   "val_to_h": 2,
+   "val_to_l": 2,
+   "lookalike": true
+  },
+  {
+   "h": "衣",
+   "l": "夜",
+   "n_h": 2402,
+   "n_l": 905,
+   "val_errors": 6,
+   "val_to_h": 4,
+   "val_to_l": 2,
+   "lookalike": false
+  },
+  {
+   "h": "室",
+   "l": "宣",
+   "n_h": 2422,
+   "n_l": 996,
+   "val_errors": 6,
+   "val_to_h": 5,
+   "val_to_l": 1,
+   "lookalike": true
+  },
+  {
+   "h": "贸",
+   "l": "贷",
+   "n_h": 1220,
+   "n_l": 514,
+   "val_errors": 3,
+   "val_to_h": 3,
+   "val_to_l": 0,
+   "lookalike": true
+  },
+  {
+   "h": "计",
+   "l": "汁",
+   "n_h": 2903,
+   "n_l": 592,
+   "val_errors": 6,
+   "val_to_h": 3,
+   "val_to_l": 3,
+   "lookalike": true
+  },
+  {
+   "h": "艺",
+   "l": "芝",
+   "n_h": 3096,
+   "n_l": 421,
+   "val_errors": 6,
+   "val_to_h": 6,
+   "val_to_l": 0,
+   "lookalike": true
+  },
+  {
+   "h": "世",
+   "l": "蒸",
+   "n_h": 4067,
+   "n_l": 722,
+   "val_errors": 8,
+   "val_to_h": 0,
+   "val_to_l": 8,
+   "lookalike": false
+  },
+  {
+   "h": "灯",
+   "l": "幻",
+   "n_h": 1377,
+   "n_l": 435,
+   "val_errors": 3,
+   "val_to_h": 1,
+   "val_to_l": 2,
+   "lookalike": false
+  },
+  {
+   "h": "园",
+   "l": "圆",
+   "n_h": 4150,
+   "n_l": 726,
+   "val_errors": 8,
+   "val_to_h": 8,
+   "val_to_l": 0,
+   "lookalike": true
+  },
+  {
+   "h": "浦",
+   "l": "固",
+   "n_h": 1256,
+   "n_l": 595,
+   "val_errors": 3,
+   "val_to_h": 3,
+   "val_to_l": 0,
+   "lookalike": false
+  },
+  {
+   "h": "待",
+   "l": "诗",
+   "n_h": 1364,
+   "n_l": 494,
+   "val_errors": 3,
+   "val_to_h": 1,
+   "val_to_l": 2,
+   "lookalike": true
+  },
+  {
+   "h": "团",
+   "l": "田",
+   "n_h": 3227,
+   "n_l": 1114,
+   "val_errors": 7,
+   "val_to_h": 4,
+   "val_to_l": 3,
+   "lookalike": false
+  },
+  {
+   "h": "厦",
+   "l": "唐",
+   "n_h": 1788,
+   "n_l": 698,
+   "val_errors": 4,
+   "val_to_h": 4,
+   "val_to_l": 0,
+   "lookalike": false
+  },
+  {
+   "h": "汉",
+   "l": "溪",
+   "n_h": 2751,
+   "n_l": 420,
+   "val_errors": 5,
+   "val_to_h": 0,
+   "val_to_l": 5,
+   "lookalike": true
+  },
+  {
+   "h": "厅",
+   "l": "斤",
+   "n_h": 1526,
+   "n_l": 384,
+   "val_errors": 3,
+   "val_to_h": 3,
+   "val_to_l": 0,
+   "lookalike": true
+  },
+  {
+   "h": "九",
+   "l": "丸",
+   "n_h": 1584,
+   "n_l": 343,
+   "val_errors": 3,
+   "val_to_h": 2,
+   "val_to_l": 1,
+   "lookalike": true
+  },
+  {
+   "h": "复",
+   "l": "夏",
+   "n_h": 2755,
+   "n_l": 1150,
+   "val_errors": 6,
+   "val_to_h": 2,
+   "val_to_l": 4,
+   "lookalike": true
+  },
+  {
+   "h": "移",
+   "l": "秘",
+   "n_h": 1369,
+   "n_l": 608,
+   "val_errors": 3,
+   "val_to_h": 1,
+   "val_to_l": 2,
+   "lookalike": true
+  },
+  {
+   "h": "向",
+   "l": "滑",
+   "n_h": 1943,
+   "n_l": 723,
+   "val_errors": 4,
+   "val_to_h": 2,
+   "val_to_l": 2,
+   "lookalike": false
+  },
+  {
+   "h": "素",
+   "l": "索",
+   "n_h": 1466,
+   "n_l": 576,
+   "val_errors": 3,
+   "val_to_h": 3,
+   "val_to_l": 0,
+   "lookalike": true
+  }
+ ]
+}

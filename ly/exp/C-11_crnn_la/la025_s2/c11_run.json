@@ -1,0 +1,29 @@
+{
+  "args": {
+    "cmd": "train",
+    "tau": 0.25,
+    "seed": 2,
+    "out": "ly/exp/C-11_crnn_la/la025_s2",
+    "epochs": 20,
+    "lr": 0.001,
+    "warmup_epoch": 1.5,
+    "workers": 12,
+    "dataset_root": "/root/autodl-tmp/bctr",
+    "smoke_steps": 0,
+    "resume": false
+  },
+  "split_counts": {
+    "document/train": 400000,
+    "document/val": 50000,
+    "document/test": 50000,
+    "scene/train": 509164,
+    "scene/val": 63645,
+    "scene/test": 63646,
+    "web/train": 112471,
+    "web/val": 14059,
+    "web/test": 14059
+  },
+  "torch": "2.8.0+cu128",
+  "gpu": "NVIDIA H20",
+  "params_M": 19.546816
+}

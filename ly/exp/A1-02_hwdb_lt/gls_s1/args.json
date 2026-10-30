@@ -1,0 +1,20 @@
+{
+  "cmd": "train",
+  "data": "ly/data/hwdb",
+  "split": "lt100",
+  "loss": "gls",
+  "seed": 1,
+  "out": "ly/exp/A1-02_hwdb_lt/gls_s1",
+  "device": "cuda",
+  "epochs": 30,
+  "bs": 512,
+  "lr": 0.2,
+  "wd": 0.0005,
+  "eps": 0.1,
+  "eps_min": 0.05,
+  "eps_max": 0.2,
+  "k": 10,
+  "neighbors": null,
+  "glyph_neighbors": "ly/exp/A1-00_prep/glyph_neighbors_gb2312_l1/neighbors_k50.npy",
+  "val_size": 50000
+}

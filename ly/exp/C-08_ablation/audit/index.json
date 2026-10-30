@@ -1,0 +1,869 @@
+{
+ "candidates": 805,
+ "entries": [
+  {
+   "k": 0,
+   "sheet": 0,
+   "cell": 0,
+   "sample_id": "scene_test:000031462",
+   "reference": "泗门三分店",
+   "B0": "汉日二分店",
+   "Gstar": "汉日二分店",
+   "audited_pair": [
+    "泗",
+    "汉",
+    23,
+    2751
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 1,
+   "sheet": 0,
+   "cell": 1,
+   "sample_id": "scene_test:000031658",
+   "reference": "俏丽",
+   "B0": "饰",
+   "Gstar": "饰",
+   "audited_pair": [
+    "俏",
+    "饰",
+    76,
+    2446
+   ],
+   "lookalike": false
+  },
+  {
+   "k": 2,
+   "sheet": 0,
+   "cell": 2,
+   "sample_id": "scene_test:000031803",
+   "reference": "漯河市救助管理站",
+   "B0": "潇河市教助管理站",
+   "Gstar": "潇河市教助管理站",
+   "audited_pair": [
+    "漯",
+    "潇",
+    4,
+    32
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 3,
+   "sheet": 0,
+   "cell": 3,
+   "sample_id": "scene_test:000001186",
+   "reference": "万花丛",
+   "B0": "万范丝",
+   "Gstar": "万范丝",
+   "audited_pair": [
+    "丛",
+    "丝",
+    99,
+    1467
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 4,
+   "sheet": 0,
+   "cell": 4,
+   "sample_id": "scene_test:000030156",
+   "reference": "星眸",
+   "B0": "坐险",
+   "Gstar": "坐险",
+   "audited_pair": [
+    "眸",
+    "险",
+    21,
+    1321
+   ],
+   "lookalike": false
+  },
+  {
+   "k": 5,
+   "sheet": 0,
+   "cell": 5,
+   "sample_id": "scene_test:000002462",
+   "reference": "抒果",
+   "B0": "择果",
+   "Gstar": "择果",
+   "audited_pair": [
+    "抒",
+    "择",
+    12,
+    815
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 6,
+   "sheet": 0,
+   "cell": 6,
+   "sample_id": "scene_test:000002703",
+   "reference": "反贪污贿赂局",
+   "B0": "反污贿赔局",
+   "Gstar": "反污贿赔局",
+   "audited_pair": [
+    "赂",
+    "赔",
+    5,
+    294
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 7,
+   "sheet": 0,
+   "cell": 7,
+   "sample_id": "scene_test:000060368",
+   "reference": "绿驹电动",
+   "B0": "录询电边",
+   "Gstar": "录询电边",
+   "audited_pair": [
+    "驹",
+    "询",
+    21,
+    995
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 8,
+   "sheet": 0,
+   "cell": 8,
+   "sample_id": "scene_test:000027475",
+   "reference": "镶牙",
+   "B0": "锦牙",
+   "Gstar": "锦牙",
+   "audited_pair": [
+    "镶",
+    "锦",
+    61,
+    798
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 9,
+   "sheet": 1,
+   "cell": 0,
+   "sample_id": "scene_test:000006365",
+   "reference": "闰",
+   "B0": "电",
+   "Gstar": "电",
+   "audited_pair": [
+    "闰",
+    "电",
+    12,
+    30601
+   ],
+   "lookalike": false
+  },
+  {
+   "k": 10,
+   "sheet": 1,
+   "cell": 1,
+   "sample_id": "scene_test:000026412",
+   "reference": "喵",
+   "B0": "维",
+   "Gstar": "维",
+   "audited_pair": [
+    "喵",
+    "维",
+    62,
+    3338
+   ],
+   "lookalike": false
+  },
+  {
+   "k": 11,
+   "sheet": 1,
+   "cell": 2,
+   "sample_id": "scene_test:000038438",
+   "reference": "天赐平安吉祥福",
+   "B0": "迎猴平安吉祥福",
+   "Gstar": "呈猴平安吉祥福",
+   "audited_pair": [
+    "赐",
+    "猴",
+    90,
+    227
+   ],
+   "lookalike": false
+  },
+  {
+   "k": 12,
+   "sheet": 1,
+   "cell": 3,
+   "sample_id": "scene_test:000040782",
+   "reference": "盼盼晾衣架",
+   "B0": "盼盼热衣架",
+   "Gstar": "盼盼热衣架",
+   "audited_pair": [
+    "晾",
+    "热",
+    84,
+    5626
+   ],
+   "lookalike": false
+  },
+  {
+   "k": 13,
+   "sheet": 1,
+   "cell": 4,
+   "sample_id": "scene_test:000041210",
+   "reference": "肛肠医院",
+   "B0": "江苏医院",
+   "Gstar": "江苏医院",
+   "audited_pair": [
+    "肛",
+    "江",
+    36,
+    6021
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 14,
+   "sheet": 1,
+   "cell": 5,
+   "sample_id": "scene_test:000049784",
+   "reference": "香花穗",
+   "B0": "香左德",
+   "Gstar": "杏左德",
+   "audited_pair": [
+    "穗",
+    "德",
+    82,
+    3667
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 15,
+   "sheet": 1,
+   "cell": 6,
+   "sample_id": "scene_test:000022517",
+   "reference": "邵逸",
+   "B0": "邻灸",
+   "Gstar": "邻灸",
+   "audited_pair": [
+    "邵",
+    "邻",
+    36,
+    234
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 16,
+   "sheet": 1,
+   "cell": 7,
+   "sample_id": "scene_test:000039411",
+   "reference": "芳萱",
+   "B0": "芳道",
+   "Gstar": "芳道",
+   "audited_pair": [
+    "萱",
+    "道",
+    47,
+    9877
+   ],
+   "lookalike": false
+  },
+  {
+   "k": 17,
+   "sheet": 1,
+   "cell": 8,
+   "sample_id": "scene_test:000055634",
+   "reference": "吟茶",
+   "B0": "汾茶",
+   "Gstar": "汾茶",
+   "audited_pair": [
+    "吟",
+    "汾",
+    42,
+    78
+   ],
+   "lookalike": false
+  },
+  {
+   "k": 18,
+   "sheet": 2,
+   "cell": 0,
+   "sample_id": "scene_test:000056324",
+   "reference": "葵野",
+   "B0": "蔡野",
+   "Gstar": "蔡野",
+   "audited_pair": [
+    "葵",
+    "蔡",
+    49,
+    265
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 19,
+   "sheet": 2,
+   "cell": 1,
+   "sample_id": "scene_test:000035053",
+   "reference": "邓逍",
+   "B0": "邓道",
+   "Gstar": "邓道",
+   "audited_pair": [
+    "逍",
+    "道",
+    47,
+    9877
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 20,
+   "sheet": 2,
+   "cell": 2,
+   "sample_id": "scene_test:000003294",
+   "reference": "辣哆辣",
+   "B0": "辣角辣",
+   "Gstar": "辣角辣",
+   "audited_pair": [
+    "哆",
+    "角",
+    74,
+    1792
+   ],
+   "lookalike": false
+  },
+  {
+   "k": 21,
+   "sheet": 2,
+   "cell": 3,
+   "sample_id": "scene_test:000052421",
+   "reference": "畔锅",
+   "B0": "胖锅",
+   "Gstar": "胖锅",
+   "audited_pair": [
+    "畔",
+    "胖",
+    90,
+    355
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 22,
+   "sheet": 2,
+   "cell": 4,
+   "sample_id": "scene_test:000054034",
+   "reference": "融科·瑷骊山",
+   "B0": "融科·瑗骊山",
+   "Gstar": "融科·瑗骊山",
+   "audited_pair": [
+    "瑷",
+    "瑗",
+    14,
+    8
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 23,
+   "sheet": 2,
+   "cell": 5,
+   "sample_id": "scene_test:000037853",
+   "reference": "呷哺呷哺",
+   "B0": "呷甫甲哺",
+   "Gstar": "呷甫甲哺",
+   "audited_pair": [
+    "哺",
+    "甫",
+    72,
+    52
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 24,
+   "sheet": 2,
+   "cell": 6,
+   "sample_id": "scene_test:000017575",
+   "reference": "镔杰超市",
+   "B0": "滨杰超市",
+   "Gstar": "槟杰超市",
+   "audited_pair": [
+    "镔",
+    "滨",
+    0,
+    1241
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 25,
+   "sheet": 2,
+   "cell": 7,
+   "sample_id": "scene_test:000060315",
+   "reference": "玉麒麟",
+   "B0": "工机线",
+   "Gstar": "工机线",
+   "audited_pair": [
+    "麟",
+    "线",
+    62,
+    7227
+   ],
+   "lookalike": false
+  },
+  {
+   "k": 26,
+   "sheet": 2,
+   "cell": 8,
+   "sample_id": "scene_test:000046243",
+   "reference": "蹭蹭网",
+   "B0": "雷2所",
+   "Gstar": "雷绘所",
+   "audited_pair": [
+    "蹭",
+    "雷",
+    20,
+    686
+   ],
+   "lookalike": false
+  },
+  {
+   "k": 27,
+   "sheet": 3,
+   "cell": 0,
+   "sample_id": "scene_test:000048723",
+   "reference": "一咬就露馅!",
+   "B0": "一次就露馅!",
+   "Gstar": "一次就露馅!",
+   "audited_pair": [
+    "咬",
+    "次",
+    95,
+    4604
+   ],
+   "lookalike": false
+  },
+  {
+   "k": 28,
+   "sheet": 3,
+   "cell": 1,
+   "sample_id": "scene_test:000014710",
+   "reference": "干捞螺蛳粉",
+   "B0": "干捞螺狮粉",
+   "Gstar": "干捞螺狮粉",
+   "audited_pair": [
+    "蛳",
+    "狮",
+    95,
+    179
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 29,
+   "sheet": 3,
+   "cell": 2,
+   "sample_id": "scene_test:000013727",
+   "reference": "劵平阳路营业",
+   "B0": "干券平阳路营业",
+   "Gstar": "干券平阳路营业",
+   "audited_pair": [
+    "劵",
+    "券",
+    60,
+    579
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 30,
+   "sheet": 3,
+   "cell": 3,
+   "sample_id": "scene_test:000013365",
+   "reference": "隽泰投资",
+   "B0": "售泰投资",
+   "Gstar": "凭泰投资",
+   "audited_pair": [
+    "隽",
+    "售",
+    4,
+    2945
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 31,
+   "sheet": 3,
+   "cell": 4,
+   "sample_id": "scene_test:000003426",
+   "reference": "郅纯日用品销售部",
+   "B0": "邹纯日用品销售部",
+   "Gstar": "邹纯日用品销售部",
+   "audited_pair": [
+    "郅",
+    "邹",
+    6,
+    35
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 32,
+   "sheet": 3,
+   "cell": 5,
+   "sample_id": "scene_test:000015052",
+   "reference": "云谣",
+   "B0": "云半遥",
+   "Gstar": "云半遥",
+   "audited_pair": [
+    "谣",
+    "遥",
+    27,
+    236
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 33,
+   "sheet": 3,
+   "cell": 6,
+   "sample_id": "scene_test:000000061",
+   "reference": "我买郸!",
+   "B0": "我买都!",
+   "Gstar": "我买郸!",
+   "audited_pair": [
+    "郸",
+    "都",
+    35,
+    11858
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 34,
+   "sheet": 3,
+   "cell": 7,
+   "sample_id": "scene_test:000003563",
+   "reference": "在晋味剔尖",
+   "B0": "在香味刷尖",
+   "Gstar": "在香味刷尖",
+   "audited_pair": [
+    "剔",
+    "刷",
+    60,
+    1568
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 35,
+   "sheet": 3,
+   "cell": 8,
+   "sample_id": "scene_test:000039086",
+   "reference": "整铸立辊轧机机架",
+   "B0": "整铸立辑轧机机架",
+   "Gstar": "整铸立辑轧机机架",
+   "audited_pair": [
+    "辊",
+    "辑",
+    4,
+    587
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 36,
+   "sheet": 4,
+   "cell": 0,
+   "sample_id": "scene_test:000030850",
+   "reference": "博青滕凹凸寻找48位辅导班",
+   "B0": "博青藤凹凸寻找48位辅导班",
+   "Gstar": "博青藤凹凸寻找48位辅导班",
+   "audited_pair": [
+    "滕",
+    "藤",
+    28,
+    171
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 37,
+   "sheet": 4,
+   "cell": 1,
+   "sample_id": "scene_test:000011087",
+   "reference": "热烈庆祝汾酒荣获巴拿马博览会甲等大奖章100周年",
+   "B0": "热烈庆祝澄酒荣获巴拿马博览会甲等大奖章100周年",
+   "Gstar": "热烈庆祝澄酒荣获巴拿马博览会甲等大奖章100周年",
+   "audited_pair": [
+    "汾",
+    "澄",
+    78,
+    109
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 38,
+   "sheet": 4,
+   "cell": 2,
+   "sample_id": "scene_test:000063075",
+   "reference": "耘乐餐厅",
+   "B0": "耕乐餐厅",
+   "Gstar": "耕乐餐厅",
+   "audited_pair": [
+    "耘",
+    "耕",
+    8,
+    36
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 39,
+   "sheet": 4,
+   "cell": 3,
+   "sample_id": "scene_test:000026469",
+   "reference": "甘蔗荸荠水,",
+   "B0": "茶养水",
+   "Gstar": "茶养水",
+   "audited_pair": [
+    "蔗",
+    "养",
+    22,
+    3180
+   ],
+   "lookalike": false
+  },
+  {
+   "k": 40,
+   "sheet": 4,
+   "cell": 4,
+   "sample_id": "scene_test:000010546",
+   "reference": "古镇环城板芙三乡坦洲南朗南头三角港口黄圃张家边",
+   "B0": "古镇环城板芙三乡坦洲南朗南头三角港口黄圆张家边",
+   "Gstar": "古镇环城板芙三乡坦洲南朗南头三角港口黄圆张家边",
+   "audited_pair": [
+    "圃",
+    "圆",
+    16,
+    726
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 41,
+   "sheet": 4,
+   "cell": 5,
+   "sample_id": "web_test:000013946",
+   "reference": "拯救毛孔",
+   "B0": "桥款毛孔",
+   "Gstar": "拯救毛孔",
+   "audited_pair": [
+    "拯",
+    "桥",
+    84,
+    2737
+   ],
+   "lookalike": false
+  },
+  {
+   "k": 42,
+   "sheet": 4,
+   "cell": 6,
+   "sample_id": "web_test:000011629",
+   "reference": "枚",
+   "B0": "胶",
+   "Gstar": "胶",
+   "audited_pair": [
+    "枚",
+    "胶",
+    85,
+    880
+   ],
+   "lookalike": false
+  },
+  {
+   "k": 43,
+   "sheet": 4,
+   "cell": 7,
+   "sample_id": "web_test:000004518",
+   "reference": "扬州晞君电气",
+   "B0": "扬州源电器",
+   "Gstar": "扬州晞电器",
+   "audited_pair": [
+    "晞",
+    "源",
+    6,
+    3031
+   ],
+   "lookalike": false
+  },
+  {
+   "k": 44,
+   "sheet": 4,
+   "cell": 8,
+   "sample_id": "web_test:000011860",
+   "reference": "涧",
+   "B0": "爱",
+   "Gstar": "爱",
+   "audited_pair": [
+    "涧",
+    "爱",
+    18,
+    5836
+   ],
+   "lookalike": false
+  },
+  {
+   "k": 45,
+   "sheet": 5,
+   "cell": 0,
+   "sample_id": "web_test:000007179",
+   "reference": "鸢恋",
+   "B0": "药泰",
+   "Gstar": "药泰",
+   "audited_pair": [
+    "鸢",
+    "药",
+    3,
+    2779
+   ],
+   "lookalike": false
+  },
+  {
+   "k": 46,
+   "sheet": 5,
+   "cell": 1,
+   "sample_id": "web_test:000009408",
+   "reference": "庚鑫防尘套",
+   "B0": "康鑫防尘套",
+   "Gstar": "康鑫防尘套",
+   "audited_pair": [
+    "庚",
+    "康",
+    47,
+    3342
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 47,
+   "sheet": 5,
+   "cell": 2,
+   "sample_id": "web_test:000006446",
+   "reference": "邵翼如名师工作室",
+   "B0": "部翼如名师工作室",
+   "Gstar": "邵翼如名师工作室",
+   "audited_pair": [
+    "邵",
+    "部",
+    36,
+    12970
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 48,
+   "sheet": 5,
+   "cell": 3,
+   "sample_id": "web_test:000006326",
+   "reference": "一年内褪色包换",
+   "B0": "一年内退色包换",
+   "Gstar": "一年内退色包换",
+   "audited_pair": [
+    "褪",
+    "退",
+    32,
+    884
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 49,
+   "sheet": 5,
+   "cell": 4,
+   "sample_id": "document_test:000012034",
+   "reference": "旬迁至伊",
+   "B0": "句迁至伊",
+   "Gstar": "句迁至伊",
+   "audited_pair": [
+    "旬",
+    "句",
+    36,
+    1543
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 50,
+   "sheet": 5,
+   "cell": 5,
+   "sample_id": "document_test:000019771",
+   "reference": "学名为罂粟科",
+   "B0": "学名为罂栗科",
+   "Gstar": "学名为罂栗科",
+   "audited_pair": [
+    "粟",
+    "栗",
+    12,
+    159
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 51,
+   "sheet": 5,
+   "cell": 6,
+   "sample_id": "document_test:000011180",
+   "reference": "呋喃妥因,氯丙嗪、甲",
+   "B0": "味喃妥因,氯丙嗪、甲",
+   "Gstar": "味喃妥因,氯丙嗪、甲",
+   "audited_pair": [
+    "呋",
+    "味",
+    2,
+    5406
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 52,
+   "sheet": 5,
+   "cell": 7,
+   "sample_id": "document_test:000048774",
+   "reference": "与第二次辜汪会谈的规划全部推迟",
+   "B0": "与第二次事汪会谈的规划全部推迟",
+   "Gstar": "与第二次事汪会谈的规划全部推迟",
+   "audited_pair": [
+    "辜",
+    "事",
+    31,
+    11771
+   ],
+   "lookalike": true
+  },
+  {
+   "k": 53,
+   "sheet": 5,
+   "cell": 8,
+   "sample_id": "document_test:000001335",
+   "reference": "手柄、后排出风口、天窗等各种",
+   "B0": "手桐、后排出风口、天窗等各种",
+   "Gstar": "手桐、后排出风口、天窗等各种",
+   "audited_pair": [
+    "柄",
+    "桐",
+    48,
+    129
+   ],
+   "lookalike": true
+  }
+ ]
+}

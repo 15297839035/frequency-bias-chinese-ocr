@@ -1,0 +1,109 @@
+{
+ "taus": [
+  0.0,
+  0.05,
+  0.1,
+  0.15,
+  0.2,
+  0.25,
+  0.3,
+  0.4,
+  0.5,
+  0.75,
+  1.0,
+  1.25,
+  1.5
+ ],
+ "summary": {
+  "SMTR:gtc:val": {
+   "tau_max_acc": 0.15,
+   "plateau": [
+    0.05,
+    0.25
+   ],
+   "tau_max_rare": 0.75,
+   "tau_max_char_macro_recall": 1.0
+  },
+  "SMTR:gtc:test": {
+   "tau_max_acc": 0.15,
+   "plateau": [
+    0.05,
+    0.3
+   ],
+   "tau_max_rare": 0.5,
+   "tau_max_char_macro_recall": 1.0
+  },
+  "SMTR:b:val": {
+   "tau_max_acc": 0.15,
+   "plateau": [
+    0.05,
+    0.3
+   ],
+   "tau_max_rare": 0.75,
+   "tau_max_char_macro_recall": 1.0
+  },
+  "SMTR:b:test": {
+   "tau_max_acc": 0.2,
+   "plateau": [
+    0.05,
+    0.25
+   ],
+   "tau_max_rare": 0.75,
+   "tau_max_char_macro_recall": 1.0
+  },
+  "SMTR:off_T:val": {
+   "tau_max_acc": 0.1,
+   "plateau": [
+    0.05,
+    0.25
+   ],
+   "tau_max_rare": 0.5,
+   "tau_max_char_macro_recall": 1.0
+  },
+  "SMTR:off_T:test": {
+   "tau_max_acc": 0.1,
+   "plateau": [
+    0.05,
+    0.2
+   ],
+   "tau_max_rare": 0.75,
+   "tau_max_char_macro_recall": 1.0
+  },
+  "SMTR:off_S:val": {
+   "tau_max_acc": 0.15,
+   "plateau": [
+    0.0,
+    0.3
+   ],
+   "tau_max_rare": 0.75,
+   "tau_max_char_macro_recall": 1.0
+  },
+  "SMTR:off_S:test": {
+   "tau_max_acc": 0.15,
+   "plateau": [
+    0.05,
+    0.25
+   ],
+   "tau_max_rare": 0.75,
+   "tau_max_char_macro_recall": 1.0
+  },
+  "SMTR:off_B:val": {
+   "tau_max_acc": 0.2,
+   "plateau": [
+    0.05,
+    0.3
+   ],
+   "tau_max_rare": 0.75,
+   "tau_max_char_macro_recall": 1.0
+  },
+  "SMTR:off_B:test": {
+   "tau_max_acc": 0.2,
+   "plateau": [
+    0.0,
+    0.3
+   ],
+   "tau_max_rare": 0.75,
+   "tau_max_char_macro_recall": 1.0
+  }
+ }
+}

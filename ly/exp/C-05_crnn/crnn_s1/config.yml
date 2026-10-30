@@ -1,0 +1,181 @@
+Global:
+  device: gpu
+  seed: 1
+  epoch_num: 20
+  log_smooth_window: 20
+  print_batch_step: 20
+  output_dir: /root/autodl-tmp/work/ly/exp/C-05_crnn/crnn_s1
+  save_epoch_step:
+  - 19
+  - 1
+  eval_batch_step:
+  - 0
+  - 1000000000
+  eval_epoch_step:
+  - 0
+  - 1
+  cal_metric_during_train: false
+  pretrained_model: null
+  checkpoints: /root/autodl-tmp/work/ly/exp/C-05_crnn/crnn_s1/latest.pth
+  use_tensorboard: false
+  infer_img: null
+  character_dict_path: /root/autodl-tmp/work/OpenOCR-main/tools/utils/ppocr_keys_v1.txt
+  max_text_length: 25
+  use_space_char: false
+  save_res_path: /root/autodl-tmp/work/ly/exp/C-05_crnn/crnn_s1/predicts.txt
+  use_amp: true
+  project_name: svtrv2_51_gtc
+  distributed: false
+  accumulation_steps: 16
+  grad_clip_val: 1.0
+Optimizer:
+  name: Adam
+  lr: 0.001
+  weight_decay: 0.0
+  filter_bias_and_bn: false
+LRScheduler:
+  name: OneCycleLR
+  warmup_epoch: 1.5
+  cycle_momentum: false
+Architecture:
+  model_type: rec
+  algorithm: CRNN
+  in_channels: 3
+  Transform: null
+  Encoder:
+    name: ResNet_ASTER
+  Decoder:
+    name: CTCDecoder
+Loss:
+  name: CTCLoss
+  zero_infinity: true
+PostProcess:
+  name: CTCLabelDecode
+  character_dict_path: /root/autodl-tmp/work/OpenOCR-main/tools/utils/ppocr_keys_v1.txt
+  use_space_char: false
+Metric:
+  name: RecMetric
+  main_indicator: acc
+  ignore_space: true
+  is_filter: false
+  is_lower: true
+Train:
+  dataset:
+    name: RatioDataSetTVResize
+    ds_width: true
+    padding: false
+    data_dir_list:
+    - /root/autodl-tmp/bctr/document/document_train
+    - /root/autodl-tmp/bctr/scene/scene_train
+    - /root/autodl-tmp/bctr/web/web_train
+    transforms:
+    - DecodeImagePIL:
+        img_mode: RGB
+    - PARSeqAugPIL: null
+    - CTCLabelEncode:
+        character_dict_path: /root/autodl-tmp/work/OpenOCR-main/tools/utils/ppocr_keys_v1.txt
+        use_space_char: false
+        max_text_length: 25
+    - KeepKeys:
+        keep_keys:
+        - image
+        - label
+        - length
+    base_shape:
+    - - 32
+      - 32
+    - - 64
+      - 32
+    - - 96
+      - 32
+    - - 128
+      - 32
+  sampler:
+    name: Scheme51RatioSampler
+    scales:
+    - - 128
+      - 32
+    first_bs: 64
+    fix_bs: false
+    divided_factor:
+    - 4
+    - 16
+    is_training: true
+    max_ratio: 12
+    max_bs: 256
+  loader:
+    shuffle: true
+    batch_size_per_card: 64
+    drop_last: true
+    min_ratio: 1
+    max_ratio: 12
+    num_workers: 12
+Eval:
+  dataset:
+    name: RatioDataSetTVResize
+    ds_width: true
+    padding: false
+    data_dir_list:
+    - /root/autodl-tmp/bctr/scene/scene_val
+    transforms:
+    - DecodeImagePIL:
+        img_mode: RGB
+    - CTCLabelEncode:
+        character_dict_path: /root/autodl-tmp/work/OpenOCR-main/tools/utils/ppocr_keys_v1.txt
+        use_space_char: false
+        max_text_length: 25
+    - KeepKeys:
+        keep_keys:
+        - image
+        - label
+        - length
+    base_shape:
+    - - 32
+      - 32
+    - - 64
+      - 32
+    - - 96
+      - 32
+    - - 128
+      - 32
+  sampler:
+    name: Scheme51RatioSampler
+    scales:
+    - - 128
+      - 32
+    first_bs: 64
+    fix_bs: false
+    divided_factor:
+    - 4
+    - 16
+    is_training: false
+    max_ratio: 12
+    max_bs: 256
+  loader:
+    shuffle: false
+    drop_last: false
+    batch_size_per_card: 64
+    min_ratio: 1
+    max_ratio: 12
+    num_workers: 4
+Scheme51:
+  version: '5.1'
+  variant: gtc
+  baseline: original SVTRv2-T RCTC + SMTR GTC; no UA/OT/CPPD
+  dataset_root: /root/autodl-tmp/bctr
+  dictionary_sha256: 28b2362ad4ab2dc38769aa72feb535e3a9ddb3fd2a7585a05920e6393b1dc7f7
+  ucr_commit: 320ea5e8f141853f82d146d78a4ad949726b1b48
+  extra_resource: author IDS dictionaries; no extra images or pretrained model
+  protocol: BCTR-3D local fixed splits; scene_val monitoring; fixed final epoch test;
+    CTC only
+  sampler: Original ratio policy plus exact-multiple coverage fix for ALL variants
+  budget_note: 100 epochs by default; ratio-dependent physical batch; accumulation
+    is nominal, not exact global 1024
+filename: config
+C05:
+  model: ResNet_ASTER + BiLSTM(2x256) + CTC
+  epochs: 20
+  lr: 0.001
+  warmup_epoch: 1.5
+  seed: 1
+  data_pipeline_from: OpenOCR-main/output/rec/bctr_scheme51_bs64/svtrv2_tiny_51_gtc_seed48/config.yml

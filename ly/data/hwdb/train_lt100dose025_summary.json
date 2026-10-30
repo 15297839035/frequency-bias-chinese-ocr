@@ -1,0 +1,15 @@
+{
+  "alpha": 0.25,
+  "imbalance": 100,
+  "nmax": 500,
+  "scale_s": 1.7395533178846805,
+  "total_target": 403741,
+  "samples": 403741,
+  "classes": 3755,
+  "capped_classes": 0,
+  "min_count": 28,
+  "max_count": 275,
+  "spearman_vs_natural_rank": 0.9999512727690038,
+  "log_imbalance_max_over_min": 2.2845665874913674,
+  "seed": 0
+}

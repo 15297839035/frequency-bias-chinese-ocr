@@ -3,7 +3,7 @@
 This directory contains **derived data only**. No raw images, labels or competition
 annotations are redistributed.
 
-## `ly/data/hwdb/`
+## `data/hwdb/`
 
 | File | Shape / size | Meaning |
 |---|---|---|
@@ -18,7 +18,7 @@ annotations are redistributed.
 | `classes.txt` | 3,755 characters | GB2312 level-1 class list used by the HWDB classifiers and the ICDAR 2013 test set |
 
 Each index array points into the concatenated training-image array produced by
-`ly/scripts/a1_hwdb_prepare.py convert` from the CASIA-HWDB 1.0/1.1 `.gnt` files. The script
+`src/data/prepare_hwdb.py convert` from the CASIA-HWDB 1.0/1.1 `.gnt` files. The script
 sorts the `.gnt` files by path and reads their records in order; the same order is used for
 images, characters and writer IDs. Run the script on the same dataset to reproduce the array
 that the indices refer to.
@@ -31,11 +31,11 @@ Example:
 
 ```python
 import numpy as np
-idx = np.load("ly/data/hwdb/train_lt100_indices.npy")
+idx = np.load("data/hwdb/train_lt100_indices.npy")
 print(idx.shape, idx.dtype, idx[:10], idx.min(), idx.max())
 ```
 
-## `ly/data/bctr/train_character_frequency.json`
+## `data/bctr/train_character_frequency.json`
 
 Add-one-free raw counts of characters in the BCTR training labels (6,624 classes,
 schema `scheme51-train-frequency-v1`), extracted from the BCTR training text. The file
@@ -76,5 +76,5 @@ redistributed here.
   working copy (dataset annotations and absolute server paths).
 
 These are either raw/derived dataset content or machine-specific provenance. The split
-indices and summaries above, together with `a1_hwdb_prepare.py`, are sufficient to rebuild
+indices and summaries above, together with `src/data/prepare_hwdb.py`, are sufficient to rebuild
 them from the upstream datasets.

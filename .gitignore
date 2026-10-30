@@ -1,6 +1,6 @@
 __pycache__/
 *.pyc
 .DS_Store
-ly/exp/**/dumps/
+results/**/dumps/
 *.tar.gz
-ly/data/hwdb/test_images.npy.gz
+data/hwdb/test_images.npy.gz

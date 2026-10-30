@@ -6,25 +6,32 @@ Code, derived data and experiment outputs for the paper
 > Prepared for *Pattern Recognition Letters* (2026)
 
 This repository is a research artifact, not a packaged library. It contains the analysis and
-training code, the HWDB split indices, and the aggregate results behind every experiment in the
-paper. It deliberately does **not** contain the raw images of the benchmark datasets, model
-weights, or per-sample prediction files (see [What is not included](#what-is-not-included)).
-
-The `ly/` prefix is kept from the authors' working tree because the manuscript and the
-supplementary material refer to paths such as `ly/scripts/v4_c16.sh` and
-`ly/exp/C-16_external/...`.
+training code, the HWDB split indices, and the aggregate results behind every experiment in
+the paper. It deliberately does **not** contain the raw images of the benchmark datasets,
+model weights, or per-sample prediction files (see [What is not included](#what-is-not-included)).
 
 ## Layout
 
 | Path | Contents |
 |---|---|
-| `ly/scripts/` | Research code for data preparation, training, evaluation and analysis |
-| `ly/data/hwdb/` | Indices of the HWDB-LT / HWDB-NAT / flip / dose training splits, plus their summaries |
-| `ly/data/bctr/` | BCTR training character-frequency table used to build the splits |
-| `ly/exp/` | Per-experiment results: JSON metrics, reports, model SHA-256, small derived features |
-| `docs/experiments.md` | Map from experiment IDs to scripts, results and paper sections |
+| `src/core/` | Shared correction and selection code (`prior_correction.py`, `selftest.py`) |
+| `src/data/` | HWDB conversion and split construction, line-swap data preparation |
+| `src/inference/` | Posterior dumps, external/industrial model inference, SMTR decoding |
+| `src/training/` | HWDB classifiers, BCTR fine-tuning, CRNN training (plain, LA, line-swap) |
+| `src/evaluation/` | Re-evaluation and metric aggregation for HWDB and BCTR |
+| `src/analysis/` | Confusion analysis, interventions, ablations, τ curves, reports |
+| `src/figures/` | Paper and revision figures |
+| `src/pipelines/` | Original shell pipelines used on the GPU server |
+| `data/hwdb/` | Indices of the HWDB-LT / NAT / flip / dose training splits, plus summaries |
+| `data/bctr/` | BCTR training character-frequency table used to build the splits |
+| `results/` | Per-experiment results: JSON metrics, reports, model SHA-256, derived features |
+| `docs/experiments.md` | Experiment ID → code → results → paper section |
 | `docs/data.md` | Split construction, dataset sources and access terms |
-| `requirements.txt` | Python packages used by the analysis and training scripts |
+
+The manuscript and the supplementary material refer to the authors' original working paths
+(`ly/scripts/...`, `ly/exp/...`). This repository uses the conventional layout above;
+`docs/experiments.md` maps each experiment to its new location. The original `ly/` prefix was
+only a working-directory name and is not part of the artifact.
 
 ## What is not included
 
@@ -34,11 +41,11 @@ supplementary material refer to paths such as `ly/scripts/v4_c16.sh` and
 | Raw CASIA-HWDB images | Third-party database distributed under research-use terms; not redistributable here | [CASIA-HWDB](https://nlpr.ia.ac.cn/databases/handwriting/home.html) |
 | ICDAR 2013 handwritten-text test images | Competition data, third party | ICDAR 2013 Robust Reading Competition (Yin et al., 2013) |
 | Model checkpoints and logits | Hundreds of MB to several GB | Available from the authors on request |
-| Per-sample predictions | Several hundred MB; not included in this Git repository | Available from the corresponding author on request |
+| Per-sample predictions | Several hundred MB | Available from the corresponding author on request |
 | ASTER, TransOCR, OpenOCR source code | Third-party code with its own licence | [OpenOCR](https://github.com/Topdu/OpenOCR), [BCTR baselines](https://github.com/FudanVI/benchmarking-chinese-text-recognition) |
 | Manuscript LaTeX source | Submitted separately to the journal | — |
 
-The split indices in `ly/data/hwdb/` are derived data: they contain positions into the
+The split indices in `data/hwdb/` are derived data: they contain positions into the
 CASIA-HWDB training set, not images or labels. They are released under CC BY 4.0
 (see `LICENSE-DATA`).
 
@@ -68,25 +75,33 @@ pip install -r requirements.txt
 git clone https://github.com/Topdu/OpenOCR.git OpenOCR-main
 ```
 
-Several shell scripts contain absolute paths from the authors' server
-(`/root/autodl-tmp/...`); edit the path variables at the top of a script before running it.
-Python scripts resolve paths relative to the repository root (`Path(__file__).parents[2]`),
-so keep the `ly/scripts/` layout.
+The code is organised as small namespace packages. Put `src` on the import path when
+running a script directly:
+
+```bash
+export PYTHONPATH="$PWD/src"
+python src/data/prepare_hwdb.py --help
+```
+
+Several shell pipelines contain absolute paths from the authors' GPU server
+(`/root/autodl-tmp/...`); edit the variables at the top of a pipeline before running it.
+The Python scripts are the original research code and are not packaged for turnkey
+reproduction.
 
 ## Reproducing the splits
 
 Download CASIA-HWDB 1.0/1.1 and the ICDAR 2013 competition `.gnt` files, then:
 
 ```bash
-python ly/scripts/a1_hwdb_prepare.py convert --name train --gnt-dirs <HWDB1.0trn> <HWDB1.1trn> --out ly/data/hwdb
-python ly/scripts/a1_hwdb_prepare.py convert --name val   --gnt-dirs <HWDB1.0tst> <HWDB1.1tst> --out ly/data/hwdb
-python ly/scripts/a1_hwdb_prepare.py convert --name test  --gnt-dirs <competition_gnt>        --out ly/data/hwdb
-python ly/scripts/a1_hwdb_prepare.py classes --out ly/data/hwdb
-python ly/scripts/a1_hwdb_prepare.py longtail --out ly/data/hwdb --imbalance 100 --nmax 500
-python ly/scripts/a1_hwdb_prepare.py flip --out ly/data/hwdb --order rev
-python ly/scripts/a1_hwdb_prepare.py flip --out ly/data/hwdb --order perm
-python ly/scripts/a1_hwdb_prepare.py dose --out ly/data/hwdb --alpha 0.25   # also 0.5, 0.75
-python ly/scripts/a1_hwdb_prepare.py natural --out ly/data/hwdb
+python src/data/prepare_hwdb.py convert --name train --gnt-dirs <HWDB1.0trn> <HWDB1.1trn> --out data/hwdb
+python src/data/prepare_hwdb.py convert --name val   --gnt-dirs <HWDB1.0tst> <HWDB1.1tst> --out data/hwdb
+python src/data/prepare_hwdb.py convert --name test  --gnt-dirs <competition_gnt>        --out data/hwdb
+python src/data/prepare_hwdb.py classes --out data/hwdb
+python src/data/prepare_hwdb.py longtail --out data/hwdb --imbalance 100 --nmax 500
+python src/data/prepare_hwdb.py flip --out data/hwdb --order rev
+python src/data/prepare_hwdb.py flip --out data/hwdb --order perm
+python src/data/prepare_hwdb.py dose --out data/hwdb --alpha 0.25   # also 0.5, 0.75
+python src/data/prepare_hwdb.py natural --out data/hwdb
 ```
 
 The commands write the same `train_*_indices.npy` and `train_*_summary.json` files that are
@@ -94,16 +109,17 @@ included here. The split profile, seed and counts are recorded in each summary J
 
 ## Reproducing the experiments
 
-`docs/experiments.md` lists each experiment (D-03, A0/A1, C-01 … C-17, V4A) with its scripts,
+`docs/experiments.md` lists each experiment (D-03, A0/A1, C-01 … C-17, V4A) with its code,
 result directory and the section of the paper it supports. The experiments require the
-datasets above and, for the text-recognition experiments, OpenOCR and the corresponding model
-checkpoints; the scripts are the original research code and some paths must be adapted.
+datasets above and, for the text-recognition experiments, OpenOCR and the corresponding
+model checkpoints.
 
 ## Results
 
-`ly/exp/` contains the aggregate outputs only: metric JSON files, Markdown reports, model
+`results/` contains the aggregate outputs only: metric JSON files, Markdown reports, model
 SHA-256 records, and small derived arrays (glyph-neighbour lists, split weights). The
-per-sample predictions used for the bootstrap intervals and McNemar tests are not included.
+per-sample predictions used for the bootstrap intervals and McNemar tests are not included;
+they are available from the corresponding author on request.
 
 ## Data and code availability
 

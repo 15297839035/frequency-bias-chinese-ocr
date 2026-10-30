@@ -5,6 +5,8 @@ Code, derived data and experiment outputs for the paper
 > **Heyu Zhang, Jin Liu** — School of Software, Jiangxi Normal University
 > Prepared for *Pattern Recognition Letters* (2026)
 
+**Artifact version:** v1.0.0
+
 This repository is a research artifact, not a packaged library. It contains the analysis and
 training code, the HWDB split indices, and the aggregate results behind every experiment in
 the paper. It deliberately does **not** contain the raw images of the benchmark datasets,
